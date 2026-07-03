@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>省エネ対策に向けて｜株式会社エネゲート</title>
+<meta name="description" content="資源の使いすぎによる地球温暖化、環境汚染などの問題があります。この限りある資源を節約することを、省エネルギー、略して省エネと言います。一人一人が省エネに関心を持ち、対策を講じることで、このエネルギー問題を解決しなければなりません。正しい省エネについての知識を深めて、これからどんな対策をしていけば良いのかを考えてみましょう。" />
+<meta name="keywords" content="エネゲート,省エネ対策に向けて" />
+<meta name="viewport" content="width=480,maximum-scale=0.6667 user-scalable=no " />
+<link rel="start" href="/" title="top" />
+<link rel="toc" href="/sitemap/index.html" title="SiteMap" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="screen, tv, print" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/print.css" media="print" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.2.6");</script>
+<script type="text/javascript" src="/cmn/js/screen.js"></script>
+</head>
+<body id="eco" class="pane2 ecoIndex">
+<noscript>
+<p><strong>本ウェブサイトでは、より便利にご利用いただくため JavaScript およびスタイルシートを使用しています。<br />
+ご使用のブラウザ設定でこれらを無効にされている場合、正しく機能しない、もしくは正しく表示されないことがございますので、<br />
+本ウェブサイトをご利用の際には有効にしてください。<br />
+ページ共通事項として、ヘッダー・フッターについてはJavascriptによる制作管理を行っているため無効の場合は表示されません。</strong></p>
+</noscript>
+<div id="container">
+	<!-- ヘッダー -->
+	<div id="header" class="group">
+	<a href="/" accesskey="1" class="h1"><img src="/cmn/img/site_id.gif" alt="株式会社エネゲート　電気エネルギーのベストマネジメントと最適のソリューションをお届けします。" width="378" height="51" /></a>
+	<ul class="vanish"><li><a href="#article" accesskey="2">本文へ移動</a></li></ul>
+
+	<!-- グローバルナビ -->
+	<script type="text/javascript" src="/cmn/js/header.js"></script>
+	<!-- //グローバルナビ -->
+
+	</div>
+	<!-- //ヘッダー -->
+
+	<hr class="vanish" />
+	<div id="article" class="group">
+
+		<!-- パンくず -->
+		<div class="topicPath">
+		<ol id="topicPath" class="topicPath"><li><a href="/">トップページ</a></li><li>省エネ対策に向けて</li></ol>
+		</div>
+		<!-- //パンくず -->
+
+		<div id="mainContent" class="relative">
+			<h1><img src="./img/h1_index.gif" alt="省エネ対策に向けて" width="690" height="50" /></h1>
+			<p class="absolute"><a href="house.html"><img src="./img/btn_house_eco.gif" alt="省エネ対策に向けて" width="272" height="25" class="imgover" /></a></p>
+			<div class="paragraph03">
+			<p>石油や石炭など、化石燃料には限りがあり、私たちの子孫が暮らす数十年後には不足すると言われています。 資源の使いすぎによる地球温暖化、環境汚染などの問題があります。この限りある資源を節約することを、省エネルギー、略して省エネと言います。一人一人が省エネに関心を持ち、対策を講じることで、このエネルギー問題を解決しなければなりません。 正しい省エネについての知識を深めて、これからどんな対策をしていけば良いのかを考えてみましょう。</p>
+			</div>
+			
+			<div class="boxType02 ms13">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="7" /></div>
+				<div class="main">
+				<h3 class="point"><img src="./img/h3_index01.gif" alt="「省エネ法」「温対法」について" width="310" height="47" /></h3>
+				<p>省エネの制度についてご紹介します。<br />
+				こちらの知識を深めて、省エネ対策への意識を高めましょう。</p>
+				<p><a href="eco.html"><img src="/cmn/img/btn_details.gif" alt="詳しくはこちら" width="124" height="25" class="imgover" /></a></p>
+				</div>
+				<div class="sub">
+				<img src="./img/img_eco01.jpg" alt="" width="190" height="130" />
+				</div>
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="7" /></div>
+			</div>
+
+			<div class="boxType02 ms13">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="7" /></div>
+				<div class="main">
+				<h3 class="point"><img src="./img/h3_index02.gif" alt="グリーン電力証書について" width="310" height="47" /></h3>
+				
+          <p>「エコ価値」と「グリーン電力証書」のしくみについてご紹介します。</p>
+				<p><a href="green.html"><img src="/cmn/img/btn_details.gif" alt="詳しくはこちら" width="124" height="25" class="imgover" /></a></p>
+				</div>
+				<div class="sub">
+				<img src="./img/img_eco02.jpg" alt="" width="190" height="130" />
+				</div>
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="7" /></div>
+			</div>
+
+			<div class="boxType02 ms14">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="7" /></div>
+				<h3 class="point"><img src="./img/h3_index03.gif" alt="省エネ対策製品を導入しよう！" width="310" height="47" /></h3>
+				<p>ビルなどのオフィス設備や向上などの動力設備、さらには一般家庭にいたるまで、幅広いエネルギー利用の現場において多彩なエネルギーマネジメント機器や省エネ診断などトータルなソリューションを提供。省エネ・省エネシステムを通じてCO2削減を推進し、「低炭素社会」の実現に貢献します。</p>
+
+				<div class="main">
+				<ul>
+				<li><img src="./img/item_eco_pro01.jpg" alt="ELセンサー：エネルギー管理を支援する電力センサー" width="270" height="88" /><a href="/products/keisoku/keisoku08.html"><img src="./img/btn_products.gif" alt="ELセンサーの製品紹介はこちら" width="143" height="15" class="imgover" /></a></li>
+				<li><img src="./img/item_eco_pro02.jpg" alt="EL計器（S）：グリーン電力証書に対応した電子式電力量計" width="270" height="88" /><a href="/products/keisoku/keisoku07.html"><img src="./img/btn_products.gif" alt="EL計器（S）の製品紹介はこちら" width="143" height="15" class="imgover" /></a></li>
+				<li><img src="./img/item_eco_pro03.jpg" alt="EL計器（B）：電力量モニタや証明用電気計器として幅広く対応" width="270" height="88" /><a href="/products/keisoku/keisoku06.html"><img src="./img/btn_products.gif" alt="EL計器（B）の製品紹介はこちら" width="143" height="15" class="imgover" /></a></li>
+				</ul>
+				</div>
+				<div class="sub">
+				<ul>
+				<li><img src="./img/item_eco_pro04.jpg" alt="スーパーでまぴこ：契約電力の超過防止が図れるデマンドコントローラー" width="270" height="88" /><a href="/products/eco/eco06.html"><img src="./img/btn_products.gif" alt="スーパーでまぴこの製品紹介はこちら" width="143" height="15" class="imgover" /></a></li>
+				<li><img src="./img/item_eco_pro05.jpg" alt="ピークセーバー：電力料金を確実に削減する空調省エネシステム" width="270" height="88" /><a href="/products/eco/eco05.html"><img src="./img/btn_products.gif" alt="ピークセーバーの製品紹介はこちら" width="143" height="15" class="imgover" /></a></li>
+				<li><img src="./img/item_eco_pro06.jpg" alt="オフィスビルや工場、学校、病院などでの、省エネルギー・CO2削減システムを提案・構築します。" width="270" height="88" /></li>
+				</ul>
+				</div>
+
+				<p class="bnr"><a href="house.html"><img src="./img/bnr_link_house.gif" alt="家庭で出来る省エネ対策についてはこちら" width="676" height="51" /></a></p>
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="7" /></div>
+			</div>
+
+			<p class="list"><a href="/products/eco/index.html"><img src="./img/btn_other_eco.gif" alt="その他省エネ関連製品はこちら" width="204" height="25" class="imgover" /></a></p>
+		</div>
+
+		<hr class="vanish" />
+
+		<!-- ローカルメニュー -->
+		<div id="subContent">
+		<a href="index.html"><img src="/eco/img/tle_nv_eco.gif" alt="省エネ対策に向けて" width="180" height="50" /></a>
+		<ul>
+		<li><a href="eco.html"><img src="/eco/img/nv_eco01.gif" alt="「省エネ法」「温対法」について" width="180" height="34" class="imgover" /></a></li>
+		<li><a href="green.html"><img src="/eco/img/nv_eco02.gif" alt="グリーン電力証書について" width="180" height="34" class="imgover" /></a></li>
+		<li><a href="house.html"><img src="/eco/img/nv_eco03.gif" alt="家庭で出来る省エネ対策について" width="180" height="35" class="imgover" /></a></li>
+		</ul>
+		</div>
+		<!-- ローカルメニュー -->
+
+	</div>
+	<hr class="vanish" />
+
+	<!-- フッター -->
+	<div id="footer">
+	<script type="text/javascript" src="/cmn/js/footer.js"></script>
+	</div>
+	<!-- //フッター -->
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6734249-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

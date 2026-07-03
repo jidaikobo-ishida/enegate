@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>千里丘事業所地図（徒歩用）｜事業所一覧｜会社情報｜株式会社エネゲート</title>
+<meta name="description" content="エネゲートの千里丘事業所地図です。" />
+<meta name="keywords" content="エネゲート,会社情報,事業所一覧,千里丘事業所地図,画像拡大（徒歩用）" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="all">
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+</head>
+<body id="company" class="pane4">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<noscript>
+<p><strong>本ウェブサイトでは、より便利にご利用いただくため JavaScript およびスタイルシートを使用しています。<br />
+ご使用のブラウザ設定でこれらを無効にされている場合、正しく機能しない、もしくは正しく表示されないことがございますので、<br />
+本ウェブサイトをご利用の際には有効にしてください。<br />
+ページ共通事項として、ヘッダー・フッターについてはJavascriptによる制作管理を行っているため無効の場合は表示されません。</strong></p>
+</noscript>
+<div id="container">
+	<!-- ヘッダー -->
+	<div id="header" class="group" style="border-top:none;">
+	<img src="./img/logo.gif" alt="株式会社エネゲート" width="98" height="44" />
+	</div>
+	<!-- //ヘッダー -->
+
+	<hr class="vanish" />
+
+	<div id="article" class="group">
+
+		<div id="mainContent" class="relative">
+			<h1><img src="./img/h1_popup.gif" alt="事業所一覧" width="660" height="48" /></h1>
+			<h2><img src="./img/h2_map02w.gif" alt="千里丘事業所（徒歩用地図）" width="660" height="39" /></h2>
+
+			<div class="paragraph03">
+			<p><img src="./img/map02w.gif" alt="エネゲートの千里丘事業所地図です。" width="660" height="543" /></p>
+		  </div>
+
+			<div class="group">
+				<p>〒566-8686<br />大阪府摂津市千里丘3丁目14-40<br />TEL 06-6387-1181　FAX 06-6389-0577</p>
+				<h4><img src="./img/h4_access02.gif" alt="ACCESS" width="464" height="12" /></h4>
+                <ul class="disc">
+				<li>JR西日本千里丘駅　徒歩8分<br />
+				改札を出て右側の西出口正面の道をまっすぐ進み、千里丘交差点を左に曲がって約200ｍ、消防署を越えてすぐ。</li>
+				<li>ＪＲ西日本のＨＰ<a href="http://www.jr-odekake.net/" target="_blank">「ＪＲおでかけネット」時刻・運賃検索</a>に出発駅と到着駅（千里丘）を入力して時刻表をご確認ください。</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<hr class="vanish" />
+
+
+</div>
+
+<!-- フッター -->
+<div id="footer">
+<a href="javascript:window.close();"><img src="./img/btn_close.gif" alt="このページを閉じる" width="153" height="25" /></a>
+</div>
+<!-- //フッター -->
+
+</body>
+</html>

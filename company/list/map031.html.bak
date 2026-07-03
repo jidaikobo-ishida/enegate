@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>尼崎技術訓練・資材センター地図｜事業所一覧｜会社情報｜株式会社エネゲート</title>
+<meta name="description" content="エネゲートの尼崎技術訓練・資材センターの地図です。" />
+<meta name="keywords" content="エネゲート,会社情報,事業所一覧,尼崎,事業所地図" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="all">
+
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+<script type="text/javascript" language="Javascript">
+$('.popup').each(function(link) {
+  link.onclick = function(){
+    window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600');
+    return false;
+  };
+});
+</script>
+</head>
+<body id="list" class="pane2 guide">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
+?>
+<div class="inner clearfix">
+
+	<hr class="vanish" />
+
+	<div id="article" class="group">
+
+		<!-- パンくず -->
+		<div id="breadcrumbs" class="inner">
+			<ol class="breadcrumbslist"><li><a href="/">HOME</a></li><li><a href="/company/index.html">会社情報</a></li><li><a href="/company/list/index.html">事業所一覧</a></li><li>尼崎技術訓練・資材センター</li></ol>
+		</div>
+
+		<!-- ローカルメニュー -->
+		<?php
+		include($_SERVER['DOCUMENT_ROOT'] . '/common/block/company_leftmenu.html');
+		?>
+		<!-- //ローカルメニュー -->
+		<!-- //パンくず -->
+
+		<div id="mainContent" class="relative">
+			<h1><img src="./img/h1_index.gif" alt="事業所一覧" width="690" height="50" /></h1>
+            <h2 class="text"><img src="./img/h2_map031.gif" alt="尼崎技術訓練・資材センター" width="690" height="568" border="0" usemap="#Map" /></h2>
+            
+            
+			
+
+          <div id="car" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+              <h3 class="box"><img src="./img/h3_car.gif" alt="お車用地図" width="80" height="23" /></h3>
+                
+
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top"><p class="img"><a href="/company/list/map031_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map031c_s.gif" alt="尼崎技術訓練・資材センター" width="318" height="304" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒661-0965 <br />
+                  兵庫県尼崎市次屋3丁目6-10<br />
+                  <!--TEL 06-4960-4874--></p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <div class="paragraph03">
+                <p>■高速道利用の場合<br />
+                ●名神高速<br />
+                尼崎出口 より約 10分<br />
+                ●阪神高速<br />
+                加島出口 より約 15分<br />
+                <br />
+                </p>
+                </div>
+                <p class="btn"><a href="/company/list/map031_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p></td>
+                </tr>
+                </table>
+
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>			
+
+
+            <div id="google" class="group boxType03a ms28">
+            <div class="main paragraph01">
+            <p>詳細の広域を見たい方は<a href="https://maps.google.com/maps?f=q&source=s_q&hl=ja&geocode=&q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%B0%BC%E5%B4%8E%E5%B8%82%E6%AC%A1%E5%B1%8B3%E4%B8%81%E7%9B%AE6-10&sll=34.747184,135.440376&sspn=0.013523,0.017745&g=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%B0%BC%E5%B4%8E%E5%B8%82%E8%8B%A5%E7%8E%8B%E5%AF%BA3%E4%B8%81%E7%9B%AE12-15&ie=UTF8&ll=34.739144,135.443959&spn=0.026203,0.035491&z=15&iwloc=A" target="_blank">Googleマップ</a>をご利用ください。</p>
+            </div>
+            <div class="sub">
+            <a href="https://maps.google.com/maps?f=q&source=s_q&hl=ja&geocode=&q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%B0%BC%E5%B4%8E%E5%B8%82%E6%AC%A1%E5%B1%8B3%E4%B8%81%E7%9B%AE6-10&sll=34.747396,135.440376&sspn=0.0131,0.017745&ie=UTF8&z=17&iwloc=A" target="_blank"><img src="./img/btn_googlemap.gif" width="159" height="43" alt="" /></a>
+            </div>
+            </div>
+
+
+		</div>
+
+		<hr class="vanish" />
+
+		
+
+	</div>
+	<hr class="vanish" />
+
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="589,17,673,30" href="#google" />
+</map>
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
+?>
+</body>
+</html>

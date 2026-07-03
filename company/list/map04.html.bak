@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>京都事業所地図｜事業所一覧｜会社情報｜株式会社エネゲート</title>
+<meta name="description" content="エネゲートの京都事業所地図です。" />
+<meta name="keywords" content="エネゲート,会社情報,事業所一覧,京都事業所地図" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="all">
+
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+<script type="text/javascript" language="Javascript">
+$('.popup').each(function(link) {
+  link.onclick = function(){
+    window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600');
+    return false;
+  };
+});
+</script>
+</head>
+<body id="list" class="pane2 guide">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
+?>
+<div class="inner clearfix">
+
+	<hr class="vanish" />
+
+	<div id="article" class="group">
+
+		<!-- パンくず -->
+		<div id="breadcrumbs" class="inner">
+			<ol class="breadcrumbslist"><li><a href="/">HOME</a></li><li><a href="/company/index.html">会社情報</a></li><li><a href="/company/list/index.html">事業所一覧</a></li><li>京都事業所</li></ol>
+		</div>
+
+		<!-- ローカルメニュー -->
+		<?php
+		include($_SERVER['DOCUMENT_ROOT'] . '/common/block/company_leftmenu.html');
+		?>
+		<!-- //ローカルメニュー -->
+		<!-- //パンくず -->
+
+		<div id="mainContent" class="relative">
+			<h1><img src="./img/h1_index.gif" alt="事業所一覧" width="690" height="50" /></h1>
+            <h2 class="text"><img src="./img/h2_map04.gif" alt="京都事業所" width="690" height="568" border="0" usemap="#Map" /></h2>
+            
+            
+			
+
+		  <div id="walk" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+                <h3 class="box"><img src="./img/h3_walk.gif" alt="徒歩用地図" width="80" height="23" /></h3>
+                
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top">
+                <p class="img"><a href="map04_walk.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map04w_s.jpg" alt="京都事業所徒歩用地図" width="318" height="305" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒601-8135<br />京都市南区上鳥羽石橋町201<br />TEL 075-672-3155　FAX 075-691-9155</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <ul class="disc">
+				<li>近鉄京都線　上鳥羽口駅　徒歩14分<br />
+				  改札を出て左すぐの信号(交差点)を西(右)方向へ直進、2つ目の信号(国道1号)を南(左)方向へ1つ目の信号を渡った交差点の角。				</li>
+				<li>近鉄京都線　竹田駅　徒歩18分<br />
+				  北改札を出て左、バスターミナルから名神高速高架沿いを西方向へ道なりに直進、鴨川を渡り２つ目信号(三叉路)を西(左)方向へ1つ目の信号(国道1号)交差点の角。				</li>
+				<li>近畿日本鉄道のＨＰ「<a href="https://www.kintetsu.co.jp/gyoumu/dyer/">ダイヤ案内（駅名指定検索）</a>」に乗車駅と下車駅（上鳥羽口または竹田）を入力して時刻表をご確認ください。</li>
+				</ul>
+				<br />
+
+				<p class="btn"><a href="map04_walk.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p>				</td></tr>
+                </table>
+			  <div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>
+
+            <div id="car" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+              <h3 class="box"><img src="./img/h3_car.gif" alt="お車用地図" width="80" height="23" /></h3>
+                
+
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top"><p class="img"><a href="map04_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map04c_s.gif" alt="京都事業所お車用地図" width="318" height="320" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒601-8135<br />京都市南区上鳥羽石橋町201<br />TEL 075-672-3155　FAX 075-691-9155</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <div class="paragraph03">
+                <p>■高速道利用の場合<br />
+                京都南IC第一出口を出て、国道1号線を北方向へ約800m<br />
+                <br />
+                ■一般道利用の場合<br />
+                JR京都駅より、東寺から国道１号線を南方向へ約2km</p>
+                </div>
+                <p class="btn"><a href="map04_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p></td>
+                </tr>
+                </table>
+
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>			
+
+			
+
+			
+
+			
+
+
+            <div id="google" class="group boxType03a ms28">
+            <div class="main paragraph01">
+            <p>詳細の広域を見たい方は<a href="https://maps.google.com/maps?f=q&source=s_q&hl=ja&geocode=&q=%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8D%97%E5%8C%BA%E4%B8%8A%E9%B3%A5%E7%BE%BD%E7%9F%B3%E6%A9%8B%E7%94%BA2-3&sll=34.788766,135.545583&sspn=0.009463,0.01914&g=%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%91%82%E6%B4%A5%E5%B8%82%E5%8D%83%E9%87%8C%E4%B8%983%E4%B8%81%E7%9B%AE14-40&ie=UTF8&ll=34.961706,135.746255&spn=0.009443,0.01914&z=16&iwloc=addr" target="_blank">Googleマップ</a>をご利用ください。</p>
+            </div>
+            <div class="sub">
+            <a href="https://maps.google.com/maps?f=q&source=s_q&hl=ja&geocode=&q=%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8D%97%E5%8C%BA%E4%B8%8A%E9%B3%A5%E7%BE%BD%E7%9F%B3%E6%A9%8B%E7%94%BA2-3&sll=34.788766,135.545583&sspn=0.009463,0.01914&g=%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%91%82%E6%B4%A5%E5%B8%82%E5%8D%83%E9%87%8C%E4%B8%983%E4%B8%81%E7%9B%AE14-40&ie=UTF8&ll=34.961706,135.746255&spn=0.009443,0.01914&z=16&iwloc=addr" target="_blank"><img src="./img/btn_googlemap.gif" width="159" height="43" alt="" /></a>
+            </div>
+            </div>
+
+
+		</div>
+
+		<hr class="vanish" />
+
+		
+
+	</div>
+	<hr class="vanish" />
+</div>
+
+<map name="Map" id="Map">
+<area shape="rect" coords="420,14,488,29" href="#walk" />
+<area shape="rect" coords="505,12,572,30" href="#car" />
+<area shape="rect" coords="589,17,673,30" href="#google" />
+</map>
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
+?>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "shift-jis";
+html{
+overflow-y: scroll;
+height:100%;
+text-align:left;}
+body { line-height:1;}
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, ode,
+del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video 
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+h1,h2,h3,h4,h5,h6 { font-weight: normal; line-height:1.0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+ul,li {list-style:none;}
+table {border-collapse:collapse;border-spacing:0;font-size:100%;}
+input, select {vertical-align:middle;}
+a {margin:0;padding:0;vertical-align:baseline;background:transparent;}
+a:focus{ outline: none;}
+a img,
+fieldset,
+img { border:0;}
+div,
+table,td,tr,
+li,
+dt,dd{ box-sizing: border-box;}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  min-height: 1px;
+}
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+.cl { clear:both;}

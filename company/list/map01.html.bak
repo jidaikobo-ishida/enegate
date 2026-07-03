@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>本社地図｜事業所一覧｜会社情報｜株式会社エネゲート</title>
+<meta name="description" content="エネゲートの本社地図です。" />
+<meta name="keywords" content="エネゲート,会社情報,事業所一覧,本社地図" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="all">
+
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+<script type="text/javascript" language="Javascript">
+$('.popup').each(function(link) {
+  link.onclick = function(){
+    window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600');
+    return false;
+  };
+});
+</script>
+</head>
+<body id="list" class="pane2 guide">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
+?>
+<div class="inner clearfix">
+
+	<hr class="vanish" />
+
+	<div id="article" class="group">
+
+		<!-- パンくず -->
+		<div id="breadcrumbs" class="inner">
+			<ol class="breadcrumbslist"><li><a href="/">HOME</a></li><li><a href="/company/index.html">会社情報</a></li><li><a href="/company/list/index.html">事業所一覧</a></li><li>本社</li></ol>
+		</div>
+
+		<!-- ローカルメニュー -->
+		<?php
+		include($_SERVER['DOCUMENT_ROOT'] . '/common/block/company_leftmenu.html');
+		?>
+		<!-- //ローカルメニュー -->
+		
+		
+	  <div id="mainContent" class="relative">
+			<h1><img src="./img/h1_index.gif" alt="事業所一覧" width="690" height="50" /></h1>
+            <h2 class="text"><img src="./img/h2_map01.gif" alt="本社" width="690" height="568" border="0" usemap="#Map" /></h2>
+            
+            
+			
+
+		  <div id="walk" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+                <h3 class="box"><img src="./img/h3_walk.gif" alt="徒歩用地図" width="80" height="23" /></h3>
+                
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top">
+                <p class="img"><a href="map01_walk.html" onClick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map01w_s202410.jpg" alt="本社徒歩用地図" width="318" height="407" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒531-0077<br />大阪市北区大淀北1丁目6-110<br />TEL 06-6458-7301　FAX 06-6458-7303</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+				<p> 【徒　歩】<br />
+                  ■JR大阪駅から（20分）<br />
+                  中央出口北側からグランフロント大阪（南館）西側を通って信号を左折し、西へ直進します。新梅田シティ前の信号を渡ったのちスカイビルを抜け、大淀中公園の北側を通り、なにわ筋を横断します（大淀中南１交差点）。あみだ池筋に出たら大淀中２交差点を北西へ二段階で横断し、大淀中３バス停右側の道を入ってすぐ。<br />
+                  <br />
+                  ■JR福島駅から（18分）<br />
+                  なにわ筋を北へ約１ｋｍ進み、大淀中１バス停を左折してあみだ池筋まで出ます。<br />
+                  大淀中２交差点を北西へ二段階で横断し、大淀中３バス停右側の道を入ってすぐ。<br />
+                  <br />
+                  ■阪急中津駅から（10分）<br />
+                  改札口を出て右の階段を上がり、出てすぐの信号を渡って直進、下り坂を野田阪神方面へ約500ｍ進みます。大淀中１交差点（高架下信号）をそのまま直進して大淀中３バス停の手前を右折してすぐ。<br />
+                  <br />
+                  【バ　ス】<br />
+                  ■大阪駅から（10分）<br />
+                  ○大阪シティバス　<br />
+			<a href="https://bus.osakametro.co.jp/bus_stop/index.php" target="_blank">のりば</a>　<a href="https://kensaku.osakametro.co.jp/timetable/bus/dia/stop/0344/92#02" target="_blank">時刻表</a>（Osaka Metro HPより）<br />
+                  JR高架下11番のりば（JR大阪駅と阪急百貨店の間）で５８系統の「野田阪神前行き」に乗り、４つ目のバス停[大淀中３]で下車します。<br />
+                  道路向かいのバス停[大淀中３]右側の道を入ってすぐ。</p>
+                <br />
+
+
+				<p class="btn"><a href="map01_walk.html" onClick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p>
+				</td></tr>
+                </table>
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>
+
+            <div id="car" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+              <h3 class="box"><img src="./img/h3_car.gif" alt="お車用地図" width="80" height="23" /></h3>
+                
+
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top"><p class="img"><a href="map01_car.html" onClick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map01c_s.gif" alt="本社お車用地図" width="318" height="260" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒531-0077<br />大阪市北区大淀北1丁目6-110<br />TEL 06-6458-7301　FAX 06-6458-7303</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <div class="paragraph03"> 
+                  <p>【車】<br />
+                    ■名神高速（京都・神戸）方面から<br />
+                    豊中ＩＣから阪神高速池田線大阪市内方面で福島出口を左折。<br />
+                    200ｍ走行し福島７北交差点を左折して800ｍ走行。<br />
+                    大淀中2交差点を越えてすぐの道を左折（十三バイパスにのらないよう注意してください。）<br />
+                    <br />
+                    ■神戸方面から<br />
+                    阪神高速神戸線海老江出口を左折し800ｍ走行。<br />
+                    海老江交差点を左折して1200ｍ走行、大淀中２交差点手前の道を左折。<br />
+                    <br />
+                    ■奈良・和歌山方面から<br />
+                    阪神高速梅田出口を左折、650ｍ走行して福島７北交差点を右折。<br />
+                    800ｍ走行し大淀中2交差点を越えてすぐの道を左折（十三バイパスにのらないよう注意してください。）</p>
+                </div>
+                <p class="btn"><a href="map01_car.html" onClick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p></td>
+                </tr>
+                </table>
+
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>			
+
+			
+
+			
+
+			
+
+
+            <div id="google" class="group boxType03a ms28">
+            <div class="main paragraph01">
+            <p>詳細の広域を見たい方は<a href="https://maps.google.com/maps?num=50&hl=ja&safe=off&oe=Shift_JIS&q=%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E5%A4%A7%E6%B7%80%E5%8C%971%E4%B8%81%E7%9B%AE6-110&lr=lang_ja&um=1&ie=UTF-8&sa=N&tab=wl" target="_blank">Googleマップ</a>をご利用ください。</p>
+            </div>
+            <div class="sub">
+            <a href="https://maps.google.com/maps?num=50&hl=ja&safe=off&oe=Shift_JIS&q=%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E5%A4%A7%E6%B7%80%E5%8C%971%E4%B8%81%E7%9B%AE6-110&lr=lang_ja&um=1&ie=UTF-8&sa=N&tab=wl" target="_blank"><img src="./img/btn_googlemap.gif" width="159" height="43" alt="" /></a>
+            </div>
+            </div>
+
+
+		</div>
+
+	  <hr class="vanish" />
+
+		
+
+	</div>
+	<hr class="vanish" />
+
+</div>	
+
+<map name="Map" id="Map">
+<area shape="rect" coords="420,14,488,29" href="#walk" />
+<area shape="rect" coords="505,12,572,30" href="#car" />
+<area shape="rect" coords="589,17,673,30" href="#google" />
+</map>
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
+?>
+</body>
+</html>

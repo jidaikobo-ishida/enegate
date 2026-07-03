@@ -1,0 +1,38 @@
+@charset "shift-jis";
+/* Ver2.0.0-CLSTK-081212 */
+/* ----- Font Size ----- */
+body { font-size: 13px; *font-size: small; /* IE7+ */ *font: x-small; /* IE6- */ }
+/* ----- Reset Element ----- */
+body { background-color:#FFFFFF; line-height:1.6; font-family:"ÇlÇr ÇoÉSÉVÉbÉN", "MS UI Gothic","ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro",'ÉÅÉCÉäÉI',Meiryo,Osaka, sans-serif; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; font-size:100%; }
+fieldset, a img, img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { /* [disabled]font-style:normal; */ font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+a { outline:none; cursor:pointer; }
+img { border:0; vertical-align:bottom; }
+sup, sub { line-height:-1px; vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+/* ----- Utility Element ----- */
+/* -- vanish -- */
+.hide { display:none; }
+.vanish { left:-9999px; overflow:hidden; position:absolute; width:0; height:0; margin:0; padding:0; }
+/* -- strong --*/
+strong, .bold { /* [disabled]font-weight:bold; */ }
+/* -- cap --*/
+.cap { margin:2px 0 0 0; padding-left:1em; text-indent:-1em; }
+/* -- clear -- */
+.clear { clear:both; }
+br.clear { display:block; clear:both; margin:0; padding:0; line-height:1%; font-size:1%; }
+/* -- clearfix -- */
+.group:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.group { display:inline-block; }
+/* \*/
+* html .group { height:1%; }
+.group { display:block; }
+/* */
+/* EOF*/

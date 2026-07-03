@@ -1,0 +1,215 @@
+@charset "shift-jis";
+/* Ver1.5.3-CLSMS-090205 */
+
+/* [common] ------------------------------------------------*/
+label.radio_checked {background: #fff url(../img/icon_radio_r.gif) no-repeat;display: block;margin: 10px 0;padding-left: 15px;width:80px;}
+label.radio_unchecked {background: #fff url(../img/icon_radio.gif) no-repeat;display: block;margin: 10px 0;padding-left: 15px;width:80px;}
+.crirHidden {position: absolute;left: -1000px;}
+
+/* Structure
+------------------------------------------------------------*/
+/* ----- center ----- */
+body { text-align:center;color:#242525;background:#fff url(../img/bg_body.gif) repeat-x left top; }
+#container { margin:0 auto; text-align:left;margin-top:3px; }
+
+/* ----- outline ----- */
+#container,#header,#article,#footer { width:900px; clear:both; }
+
+	/* ----- pane3 ----- */
+	body.pane3 #mainContent {width:900px;margin-top:8px;}
+	body.pane3 #mainContent #mainBox {}
+	body.pane3 #mainContent #subBox {}
+	body.pane3 #subContent {}
+
+
+
+
+
+/* ----- .nav ----- */
+.nav, .nav li { margin:0; padding:0; list-style-type:none;}
+
+/* ----- #header ----- */
+#header { position:relative;margin:0;padding:0;}
+#header .h1 { float:left;margin:0 0 0 0;padding:10px 0 0 0;}
+#header #utility.nav { float:right;/*position:absolute;top:0;left:0;margin:0;padding:0;*/padding-top:46px;margin-right:6px;font-size:0;}
+#header #utility.nav li { display:inline;padding-right:24px;}
+#header #utility.nav li.end { padding-right:0;}
+#header form { position:absolute;top:0;right:0;}
+#header form .textbox { width:118px;height:18px;margin-left:2px;border:solid 1px #BDC4C9;}
+#header form .btn { margin-left:7px;}
+/* \*/
+* html form .searchTxt { padding-top:1px; }
+* html form .searchTxt .search { margin-bottom:8px; }
+*:first-child+html form .searchTxt { padding-top:1px; }
+*:first-child+html form .searchTxt .search { margin-bottom:8px; }
+/* */
+html:\66irst-child form .searchTxt {padding-left:10px;}
+html:\66irst-child form .searchTxt .search{padding-left:3px;margin-right:10px;}
+/* ----- #global .nav ----- */
+#header #global.nav { background-color:#fff;padding-top:8px;}
+#header #global.nav li { float:left; }
+
+/* ----- #mainContent ----- */
+
+/* ----- #subContent ----- */
+
+/* ----- #footer ----- */
+#footer .section {background-color:#0021BD;width:887px;height:11px;padding:3px 5px 3px 8px;}
+#footer .section ul {float:left;font-size:0;}
+#footer .section ul li {display:inline;margin-right:19px;}
+#footer .section .pagetop {float:right;font-size:0;}
+#footer #companies {float:right;margin-top:4px;padding-bottom:13px;}
+#footer #companies li {display:inline;padding-left:13px;}
+#footer address {float:left;margin-top:16px;padding-bottom:13px;}
+
+
+/* bg
+   Please write the background here.
+------------------------------------------------------------*/
+/* ----- check ----- */
+#container { background-color:#fff; }
+#header { background-color:#fff; }
+#article { background-color:#fff; }
+#mainContent { background-color:#fff; }
+#subContent { background-color:#fff; }
+#footer { background-color:#fff; }
+
+
+/* Font-Size by YUI ver2.6 2008-09-23
+   Please write the font-size here.
+------------------------------------------------------------*/
+/* ----- fs18 ----- */
+.fs18,
+h2
+{font-size:138.5%;}
+
+/* ----- fs16 ----- */
+.fs16,
+h3
+{font-size:123.1%;}
+
+/* ----- fs14 ----- */
+.fs14,
+h4
+{font-size:108%;}
+
+/* ----- fs13 ----- */
+.fs13 {font-size:100%;}
+
+/* ----- fs12 ----- */
+.fs12,
+h5,
+h6,
+.pagetop, p {font-size:93%;}
+
+/* ----- fs11 ----- */
+.fs11 {font-size:85%;}
+
+/* ----- fs10 ----- */
+.fs10,
+.copyright,
+.customersBox li li
+{font-size:77%;}
+
+
+/* [block level] -------------------------------------------*/
+div.topicPath {position:relative;background:url(../img/enegate.gif) no-repeat right center;}
+#topicPath {clear:both;margin-top:5px;}
+	.topicPath li {display:inline;font-size:85%;padding:5px 0;}
+	.topicPath li a {padding-right:10px;margin-right:5px;background:url(../img/topicpath.gif) no-repeat right center;color:#0021BD;}
+	.topicPath li a:visited { color:#0021BD; }
+	.topicPath li a:hover {color:#FF0000;}
+
+/* group module
+------------------------------------------------------------*/
+/* ----- div ----- */
+
+/* ----- group ----- */
+#mainContent div.group {margin:0 0 0 0;}
+/* ----- col2 ----- */
+
+
+
+/* hx module
+------------------------------------------------------------*/
+/* ----- h1 ----- */
+h1 { margin:0 0 5px 0;}
+
+/* ----- h2 ----- */
+h2 { font-weight:bold;}
+.newsTopics h2 {padding-bottom:13px;}
+
+/* ----- h3 ----- */
+h3 { font-weight:bold;}
+
+/* ----- h4 ----- */
+
+/* p module
+------------------------------------------------------------*/
+/* ----- p ----- */
+p {}
+.pickup h3 + p {color:#16A2FB;margin-top:13px;margin-bottom:10px;padding-bottom:3px;border-bottom:dotted 1px #000;}
+/* list module
+------------------------------------------------------------*/
+/*#mainContent form {width:686px;border:solid 1px #C5D6DC;}*/
+#mainContent #forms {/*width:686px;*//*padding:2px;*//*margin:1px;border:solid 1px #C5D6DC;*//*margin-top:20px;*/}
+
+/* \*/
+/*
+* html #mainContent #forms {width:686px;padding:0;border:solid 1px #C5D6DC;}
+*:first-child+html #mainContent #forms {width:686px;padding:0;border:solid 1px #C5D6DC;}
+*/
+/* */
+#mainContent #forms {width:688px;border:solid 1px #C5D6DC;margin-top:20px;}
+#mainContent form table {border-collapse:separate;width:686px;border:solid 5px #D2E5F4;/*padding:1px;*//*margin:1px;*/margin:1px;}
+#mainContent form th {width:214px;background-color:#F7FAFE;border-right:solid 1px #C5D6DC;border-bottom:solid 1px #C5D6DC;padding:0.6em 10px;vertical-align:top;}
+#mainContent form td {width:521px;padding:0.6em 19px;}
+#mainContent form td {border-bottom:solid 1px #C5D6DC;}
+/* \*/
+* html #mainContent form table {border-collapse:collapse;}
+*:first-child+html #mainContent form table {border-collapse:collapse;}
+/* */
+/* table module
+------------------------------------------------------------*/
+
+/* other module
+------------------------------------------------------------*/
+
+#FormButtons{width:686px;text-align:center;margin-top:0;margin-bottom:52px;position:relative;}
+.thanks #FormButtons{margin-top:30px;}
+#FormButtons #veri {position:absolute;top:0;left:0;}
+#FormButtons input,
+#FormButtons a {padding-top:23px;}
+#FormButtons img { vertical-align:baseline; }
+
+/*
+#FormButtons input {position:absolute;top:30px;left:227px;}
+#FormButtons a {position:absolute;top:30px;left:350px;}
+*/
+/* a module
+------------------------------------------------------------*/
+/* ----- a ----- */
+a:link { color:#242525; }
+a:visited { color:#242525; }
+a:hover { color:#FF0000; }
+a:active { color:#FF0000; }
+
+
+
+
+/* [other] -------------------------------------------------*/
+
+.px12_red {color:#FE0101;}
+#forms input.text {border:solid 1px #7F9DB9;height:17px;}
+#forms .w202 {width:202px;}
+#forms .w109 {width:109px;}
+#forms .w398 {width:398px;}
+#forms textarea,
+#forms select {border:solid 1px #7F9DB9;}
+/*#forms .radio{border:none;}*/
+
+noscript p {
+	background-color:#fff;
+	border:solid 1px #fff;
+}
+/* EOF*/

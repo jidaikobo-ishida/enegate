@@ -1,0 +1,171 @@
+@charset "shift-jis";
+/* Ver1.5.3-CLSTK-081002 */
+
+.attention {color:#FF0000;}
+.attention2 {color:#16A2FB;}
+
+/* sitemap module
+------------------------------------------------------------*/
+#sitemap #mainContent a:link { color:#000000;}
+
+.sitemap01, .sitemap02 { width:282px; float:left; margin:0 24px 0 0 !important;}
+.sitemap02 { margin:0 !important; }
+
+.sitemapBox01 {width:282px; margin:0 0 17px 0; padding:0 0 10px 0; border:1px solid #2A40A8;}
+.sitemapBox02 {width:282px; margin:0; padding:0 0 10px 0; border:1px solid #2A40A8;}
+.sitemapBox03 {width:282px; margin:0; padding:0 0 25px 0; _padding:0 0 20px 0; border:1px solid #2A40A8;}
+*:first-child+html .sitemapBox03 { padding:0 0 20px 0; } /*for IE7*/
+.sitemapBox04 {width:282px; margin:0 0 29px 0; padding:0 0 10px 0; border:1px solid #2A40A8;}
+.sitemapBox05 {width:282px; margin:0 0 2px 0; border:1px solid #2A40A8;}
+
+
+
+/*title*/
+#sitemap #mainContent .title01 img {margin-bottom:6px;}
+#sitemap #mainContent .title02 img {margin-top:6px;}
+#sitemap #mainContent .title02 li {background:url(/cmn/img/icon_link2.gif) no-repeat 7px 8px;padding-left:22px;}
+
+/*ul*/
+
+/*li*/
+
+#sitemap #mainContent li { line-height:2.0;}
+#sitemap #mainContent li li {background:url(/cmn/img/icon_link2.gif) no-repeat 7px 8px;padding-left:22px;}
+#sitemap #mainContent li li.title02 {background:none;padding-left:0;}
+#sitemap #mainContent li li.title02 img {border-top:1px solid #2A40A8; border-bottom:1px solid #2A40A8;}
+#sitemap #mainContent li li li {background:url(/cmn/img/icon_link.gif) no-repeat 0px 8px;padding-left:15px;}
+#sitemap #mainContent li li.title03 {background:none;padding-left:0;}
+#sitemap #mainContent li li.title03 img {border-top:1px solid #2A40A8; border-bottom:1px solid #2A40A8;}
+#sitemap #mainContent li li li li {background:url(/cmn/img/icon_link4.gif) no-repeat left center;padding-left:15px;}
+
+#sitemap #mainContent .line { border-bottom:1px solid #2A40A8; margin-bottom:6px; padding-bottom:6px;}
+
+
+
+/* group module
+------------------------------------------------------------*/
+/* ----- div ----- */
+#meter01 div.boxType02, #meter02 div.boxType02 {background:url(/cmn/img/div_side02_b.gif) repeat-y left top; }
+#meter01 div.boxType02 .typeA {background:url(/cmn/img/div_side02_a.gif) repeat-y left top; }
+.group div.boxType02 {margin-bottom:30px; }
+p.center { margin:0; padding:0; text-align:center;}
+.boxMid { line-height:1.0; height:7px; font-size:1%;}
+
+#meter01 h3 { margin-bottom:8px;}
+
+
+/* ----- meterBox01 ----- */
+#meterBox01 {background:url(/meter01/img/icon_01.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox01 .main {float:left; width:336px; margin:20px 0 0 93px;}
+* html #meterBox01 .main {margin:20px 0 0 46px;}
+#meterBox01 .main .btn {margin-top:40px; color:#2A40A8;}
+#meterBox01 .main .btn p {margin-bottom:10px;}
+
+
+#meterBox01 .sub {float:right; width:421px; margin:20px 27px 0 0;}
+* html #meterBox01 .sub {margin:20px 13px 0 0;} 
+
+/* ----- meterBox02 ----- */
+#meterBox02 {float:left; width:447px;background:url(/meter01/img/icon_02.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox02 .main {width:342px; margin:20px 0 0 93px;}
+* html #meterBox02 .main {margin:20px 0 0 46px;}
+#meterBox02 .main p { margin-bottom:20px;}
+
+/* ----- meterBox03 ----- */
+#meterBox03 {float:right; width:453px;background:url(/meter01/img/icon_03.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox03 .main {width:333px; margin:20px 0 0 93px;}
+* html #meterBox03 .main {margin:20px 0 0 46px;} 
+#meterBox03 .main p { margin-bottom:24px;}
+
+/* ----- meterBox04 ----- */
+#meterBox04 {background:url(/meter01/img/icon_04.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox04 .main {width:682px; margin:20px 0 0 93px;}
+* html #meterBox04 .main {margin:20px 0 0 46px;} 
+
+/* ----- meterBox05 ----- */
+#meterBox05 {background:url(/meter01/img/icon_05.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox05 .main {width:606px; margin:20px 0 0 93px;}
+* html #meterBox05 .main {margin:20px 0 0 46px;} 
+#meterBox05 .sub {float:left; width:73px; margin:36px 0 0 29px;}
+.qaTable { border-bottom:1px solid #C5D6DC; border-left:1px solid #C5D6DC; border-right:1px solid #C5D6DC;}
+.qaTable td { padding:2px; border-top:1px solid #C5D6DC;}
+
+.qaTable tr.a td { padding:0; margin:0; border:none;}
+.qaTable p.answer { display:none;}
+.qaTable p.answer { margin:2px; padding:2px 2px 2px 32px; background:#DCEFFD url(/cmn/img/icon_a.gif) no-repeat 2px 2px;}
+
+
+
+/* ----- meterBox06 ----- */
+#meterBox06 { margin-bottom:30px !important;}
+#meterBox06 .sub { float:left; margin:0; padding:0; width:168px;}
+#meterBox06 .main { float:right; margin:0; padding:0; width:710px;}
+#meterBox06 .main h3 { margin-bottom:20px; }
+
+/* ----- meterBox07 ----- */
+#meterBox07 { margin-bottom:30px !important;}
+#meterBox07 .main { float:left; margin:0; padding:0; width:450px; min-height:122px; background:url(/meter02/img/bg_01.gif) no-repeat top left;}
+#meterBox07 .main p { width:295px; margin:48px 0 15px 15px;}
+#meterBox07 .main .btm {line-height:1.0; font-size:1%;}
+
+#meterBox07 .sub { float:right; margin:0; padding:0; width:450px; min-height:122px; background:url(/meter02/img/bg_02.gif) no-repeat top left;}
+#meterBox07 .sub p { width:260px; margin:48px 0 15px 165px;}
+#meterBox07 .sub .btm {line-height:1.0; font-size:1%;}
+
+/*
+#meterBox07 { position:relative; margin-bottom:30px !important;}
+#meterBox07 .main { position:relative; float:left; margin:0; padding:0; width:450px; min-height:122px; background:url(/meter02/img/bg_01.gif) no-repeat top left;border:1px solid #ff0000;}
+#meterBox07 .main p { position:absolute; top:48px; left:15px; width:295px;}
+#meterBox07 .main .btm { position:absolute; bottom:0;}
+
+#meterBox07 .sub { position:relative; float:right; margin:0; padding:0; width:450px; min-height:122px; background:url(/meter02/img/bg_02.gif) no-repeat top left;border:1px solid #ff0000;}
+#meterBox07 .sub p { position:absolute; top:48px; left:164px; width:260px;}
+#meterBox07 .sub .btm { position:absolute; bottom:0;}
+*/
+
+/* ----- #meter02 div.boxType02 ----- */
+#meter02 div.boxType02 .main { float:left; margin:0 6px 0 95px; padding:0; width:386px; background:url(/meter02/img/meter02_mid.gif) repeat-y 0 0;}
+* html #meter02 .boxType02 .main {margin:0 6px 0 46px; } 
+#meter02 div.boxType02 .main .top,#meter02 div.boxType02 .main .btm { line-height:1.0; font-size:1%;}
+#meter02 div.boxType02 .main .body { min-height:310px;}
+#meter02 div.boxType02 .main h4 { margin-bottom:20px; margin-left:11px; }
+#meter02 div.boxType02 .main p.txt { width:320px; margin-bottom:10px; margin-left:24px; }
+#meter02 div.boxType02 .main p.img { margin-left:24px; }
+
+#meter02 div.boxType02 .sub { float:left; margin:0; padding:0; width:386px; background:url(/meter02/img/meter02_mid.gif) repeat-y 0 0;}
+#meter02 div.boxType02 .sub .top,#meter02 div.boxType02 .sub .btm { line-height:1.0; font-size:1%;}
+#meter02 div.boxType02 .sub .body { min-height:310px;}
+#meter02 div.boxType02 .sub h4 { margin-bottom:20px; margin-left:11px;}
+#meter02 div.boxType02 .sub p.txt { width:320px; margin-bottom:10px; margin-left:24px; }
+#meter02 div.boxType02 .sub p.img { margin-left:24px; }
+
+/* ----- meterBox08 ----- */
+.meterBox08 {background:url(/meter02/img/icon_01.gif) no-repeat 7px 6px; padding-bottom:20px; }
+.meterBox08 h3 {padding:29px 0 20px 93px; }
+
+/* ----- meterBox09 ----- */
+#meterBox09 {padding-bottom:25px;  }
+#meterBox09 .main {float:left; width:189px;} 
+#meterBox09 .sub {float:left; width:711px; border-top:dotted 1px #242525;padding-top:6px;} 
+/* ----- meterBox10 ----- */
+#meterBox10 {float:left;width: 550px;background: url(/meter01/img/icon_02.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox10 .main {width: 420px; margin: 20px 0 0 93px;	text-align: left; padding: 0px;}
+/* ----- meterBox11 ----- */
+#meterBox11 {float:left; width:550px; background:url(/meter01/img/icon_02.gif) no-repeat 7px 6px; padding-bottom:20px;}
+#meterBox11 .main { width:530px; margin:20px 0 0 93px;}
+/* ----- 日置電気　表下部コメント装飾 ----- */
+.group.boxType03a.bottom .coment01 {width: 520px; margin-top: 15px;	padding: 0px; color: #36F;}
+
+/* ----- 採用情報（入社式・採用）　表下部コメント装飾 ----- */
+#meterBox12 {float:left;width:890px;background:url(/meter01/img/icon_02.gif) no-repeat 7px 6px;	padding-bottom:20px;}
+#meterBox12 .main {width:600px;margin:20px 0 0 93px;}
+#meterBox12 .sub {width:750px;margin:20px 0 0 93px;} 
+
+#meterBox13 {float:left;width:645px;background:url(/meter01/img/icon_02.gif) no-repeat 7px 6px;padding-bottom:20px;}
+#meterBox13 .main {float:right;width:550px;	margin:20px 0 0 0px;}
+#meterBox13 .sub {width:600px;margin:20px 0 0 5px;} 
+/* ----- 研究開発情報 ----- */
+.slogan{ color: #0362D7; font-size: 115%; font-weight: bold; }
+
+/* EOF*/
+

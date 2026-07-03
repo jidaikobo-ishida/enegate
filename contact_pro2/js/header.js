@@ -1,0 +1,23 @@
+/*@cc_on _d=document;eval('var document=_d')@*/
+document.write('<ul id="utility" class="nav"><li><a href="http://www.enegate.co.jp/faq/index.html"><img src="./img/unavi01.gif" alt="よくあるご質問" width="82" height="10" class="imgover" /></a></li><li class="end"><a href="http://www.enegate.co.jp/sitemap/index.html"><img src="./img/unavi02.gif" alt="サイトマップ" width="70" height="10" class="imgover" /></a></li></ul>');
+document.write('<ul id="global" class="nav group clear"><li><a href="#"></a></li><li><a href="http://www.enegate.co.jp/products/index.html"><img src="./img/gnavi01.gif" alt="製品・サービス案内" width="271" height="33" class="imgover" /></a></li><li><a href="http://www.enegate.co.jp/company/index.html"><img src="./img/gnavi02.gif" alt="会社情報" width="210" height="33" class="imgover" /></a></li><li><a href="http://www.enegate.co.jp/contact/index.php"><img src="./img/gnavi03.gif" alt="お問い合わせ" width="209" height="33" class="imgover" /></a></li><li><a href="http://www.enegate.co.jp/recruit/index.html"><img src="./img/gnavi04.gif" alt="採用情報" width="210" height="33" class="imgover" /></a></li></ul>');
+document.write('<form method="get" action="http://www.google.co.jp/search" id="originalRadio">');
+document.write('<input type="hidden" name="domains" value="enegate.co.jp" />');
+document.write('<input type="hidden" name="ie" value="Shift_JIS" />');
+document.write('<input type="hidden" name="oe" value="UTF-8" />');
+document.write('<input type="hidden" name="hl" value="ja" />');
+document.write('<table bgcolor="#FFFFFF">');
+document.write('<tr>');
+document.write('<td width="95"><div class="searchTxt">');
+document.write('<input type="radio" name="sitesearch" value="enegate.co.jp" class="crirHiddenJS" id="siteSearch"  checked="checked"  /><label for="siteSearch"><img src="./img/txt_search_site.gif" alt="サイト内検索" width="68" height="12" class="search" /></label></div></td>');
+document.write('<td width="80"><div class="searchTxt">');
+document.write('<input type="radio" name="sitesearch" value="" class="crirHiddenJS" id="webSearch"  /><label for="webSearch"><img src="./img/txt_search_google.gif" alt="Google検索" width="58" height="12" class="search" /></label></div></td>');
+document.write('<td>');
+document.write('<a href="http://www.google.co.jp/">');
+document.write('<img src="http://www.google.co.jp/intl/ja/logos/Logo_25wht.gif" border="0" alt="Google" /></a>');
+document.write('</td><td>');
+document.write('<input type="text" name="q" size="31" maxlength="255" value="" class="textbox" />');
+document.write('</td><td>');
+document.write('<input type="image" src="./img/btn_search.gif" name="btnG" value="検索" class="btn" />');
+document.write('</td></tr></table>');
+document.write('</form>');

@@ -1,0 +1,32 @@
+.catall-list {width:138px; float: left;}
+
+.dcjq-vertical-mega-menu .menu{
+line-height:1.0; 
+position: relative;
+}
+.dcjq-vertical-mega-menu .menu li a {
+display: block; 
+padding:0; 
+}
+.dcjq-vertical-mega-menu .menu li a:hover, .dcjq-vertical-mega-menu .menu li.mega-hover a {
+background-position: 0 -40px; 
+}
+.dcjq-vertical-mega-menu .menu li a.dc-mega {
+position: relative;
+}
+
+.dcjq-vertical-mega-menu .menu li a .dc-mega-icon {
+display: block; 
+}
+.dcjq-vertical-mega-menu .menu li a:hover .dc-mega-icon, .dcjq-vertical-mega-menu .menu li.mega-hover a .dc-mega-icon {
+background-position: 0 0;
+}
+
+.dcjq-vertical-mega-menu .menu li .sub-container {
+position: absolute; /* Required */
+overflow: hidden;
+width:815px;
+/*background:#D7D7D7;*/
+}
+
+

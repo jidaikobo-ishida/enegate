@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>千里丘事業所地図｜事業所一覧｜会社情報｜株式会社エネゲート</title>
+<meta name="description" content="エネゲートの千里丘事業所地図です。" />
+<meta name="keywords" content="エネゲート,会社情報,事業所一覧,千里丘事業所地図" />
+<link rel="stylesheet" type="text/css" href="/cmn/css/screen.css" media="all">
+
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+<script type="text/javascript" language="Javascript">
+$('.popup').each(function(link) {
+  link.onclick = function(){
+    window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600');
+    return false;
+  };
+});
+</script>
+</head>
+<body id="list" class="pane2 guide">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
+?>
+<div class="inner clearfix">
+
+	<hr class="vanish" />
+
+	<div id="article" class="group">
+
+		<!-- パンくず -->
+		<div id="breadcrumbs" class="inner">
+			<ol class="breadcrumbslist"><li><a href="/">HOME</a></li><li><a href="/company/index.html">会社情報</a></li><li><a href="/company/list/index.html">事業所一覧</a></li><li>千里丘事業所</li></ol>
+		</div>
+
+		<!-- ローカルメニュー -->
+		<?php
+		include($_SERVER['DOCUMENT_ROOT'] . '/common/block/company_leftmenu.html');
+		?>
+		<!-- //ローカルメニュー -->
+
+		<div id="mainContent" class="relative">
+			<h1><img src="./img/h1_index.gif" alt="事業所一覧" width="690" height="50" /></h1>
+            <h2 class="text"><img src="./img/h2_map02.gif" alt="千里丘事業所" width="690" height="568" border="0" usemap="#Map" /></h2>
+            
+            
+			
+
+		  <div id="walk" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+                <h3 class="box"><img src="./img/h3_walk.gif" alt="徒歩用地図" width="80" height="23" /></h3>
+                
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top">
+                <p class="img"><a href="map02_walk.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map02w_s.jpg" alt="千里丘事業所徒歩用地図" width="318" height="370" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒566-8686<br />大阪府摂津市千里丘3丁目14-40<br/>
+                TEL 06-6387-1181　FAX 06-6389-0577</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <ul class="disc">
+				<li>JR西日本千里丘駅　徒歩8分<br />
+				改札を出て右側の西出口正面の道をまっすぐ進み、千里丘交差点を左に曲がって約200ｍ、消防署を越えてすぐ。</li>
+				<li>阪急京都線摂津市駅　徒歩
+				<li>ＪＲ西日本のＨＰ<a href="https://www.jr-odekake.net/" target="_blank">「ＪＲおでかけネット」時刻・運賃検索</a>に出発駅と到着駅（千里丘）を入力して時刻表をご確認ください。</li>
+				<li>阪急電車をご利用の場合は、<a href="https://www.hankyu.co.jp/search/norikae/" target="_blank">阪急電鉄のＨＰ「ダイヤ検索」</a>に出発駅と到着駅（摂津市）を入力して時刻表をご確認ください。
+				</ul>
+                <br />
+
+				<p class="btn"><a href="map02_walk.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p>
+				</td></tr>
+                </table>
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>
+
+            <div id="car" class="group">
+			<div class="boxType02">
+				<div class="boxTop"><img src="/cmn/img/div_top02.gif" alt="" width="690" height="568" /></div>
+              <h3 class="box"><img src="./img/h3_car.gif" alt="お車用地図" width="80" height="23" /></h3>
+                
+
+                <table border="0" cellpadding="0" cellspacing="0" class="type05">
+                <tr>
+                <td width="350" valign="top"><p class="img"><a href="map02_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/map02c_s.gif" alt="千里丘事業所お車用地図" width="318" height="258" /></a></p></td>
+                <td width="295" valign="bottom">
+                <div class="paragraph02">
+                <p>〒566-8686<br />大阪府摂津市千里丘3丁目14-40TEL 06-6387-1181　FAX 06-6389-0577</p>
+                </div>
+                
+                <h4 class="access"><img src="/company/img/h4_access.gif" alt="ACCESS" width="295" height="12" /></h4>
+                
+                <div class="paragraph03">
+                <p>■高速道利用の場合<br />
+                ●中国、名神道より<br />
+                吹田出口を出て中央環状線（府道２号線）を茨木・守口方面へ<br />
+                下穂積交差点を右折して（府道１４号線）を南へ約２．５ｋｍ<br />
+                ●近畿道より<br />
+                摂津北I.Cを出て中央環状線の沢良宜浜南交差点を左折<br />
+                千里丘駅前で左折してＪＲ線を潜り千里丘交差点を左折、<br />
+                府道１４号線を南へ約４５０ｍ<br />
+                <br />
+                ■一般道利用の場合<br />
+                ●大阪方面より<br />
+                新御堂筋（国道４２３号線）を北進、桃山台で側道に出て桃山台駅西を右折<br />
+                府道１３５号線をしばらく走り、岸辺中５交差点を左折<br />
+                （府道１４号線）を北へ約７００ｍ<br />
+                ●京都方面より<br />
+                国道１７１号線　畑田交差点を左折して府道１４号線を南へ約４．５ｋｍ</p>
+                </div>
+                <p class="btn"><a href="map02_car.html" onclick="window.open(this.href,'popup','directories=1,locationbar=1,menubar=1,personalbar=1,toolbar=1,scrollbars=1,resizable=1,width=700,height=600'); return false;"><img src="./img/btn_print.gif" width="153" height="25" alt="印刷はこちら" class="imgover" /></a></p></td>
+                </tr>
+                </table>
+
+				<div class="boxBtm"><img src="/cmn/img/div_bottom02.gif" alt="" width="690" height="568" /></div>
+			</div>
+          </div>			
+
+			
+
+			
+
+			
+
+
+            <div id="google" class="group boxType03a ms28">
+            <div class="main paragraph01">
+            <p>詳細の広域を見たい方は<a href="https://maps.google.com/maps?num=50&hl=ja&lr=lang_ja&safe=off&oe=SJIS&q=%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%91%82%E6%B4%A5%E5%B8%82%E5%8D%83%E9%87%8C%E4%B8%983%E4%B8%81%E7%9B%AE14-40&um=1&ie=UTF-8&sa=N&tab=wl" target="_blank">Googleマップ</a>をご利用ください。</p>
+            </div>
+            <div class="sub">
+            <a href="https://maps.google.com/maps?num=50&hl=ja&lr=lang_ja&safe=off&oe=SJIS&q=%E5%A4%A7%E9%98%AA%E5%BA%9C%E6%91%82%E6%B4%A5%E5%B8%82%E5%8D%83%E9%87%8C%E4%B8%983%E4%B8%81%E7%9B%AE14-40&um=1&ie=UTF-8&sa=N&tab=wl" target="_blank"><img src="./img/btn_googlemap.gif" width="159" height="43" alt="" /></a>
+            </div>
+            </div>
+
+
+		</div>
+
+		<hr class="vanish" />
+
+		
+
+	</div>
+	<hr class="vanish" />
+
+</div>
+
+<map name="Map" id="Map">
+<area shape="rect" coords="420,14,488,29" href="#walk" />
+<area shape="rect" coords="505,12,572,30" href="#car" />
+<area shape="rect" coords="589,17,673,30" href="#google" />
+</map>
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
+?>
+</body>
+</html>
