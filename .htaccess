@@ -1,0 +1,10 @@
+AuthUserFile "/home/jdkb/jidaikobo.dev/htpasswd/enegate.jidaikobo.dev/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
+AddHandler fcgid-script .html
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|php)$">
+    Header set Content-Type "text/html; charset=Shift_JIS"
+  </FilesMatch>
+</IfModule>
