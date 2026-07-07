@@ -4,7 +4,15 @@
   AuthType BASIC
   require valid-user
 </If>
-AddHandler fcgid-script .html
+
+# HTMLファイルをPHPとして実行・解析させる設定（環境ごとの切り替え）
+<IfModule mod_fcgid.c>
+  AddHandler fcgid-script .html
+</IfModule>
+<IfModule !mod_fcgid.c>
+  AddType application/x-httpd-php .html
+</IfModule>
+
 <IfModule mod_headers.c>
   <FilesMatch "\.(html|php)$">
     Header set Content-Type "text/html; charset=Shift_JIS"
