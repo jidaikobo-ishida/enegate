@@ -2096,7 +2096,7 @@ filter: alpha(opacity=60);
 /* RESPONSIVE STYLES */
 .pcno { display:none !important; }
 .spno { display:block; }
-br.spno { display:inline-block !important; }
+br.spno { display:inline-block; }
 
 @media screen and (max-width: 736px){
 	.spno { display:none !important;;}
