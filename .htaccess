@@ -1,7 +1,9 @@
-AuthUserFile "/home/jdkb/jidaikobo.dev/htpasswd/enegate.jidaikobo.dev/.htpasswd"
-AuthName "Member Site"
-AuthType BASIC
-require valid-user
+<If "%{HTTP_HOST} != 'localhost' && %{HTTP_HOST} != '127.0.0.1' && %{HTTP_HOST} != 'localhost:8080'">
+  AuthUserFile "/home/jdkb/jidaikobo.dev/htpasswd/enegate.jidaikobo.dev/.htpasswd"
+  AuthName "Member Site"
+  AuthType BASIC
+  require valid-user
+</If>
 AddHandler fcgid-script .html
 <IfModule mod_headers.c>
   <FilesMatch "\.(html|php)$">
