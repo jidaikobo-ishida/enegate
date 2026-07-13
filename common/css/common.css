@@ -554,50 +554,7 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 }
 
 
-/*Imgnav*/
-#Imgnav { padding: 0; position:relative; overflow:hidden; background:#d4dce0;background:#000;}
-#Imgnav .Imgnavwrap{ display:flex; justify-content: space-between; width:950px; margin:0 auto; overflow:hidden;background: #fff;}
-#Imgnav A{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around ;
-	flex-wrap: wrap;
-	padding: 1em 0;
-	width : 16.66666% ;
-	width : -webkit-calc(100% / 6) ;
-	width : calc(100% / 6) ;
-	font-size:1.65em;
-	line-height:1.5; 
-	color:#FFF; 
-	text-align:center; 
-	z-index:100;}
-#Imgnav A:last-child{margin-right: 0;}
 
-#Imgnav img { margin:1em auto 0.5em;}
-#Imgnav .imgnav01 { background:#000;}
-#Imgnav .imgnav02 { background:#000;}
-#Imgnav .imgnav03 { background:#000;}
-#Imgnav .imgnav04 { background:#000;}
-#Imgnav .imgnav05 { background:#000;}
-#Imgnav .imgnav06 { background:#f7931e;}
-#Imgnav span { width: 100%; display: block;} 
-
-#Imgnav:before {
-    width: 50%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    background: #f7931e;
-	z-index:0;
-}
-#Imgnav .wrap {
-    position: absolute;
-    left: 50%;
-    margin-left: -475px;
-}
 
 /*ProductsNav*/
 #productsnav { position:absolute; left:-9000px;}
@@ -643,36 +600,36 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 */
 
 
-#allproductsnav { margin-bottom:35px; height:50px; background:#000; position:relative; overflow:hidden;}
-#productsnav + #allproductsnav { height:70px;}
-#productsnav + #allproductsnav a { height:70px;}
-#allproductsnav .prosnavwrap { width:950px; margin:0 auto; background:#FFF;}
-#allproductsnav a { 
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	width :16.66666% ;
-	width :-webkit-calc(100% / 6) ;
-	width :calc(100% / 6) ;
-	height:50px;
-	margin:0;
-	padding:0;
-	font-size:13px;
-	line-height:17px; 
+/*allproductsnav (unified with flexbox)*/
+#allproductsnav { padding: 0; margin-bottom:35px; position:relative; overflow:hidden; background:#d4dce0;background:#000;}
+#allproductsnav .prosnavwrap { display:flex; justify-content: space-between; width:950px; margin:0 auto; overflow:hidden;background: #fff;}
+#allproductsnav a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around ;
+	flex-wrap: wrap;
+	padding: 1em 0;
+	width : 16.66666% ;
+	width : -webkit-calc(100% / 6) ;
+	width : calc(100% / 6) ;
+	font-size:1.65em;
+	line-height:1.5; 
 	color:#FFF; 
 	text-align:center; 
-	float:left; 
-	z-index:100;}
+	z-index:100;
+}
+#allproductsnav a:last-child { margin-right: 0; }
 
+#allproductsnav img { margin:1em auto 0.5em;}
 #allproductsnav .imgnav01 { background:#000;}
-#allproductsnav .imgnav02 { background:#000; line-height:50px;}
+#allproductsnav .imgnav02 { background:#000;}
 #allproductsnav .imgnav03 { background:#000;}
-#allproductsnav .imgnav04 { background:#000; line-height:50px;}
+#allproductsnav .imgnav04 { background:#000;}
 #allproductsnav .imgnav05 { background:#000;}
 #allproductsnav .imgnav06 { background:#f7931e;}
-@media all and (-ms-high-contrast: none){
-#allproductsnav a {line-height:18px; } 
-}
+#allproductsnav span { width: 100%; display: block;} 
+
 #allproductsnav:before {
     width: 50%;
     height: 100%;
@@ -2999,41 +2956,7 @@ body#list .twocontent .boxBtm {
     #news > .inner {
         overflow: visible !important;
     }
-    /* スマホ版 #Imgnav を #allproductsnav と同じ見栄えに */
-    #Imgnav {
-        height: auto !important;
-        background: #538FD4 !important;
-        width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    #Imgnav .Imgnavwrap {
-        width: 100% !important;
-        background: #FFF !important;
-        display: flex !important;
-        flex-wrap: wrap !important;
-        gap: 1px !important;
-    }
-    #Imgnav a {
-        display: block !important;
-        height: 40px !important;
-        width: calc((100% - 2px) / 3) !important;
-        padding: 5px 0 !important;
-        font-size: 1.2em !important;
-        line-height: 1.6em !important;
-        color: #FFF !important;
-        text-align: center !important;
-        float: left !important;
-        z-index: 100 !important;
-    }
-    #Imgnav span { display: inline !important; }
-    #Imgnav img { display: none !important; }
-    #Imgnav .imgnav02 { line-height: 43px !important; }
-    #Imgnav .imgnav04 { line-height: 43px !important; }
-    #Imgnav:before {
-        width: 0 !important;
-        height: 0 !important;
-    }
+
 
     /* A案：スマホ版の左右余白を15pxに統一し、入れ子時の二重適用を防止 */
     .section {
