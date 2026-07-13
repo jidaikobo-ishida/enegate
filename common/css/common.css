@@ -2367,22 +2367,26 @@ ul.click-hover_menu_ch .menuinfo {
 #productsnav + #allproductsnav { height:auto;}
 #productsnav + #allproductsnav a { height:40px;}
 #allproductsnav { height:auto; background:#538FD4; position:relative; overflow:hidden;}
-#allproductsnav .prosnavwrap { width:100%; background:#FFF;}
+#allproductsnav .prosnavwrap {
+    width: 100%;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
 #allproductsnav a { 
 	display: block;
 	height:40px;
-	width : 33.33333% ;
-	width : -webkit-calc(100% / 3) ;
-	width : calc(100% / 3) ;
+	width: calc((100% - 2px) / 3) !important;
 	padding:5px 0 !important;
 	line-height:1.6em;
 	font-size:1.2em;}
-#allproductsnav .imgnav01 { background:#538FD4; padding-top:4px;}
-#allproductsnav .imgnav02 { background:#6D6B92; line-height:43px;}
-#allproductsnav .imgnav03 { background:#F08263; padding-top:4px;}
-#allproductsnav .imgnav04 { background:#E3C05D; line-height:43px;}
-#allproductsnav .imgnav05 { background:#EB8CB7; padding-top:4px;}
-#allproductsnav .imgnav06 { background:#74C1A4; padding-top:4px;}
+#allproductsnav .imgnav01 { padding-top:4px;}
+#allproductsnav .imgnav02 { line-height:43px;}
+#allproductsnav .imgnav03 { padding-top:4px;}
+#allproductsnav .imgnav04 { line-height:43px;}
+#allproductsnav .imgnav05 { padding-top:4px;}
+#allproductsnav .imgnav06 { padding-top:4px;}
 #allproductsnav:before {
     width: 0;
     height: 100%;
