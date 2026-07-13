@@ -3008,13 +3008,12 @@ body#list .twocontent .boxBtm {
         background: #FFF !important;
         display: flex !important;
         flex-wrap: wrap !important;
+        gap: 1px !important;
     }
     #Imgnav a {
         display: block !important;
         height: 40px !important;
-        width: 33.33333% !important;
-        width: -webkit-calc(100% / 3) !important;
-        width: calc(100% / 3) !important;
+        width: calc((100% - 2px) / 3) !important;
         padding: 5px 0 !important;
         font-size: 1.2em !important;
         line-height: 1.6em !important;
@@ -3025,12 +3024,8 @@ body#list .twocontent .boxBtm {
     }
     #Imgnav span { display: inline !important; }
     #Imgnav img { display: none !important; }
-    #Imgnav .imgnav01 { background: #538FD4 !important; }
-    #Imgnav .imgnav02 { background: #6D6B92 !important; line-height: 43px !important; }
-    #Imgnav .imgnav03 { background: #F08263 !important; }
-    #Imgnav .imgnav04 { background: #E3C05D !important; line-height: 43px !important; }
-    #Imgnav .imgnav05 { background: #EB8CB7 !important; }
-    #Imgnav .imgnav06 { background: #74C1A4 !important; }
+    #Imgnav .imgnav02 { line-height: 43px !important; }
+    #Imgnav .imgnav04 { line-height: 43px !important; }
     #Imgnav:before {
         width: 0 !important;
         height: 0 !important;
