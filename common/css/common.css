@@ -601,7 +601,7 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 
 
 /*allproductsnav (unified with flexbox)*/
-#allproductsnav { padding: 0; margin-bottom:35px; position:relative; overflow:hidden; background:#d4dce0;background:#000;}
+#allproductsnav { padding: 0; margin-bottom:35px; height: auto; position:relative; overflow:hidden; background:#d4dce0;background:#000;}
 #allproductsnav .prosnavwrap { display:flex; justify-content: space-between; width:950px; margin:0 auto; overflow:hidden;background: #fff;}
 #allproductsnav a {
 	display: flex;
