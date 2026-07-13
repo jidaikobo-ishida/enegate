@@ -556,48 +556,7 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 
 
 
-/*ProductsNav*/
-#productsnav { position:absolute; left:-9000px;}
-#productsnav .prosnavwrap { width:950px; margin:0 auto; background:#FFF;}
-/*
-#productsnav A { 
-	display:block; 
-	width : 16.66666% ;
-	width : -webkit-calc(100% / 6) ;
-	width : calc(100% / 6) ;
-	height:70px; 
-	padding:0; 
-	font-size:1.3em; 
-	line-height:1.5; 
-	color:#FFF; 
-	text-align:center; 
-	float:left; 
-	z-index:100;}
-#productsnav .imgnav01 { background:#000; padding-top:18px;}
-#productsnav .imgnav02 { background:#000; line-height:70px;}
-#productsnav .imgnav03 { background:#000; line-height:70px;}
-#productsnav .imgnav04 { background:#000; line-height:70px;}
-#productsnav .imgnav05 { background:#000; line-height:70px;}
-#productsnav .imgnav06 { background:#f7931e; line-height:70px;}
-*/
-#productsnav:before {
-    width: 50%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    background: #f7931e;
-	z-index:0;
-}
-#productsnav .wrap {
-    position: absolute;
-    left: 50%;
-    margin-left: -475px;
-}
-/*
-#productsnav .letsp {letter-spacing:-1px;}
-*/
+
 
 
 /*allproductsnav (unified with flexbox)*/
@@ -2324,8 +2283,7 @@ ul.click-hover_menu_ch .menuinfo {
 
 @media screen and (max-width: 736px) {
 #products .cat_link .inline li { width:100%;}
-#productsnav + #allproductsnav { height:auto;}
-#productsnav + #allproductsnav a { height:50px;}
+
 #allproductsnav { height:auto; background:#538FD4; position:relative; overflow:hidden;}
 #allproductsnav .prosnavwrap {
     width: 100%;
