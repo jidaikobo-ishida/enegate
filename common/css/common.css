@@ -613,13 +613,16 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 	width : 16.66666% ;
 	width : -webkit-calc(100% / 6) ;
 	width : calc(100% / 6) ;
-	font-size:1.65em;
+	font-size:1.5em;
 	line-height:1.5; 
 	color:#FFF; 
 	text-align:center; 
 	z-index:100;
 }
 #allproductsnav a:last-child { margin-right: 0; }
+#index #allproductsnav a {
+	font-size:1.65em;
+}
 
 #allproductsnav img { margin:1em auto 0.5em;}
 #allproductsnav .imgnav01 { background:#000;}
