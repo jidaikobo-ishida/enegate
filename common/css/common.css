@@ -2299,6 +2299,11 @@ ul.click-hover_menu_ch .menuinfo {
 	padding:5px 0 !important;
 	line-height:1.6em;
 	font-size:1.3em !important;}
+@media screen and (max-width: 360px) {
+	#allproductsnav a {
+		font-size: 1.2em !important;
+	}
+}
 #allproductsnav .imgnav01 { padding-top:4px;}
 #allproductsnav .imgnav02 { line-height:43px;}
 #allproductsnav .imgnav03 { padding-top:4px;}
