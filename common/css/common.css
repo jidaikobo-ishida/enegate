@@ -2035,7 +2035,7 @@ br.spno { display:inline-block; }
 @media screen and (max-width: 736px){
 #header { border-bottom:2px solid #2B7DBF;}
 #header .logo { width: auto; max-width: calc(100% - 60px); margin:30px 5px 20px;}
-#header .group { position:absolute; top:5px; right:5px; width:40%;}
+#header .group { position:absolute; top:5px; right:5px; width:40%; max-width: 218px;}
 #header .search { position: static; width:100%; padding:10px 15px; text-align:center; border-top:2px solid #2B7DBF; border-bottom:2px solid #2B7DBF;background:#001a7b;}
 #header .search .radiobox { float:none; margin-bottom:10px;}
 #header .search .searchbox{
