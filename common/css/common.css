@@ -2552,6 +2552,9 @@ body#list .twocontent .boxBtm {
     .boxType03c a {
         position: relative !important;
     }
+    .faql + .faqr {
+        border-top: 1px solid #CCC;
+    }
     .scrolltable::before,
     .scrolltable::after {
         content: '横スクロールできます。' !important;
