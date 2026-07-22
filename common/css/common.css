@@ -2543,13 +2543,8 @@ body#list .twocontent .boxBtm {
         box-sizing: border-box !important;
         -webkit-overflow-scrolling: touch;
     }
-    .scrolltable .itemspec {
-        min-width: 650px !important; /* 横潰れを防ぐため、最小幅をキープ */
-    }
     .scrolltable table {
-        width: fit-content !important;
-        min-width: 100% !important;
-        max-width: none !important;
+        min-width: 650px !important;
     }
     .scrolltable::before,
     .scrolltable::after {
