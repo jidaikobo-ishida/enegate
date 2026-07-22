@@ -2033,6 +2033,7 @@ br.spno { display:inline-block; }
 }
 
 @media screen and (max-width: 736px){
+img { max-width: 100%; height: auto; }
 #header { border-bottom:2px solid #2B7DBF;}
 #header .logo { width: auto; max-width: calc(100% - 60px); margin:30px 5px 20px;}
 #header .group { position:absolute; top:5px; right:15px; width:50%; max-width: 218px;}
