@@ -2471,15 +2471,7 @@ ul.click-hover_menu_ch .menuinfo {
 
 }
 
-@media only screen and (max-width:736px){
-table.graytb th,
-table.graytb td {
-	width: 100% !important;
-	display: block;
-	 box-sizing: border-box;
-}
 
-}
 
 /* --- 事業所一覧・地図ページ用の共通新デザインおよびレスポンシブ化 --- */
 body#list .twocontent .group .boxType02,
