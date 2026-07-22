@@ -2546,6 +2546,9 @@ body#list .twocontent .boxBtm {
     .scrolltable table {
         min-width: 650px !important;
     }
+    #history2 .scrolltable table {
+        min-width: 800px !important;
+    }
     .scrolltable::before,
     .scrolltable::after {
         content: '横スクロールできます。' !important;
