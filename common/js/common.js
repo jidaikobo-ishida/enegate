@@ -22,7 +22,6 @@ $win.on('load resize', function() {
   });
 }); 
 
-  /*
   $('a[href^=#]').click(function(){
     var speed = 500;
     var href= $(this).attr("href");
@@ -31,18 +30,17 @@ $win.on('load resize', function() {
     $("html, body").animate({scrollTop:position}, speed, "swing");
     return false;
   });
-  */
   
  $(function(){
 	$(".accordion li a").on("click", function() {
 		$(this).next().slideToggle();	
-		// active‚ª‘¶İ‚·‚éê‡
+		// activeãŒå­˜åœ¨ã™ã‚‹å ´åˆ
 		if ($(this).children(".accordion_icon").hasClass('active')) {			
-			// active‚ğíœ
+			// activeã‚’å‰Šé™¤
 			$(this).children(".accordion_icon").removeClass('active');				
 		}
 		else {
-			// active‚ğ’Ç‰Á
+			// activeã‚’è¿½åŠ 
 			$(this).children(".accordion_icon").addClass('active');			
 		}			
 	});
