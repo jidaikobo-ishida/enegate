@@ -2531,6 +2531,15 @@ body#list .twocontent .boxBtm {
         box-sizing: border-box !important;
     }
     
+    /* スマホ表示時のアイコン付き見出しの中央揃え */
+    #products .inner h2.icontitle,
+    #products .inner h2.icontltle,
+    .icontitle,
+    .icontltle {
+        display: flex !important;
+        align-items: center !important;
+    }
+    
     /* sdgs_index画像のスマホ表示時の縮小・中央寄せ調整 */
     #products img[src*="sdgs_"] {
         display: block !important;
