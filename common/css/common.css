@@ -620,6 +620,10 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 #contentbanner .mainbanner { width:100%;display: flex;flex-wrap: wrap;}
 #contentbanner .subbanner { width:100%;display: flex; justify-content: space-between; margin-top: 50px;}
 #contentbanner .mainbanner h3 {display: block; margin:2em 0 1em; padding-left:0.9em; font-size: 1.6em; font-weight:bold; line-height: 1.3; position: relative; z-index: 2;}
+#contentbanner .mainbanner.fyou > h3 span,
+#contentbanner .mainbanner h3 span {
+	display: inline-block;
+}
 #contentbanner .mainbanner h3::after {
   content: "";
 	position: absolute;
