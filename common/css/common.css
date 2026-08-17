@@ -2236,7 +2236,7 @@ img { max-width: 100%; height: auto; }
 }
 
 @media screen and (max-width: 736px){
-	.inner { width:100%; overflow: auto;}
+	.inner { width:100%;}
 	.section { width:98%; margin:0 auto; padding:15px 0 40px;}
 	.twocontent { width:98%; margin:0 auto; float:none;}
 	.titleimg { margin-bottom:20px;}
