@@ -34,13 +34,13 @@ $win.on('load resize', function() {
  $(function(){
 	$(".accordion li a").on("click", function() {
 		$(this).next().slideToggle();	
-		// activeãŒå­˜åœ¨ã™ã‚‹å ´åˆ
+		// active‚ª‘¶İ‚·‚éê‡
 		if ($(this).children(".accordion_icon").hasClass('active')) {			
-			// activeã‚’å‰Šé™¤
+			// active‚ğíœ
 			$(this).children(".accordion_icon").removeClass('active');				
 		}
 		else {
-			// activeã‚’è¿½åŠ 
+			// active‚ğ’Ç‰Á
 			$(this).children(".accordion_icon").addClass('active');			
 		}			
 	});
