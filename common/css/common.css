@@ -2345,6 +2345,7 @@ ul.click-hover_menu_ch .menuinfo {
 #fnav { min-width: auto; max-width: 100%; padding: 30px 15px; box-sizing: border-box; }
 #fnav .inner { display: flex; flex-wrap: wrap; gap: 1rem; }
 #fnav .fsbx, #fnav .scbx, #fnav .thbox, #fnav .fubox, #fnav .lflt { width: 175px; float: none; }
+#fnav .inner>a{position:absolute;}
 #fnav dl, #fnav dt, #fnav dd { float: none; width: auto; clear: both; }
 
 }
@@ -3007,6 +3008,9 @@ body#list .twocontent .boxBtm {
     #fnav .fsbx, #fnav .scbx, #fnav .thbox, #fnav .fubox, #fnav .lflt {
         width: 47% !important;
         float: none !important;
+    }
+    #fnav .inner>a {
+        position: absolute !important;
     }
     #fnav dl, #fnav dt, #fnav dd {
         float: none !important;
