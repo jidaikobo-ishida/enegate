@@ -2200,5 +2200,9 @@ table.graytb td {
 	display: block;
 	 box-sizing: border-box;
 }
+table.graytb td img {
+	max-width: 100%;
+	height: auto;
+}
 
 }
