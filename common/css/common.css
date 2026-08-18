@@ -3209,6 +3209,7 @@ body#list .twocontent .boxBtm {
     }
     .casetitle {
         margin-bottom: 10px !important;
+        margin-left: 0 !important;
     }
     /* スマホ時の青帯付き見出し(.bltitle h2)のフォントサイズ調整 */
     .bltitle h2 {
