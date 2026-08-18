@@ -2373,6 +2373,8 @@ ul.click-hover_menu_ch .menuinfo {
 	#itemcontact { text-align:left;}
 	#itemcontact .mail { display: block; padding:0 0 0 50px; line-height:20px;}
 	#itemcontact .mail A { color:#333;}
+	#itemcontact .mail font,
+	.itemcontact a.mail font { display: none !important;}
 	#itemcontact .tel { display: block; margin-top:10px; padding:10px 0; font-size:1.4em; line-height:1.0; color:#0020BD; border-left:none; border-top:1px solid #CCC; vertical-align:top;}
 	#iteminfo .scrolltb::-webkit-scrollbar { height: 10px;}
 	#iteminfo .scrolltb::-webkit-scrollbar-thumb{ background: #999; border-radius: 5px;}
