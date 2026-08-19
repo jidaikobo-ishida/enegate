@@ -2910,6 +2910,10 @@ body#list .twocontent .boxBtm {
     #event {
         padding: 40px 15px 60px !important;
     }
+    #event.banner_col2 li {
+        width: 100% !important;
+        margin: 0 0 10px !important;
+    }
     #index #contentbanner.section {
         width: 100% !important;
         padding: 15px !important;
