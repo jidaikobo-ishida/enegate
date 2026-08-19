@@ -2206,3 +2206,61 @@ table.graytb td img {
 }
 
 }
+
+
+/* --- 採用ページ（スマホ表示時）のフッターメニュー（#fnav）表示化・レイアウト調整 --- */
+@media screen and (max-width: 736px) {
+    #careers01 #fnav,
+    #recruit #fnav,
+    #fnav {
+        display: block !important;
+        min-width: auto !important;
+        max-width: 100% !important;
+        padding: 30px 15px !important;
+        box-sizing: border-box !important;
+        background: #001a7b !important;
+    }
+    #fnav .inner {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 1rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+    #fnav .fsbx,
+    #fnav .scbx,
+    #fnav .thbox,
+    #fnav .fubox,
+    #fnav .lflt {
+        width: 47% !important;
+        float: none !important;
+    }
+    #fnav .inner > a {
+        position: absolute !important;
+    }
+    #fnav dl,
+    #fnav dt,
+    #fnav dd {
+        float: none !important;
+        width: auto !important;
+        clear: both !important;
+    }
+    #fnav dt {
+        margin-bottom: 10px !important;
+        font-size: 1.5em !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        line-height: 1.5 !important;
+    }
+    #fnav dd {
+        margin-bottom: 10px !important;
+        font-size: 1.2em !important;
+        color: #fff !important;
+        line-height: 1.0 !important;
+    }
+    #fnav dt a,
+    #fnav dd a {
+        color: #fff !important;
+    }
+}
