@@ -2999,14 +2999,25 @@ body#list .twocontent .boxBtm {
         height: 100px !important;
         background-size: contain !important;
     }
-    #news .enebo {
-        float: right !important;
-        margin: -2rem 0 1rem !important;
-        width: 100px !important;
-    }
     #news .lflt {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 1rem !important;
         width: 100% !important;
         float: none !important;
+    }
+    #news .lflt h2 {
+        width: calc(100% - 1rem - 110px) !important;
+        font-size: min(8vw, 3rem) !important;
+        margin-bottom: 0 !important;
+    }
+    #news .enebo {
+        float: none !important;
+        margin: 0 !important;
+        width: 100px !important;
+        max-width: 100px !important;
+        flex-shrink: 0 !important;
     }
     #news > .inner {
         overflow: visible !important;
