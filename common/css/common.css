@@ -2344,6 +2344,13 @@ ul.click-hover_menu_ch .menuinfo {
 #footer address { width:100%; text-align:center; float:none;}
 #footer .links { width:100%; text-align:center; float:none;}
 #footer .links img { margin:6px 0 5px 0;}
+.links a,
+#footer .links a {
+    display: block !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    margin: 0.5rem auto !important;
+}
 #footer .pagetop { position:absolute; top:-35px; right:0; height:35px;}
 #fnav { min-width: auto; max-width: 100%; padding: 30px 15px; box-sizing: border-box; }
 #fnav .inner { display: flex; flex-wrap: wrap; gap: 1rem; }

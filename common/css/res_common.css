@@ -968,6 +968,13 @@ filter: alpha(opacity=60);
 #footer address { width:100%; text-align:center; float:none;}
 #footer .links { width:100%; text-align:center; float:none;}
 #footer .links img { margin:6px 0 5px 0;}
+.links a,
+#footer .links a {
+    display: block !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    margin: 0.5rem auto !important;
+}
 #footer .pagetop { position:absolute; top:-35px; right:0; height:35px;}
 }
 
