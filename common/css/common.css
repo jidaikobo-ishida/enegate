@@ -3006,6 +3006,8 @@ body#list .twocontent .boxBtm {
         gap: 1rem !important;
         width: 100% !important;
         float: none !important;
+        position: relative !important;
+        z-index: 1 !important;
     }
     #news .lflt h2 {
         width: calc(100% - 1rem - 110px) !important;
