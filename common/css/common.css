@@ -3156,7 +3156,7 @@ body#list .twocontent .boxBtm {
 
 
     
-    table.graytb img[src*="spacer.gif"] {
+    img[src*="spacer.gif"] {
         visibility: hidden !important;
     }
     /* スマホ時のSDGs見出し差し替え */
