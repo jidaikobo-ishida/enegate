@@ -3009,7 +3009,7 @@ body#list .twocontent .boxBtm {
     }
     #news .lflt h2 {
         width: 100% !important;
-        font-size: min(7.8vw, 3em) !important;
+        font-size: min(8vw, 3em) !important;
         margin-bottom: 0 !important;
         position: relative !important;
         z-index: 1 !important;
