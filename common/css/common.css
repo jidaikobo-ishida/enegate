@@ -1117,7 +1117,7 @@ transform: rotate(45deg);
 #jirei .voicebox .nametxt { font-size:1.3em; text-align:right; margin-right:10px;}
 #jirei .about { padding:35px 0 50px; border-top:1px solid #CCC;}
 #jirei .about img { margin:0 0 0 50px; float:right;}
-#jirei .about .addtxt { width:600px; padding:10px; background:#F1F1F1;}
+#jirei .about .addtxt { width:600px; padding:10px; background:#F1F1F1; clear:both;}
 #jirei .about .addtxt P { margin-bottom:0;}
 *::-ms-backdrop, _:-ms-lang(x), #jirei .outline h2 { padding:10px 15px 9px;}
 *::-ms-backdrop, _:-ms-lang(x), #jirei .outline h3 { padding:10px 15px 7px;}
