@@ -117,3 +117,15 @@
 	font-weight: bold;
 	color: #333;
 }
+
+#sdgs .allitem_sp {
+	margin: 0 auto 30px;
+	text-align: center;
+}
+#sdgs .allitem_sp img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
