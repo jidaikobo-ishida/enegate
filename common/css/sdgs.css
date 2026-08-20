@@ -92,12 +92,23 @@
 
 /* --- SDGs下部メッセージボックス（スマホ表示用） --- */
 .sdgs_bottom_msg {
-	margin: 20px auto 30px;
+	margin: 50px auto 30px;
 	padding: 20px 15px;
 	background: #e8f3fb;
 	text-align: center;
 	border-radius: 6px;
 	box-sizing: border-box;
+	position: relative;
+}
+.sdgs_bottom_msg::before {
+	content: "";
+	position: absolute;
+	top: -38px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60px;
+	height: 30px;
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30"><path d="M18 1 H42 V13 H58 L30 29 L2 13 H18 Z" fill="%23f6c852" stroke="%23706E6B" stroke-width="1.5" stroke-linejoin="round"/></svg>') no-repeat center / contain;
 }
 .sdgs_bottom_msg p {
 	margin: 0;
