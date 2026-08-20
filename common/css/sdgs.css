@@ -88,4 +88,4 @@
 #sdgs .img p,
 #sdgs .imglg p{ margin: 0.3em; font-size: 1.1em; line-height:1.5; text-align: center;}
 #sdgs .img img,
-#sdgs .imglg img{ width: 100%;}
+#sdgs .imglg img{ width: 100%; display: block; margin: 0 auto;}
