@@ -3157,7 +3157,7 @@ body#list .twocontent .boxBtm {
         gap: 15px !important;
     }
     #sdgs .iconlist li {
-        flex-basis: calc((100% - 45px) / 4) !important;
+        flex-basis: calc((100% - 60px) / 5) !important;
         margin: 0 !important;
         float: none !important;
     }
