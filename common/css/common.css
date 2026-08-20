@@ -874,7 +874,14 @@ filter: alpha(opacity=60);
 #footer .blline ul li { display:inline; margin-right:15px;}
 #footer .blline ul li a {color: #000;}
 #footer address { margin-top:10px; padding-bottom:13px; float:left;}
-#footer .links { text-align:right; float:right;}
+#footer .links {
+	text-align: right;
+	float: right;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	justify-content: flex-end;
+}
 #footer .links img { margin:6px 0 10px 0;}
 #footer .links img[src*="logo_kansaidenryoku_lines"] { height: 30px; width: auto; vertical-align: middle;}
 .earthquake {
@@ -2342,15 +2349,16 @@ ul.click-hover_menu_ch .menuinfo {
 #footer .blline ul li { display:inline-block; color:#FFF; padding:10px 0;}
 #footer .blline ul li A { color:#000;}
 #footer address { width:100%; text-align:center; float:none;}
-#footer .links { width:100%; text-align:center; float:none;}
-#footer .links img { margin:6px 0 5px 0;}
-.links a,
-#footer .links a {
-    display: block !important;
-    width: -moz-fit-content !important;
-    width: fit-content !important;
-    margin: 0.5rem auto !important;
+#footer .links {
+	width: 100% !important;
+	float: none !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	flex-direction: column !important;
+	gap: 0.5rem !important;
 }
+#footer .links img { margin: 0 !important;}
 #footer .pagetop { position:absolute; top:-35px; right:0; height:35px;}
 #fnav { min-width: auto; max-width: 100%; padding: 30px 15px; box-sizing: border-box; }
 #fnav .inner { display: flex; flex-wrap: wrap; gap: 1rem; }
