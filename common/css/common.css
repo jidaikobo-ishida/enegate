@@ -3138,18 +3138,6 @@ body#list .twocontent .boxBtm {
         width: 100% !important;
     }
     
-    /* スマホ時の.imglg内の横並び調整 */
-    .imglg br {
-        display: none !important;
-    }
-    .imglg {
-        display: flex !important;
-        align-items: flex-start !important;
-        flex-wrap: nowrap !important;
-    }
-    .imglg a {
-        flex: 1 !important;
-    }
     /* SDGsアイコンリストのグリッド表示 (gap & flex-basis レイアウト) */
     #sdgs .iconlist {
         display: flex !important;
