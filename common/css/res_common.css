@@ -2205,6 +2205,9 @@ table.graytb td img {
 	max-width: 100%;
 	height: auto;
 }
+table.graytb th img {
+	visibility: hidden !important;
+}
 
 }
 

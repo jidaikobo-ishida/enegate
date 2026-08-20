@@ -3156,6 +3156,9 @@ body#list .twocontent .boxBtm {
 
 
     
+    table.graytb th img {
+        visibility: hidden !important;
+    }
     /* スマホ時のSDGs見出し差し替え */
     #sdgs .allitem h2,
     #sdgs .allitem h3 {
