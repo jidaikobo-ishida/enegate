@@ -762,7 +762,8 @@ ul.click-hover_menu_ch .menuinfo {
 #productsnav .letsp {letter-spacing:-1px;}
 
 
-#allproductsnav { height:50px; background:#538FD4; position:relative; overflow:hidden;}
+#allproductsnav { margin-bottom:35px; height:50px; background:#538FD4; position:relative; overflow:hidden;}
+#index #allproductsnav { margin-bottom: 0; }
 #allproductsnav .prosnavwrap { width:950px; margin:0 auto; background:#FFF url(../img/pnav_back.png) repeat-y top right;}
 #allproductsnav A { 
 	display:block;
