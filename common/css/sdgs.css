@@ -75,11 +75,11 @@
 	width: 73%;
 	float: left;
 	clear: both;
-	padding-bottom: 3em;
 }
 #sdgs .imglg {
 	width: 22%;
 	float: right;
+	padding-bottom: 3rem;
 }
 #sdgs .img p,
 #sdgs .imglg p{ margin: 0.3em; font-size: 1.1em; line-height:1.5; text-align: center;}
