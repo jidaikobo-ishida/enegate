@@ -74,6 +74,8 @@
 #sdgs .txtlg {
 	width: 73%;
 	float: left;
+	clear: both;
+	padding-bottom: 3em;
 }
 #sdgs .imglg {
 	width: 22%;
