@@ -12,12 +12,13 @@
 #sdgs .iconlist {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.5rem;
+	gap: 1rem;
 	margin: 0 auto 25px;
 }
 #sdgs .iconlist li {
 	flex-basis: 130px;
 	text-align: center;
+	margin: 0;
 }
 #sdgs .iconlist2 {
 	width: 100%;
