@@ -914,7 +914,7 @@ filter: alpha(opacity=60);
 
 
 /*Products*/
-#products .productstop { margin:35px auto 20px !important;}
+#products .productstop { margin:0 auto 20px !important;}
 #products .catalllink { padding:35px 0; position:relative;}
 #products .catalllink img { float:left;}
 #products .cat-listlink li A{
