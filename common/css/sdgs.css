@@ -88,3 +88,21 @@
 #sdgs .imglg p{ margin: 0.3em; font-size: 1.1em; line-height:1.5; text-align: center;}
 #sdgs .img img,
 #sdgs .imglg img{ width: 100%; display: block; margin: 0 auto;}
+
+
+/* --- SDGs下部メッセージボックス（スマホ表示用） --- */
+.sdgs_bottom_msg {
+	margin: 20px auto 30px;
+	padding: 20px 15px;
+	background: #e8f3fb;
+	text-align: center;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+.sdgs_bottom_msg p {
+	margin: 0;
+	font-size: 1.4em;
+	line-height: 1.6;
+	font-weight: bold;
+	color: #333;
+}
