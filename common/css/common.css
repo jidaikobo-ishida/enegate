@@ -2941,6 +2941,7 @@ body#list .twocontent .boxBtm {
     #news .enebo {
         float: right !important;
         margin: -2rem 0 1rem !important;
+        width: 100px !important;
     }
     #news .lflt {
         width: 100% !important;
