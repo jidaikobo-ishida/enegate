@@ -3009,7 +3009,7 @@ body#list .twocontent .boxBtm {
     }
     #news .lflt h2 {
         width: calc(100% - 1rem - 110px) !important;
-        font-size: min(7.8vw, 3rem) !important;
+        font-size: min(7.8vw, 3em) !important;
         margin-bottom: 0 !important;
     }
     #news .enebo {
