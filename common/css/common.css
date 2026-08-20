@@ -3178,23 +3178,6 @@ body#list .twocontent .boxBtm {
     img[src*="spacer.gif"] {
         visibility: hidden !important;
     }
-    /* スマホ時のSDGs見出し差し替え */
-    #sdgs .allitem h2,
-    #sdgs .allitem h3 {
-        display: none !important;
-    }
-    #sdgs .allitem::before {
-        content: "持続可能な開発目標（SDGs）への取り組み" !important;
-        display: block !important;
-        font-size: 1.4em !important;
-        font-weight: bold !important;
-        color: #000 !important;
-        margin: 15px 0 !important;
-    }
-    #sdgs .allitem {
-        background-image: none !important;
-        margin-bottom: 20px !important;
-    }
     /* 画面幅736px以下におけるPC用固定幅要素(734px以上)の自動幅化・つっかえ棒解除 */
     .inner,
     .inner900,
