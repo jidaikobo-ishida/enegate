@@ -3168,6 +3168,9 @@ body#list .twocontent .boxBtm {
         margin: 0 !important;
         float: none !important;
     }
+    #sdgs .iconlist2 li img {
+        width: 100px !important;
+    }
     
 
 
