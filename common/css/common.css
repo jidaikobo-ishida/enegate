@@ -2911,10 +2911,12 @@ body#list .twocontent .boxBtm {
     #event {
         padding: 40px 15px 60px !important;
     }
-    #event.banner_col2 ul {
+    #event.banner_col2 ul,
+    #event.banner_col3 ul {
         flex-wrap: wrap !important;
     }
-    #event.banner_col2 li {
+    #event.banner_col2 li,
+    #event.banner_col3 li {
         width: 100% !important;
         margin: 0 0 10px !important;
     }
