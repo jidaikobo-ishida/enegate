@@ -3006,13 +3006,13 @@ body#list .twocontent .boxBtm {
         gap: 1rem !important;
         width: 100% !important;
         float: none !important;
-        position: relative !important;
-        z-index: 1 !important;
     }
     #news .lflt h2 {
         width: calc(100% - 1rem - 110px) !important;
         font-size: min(7.8vw, 3em) !important;
         margin-bottom: 0 !important;
+        position: relative !important;
+        z-index: 1 !important;
     }
     #news .enebo {
         float: none !important;
