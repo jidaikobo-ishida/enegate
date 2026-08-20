@@ -3013,6 +3013,8 @@ body#list .twocontent .boxBtm {
         margin-bottom: 0 !important;
         position: relative !important;
         z-index: 1 !important;
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
     }
     #news .enebo {
         float: none !important;
