@@ -3137,6 +3137,9 @@ body#list .twocontent .boxBtm {
     #sdgs .imglg {
         width: 100% !important;
     }
+    #sdgs .txtlg p {
+        text-align: center !important;
+    }
     
     /* SDGsアイコンリストのグリッド表示 (gap & flex-basis レイアウト) */
     #sdgs .iconlist {

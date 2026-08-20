@@ -76,6 +76,10 @@
 	float: left;
 	clear: both;
 }
+#sdgs .txtlg p {
+	font-size: 14px;
+	margin: -2rem auto 3rem;
+}
 #sdgs .imglg {
 	width: 22%;
 	float: right;
