@@ -3018,7 +3018,8 @@ body#list .twocontent .boxBtm {
     }
     #news .enebo {
         float: none !important;
-        margin: 0 !important;
+        margin: 0 0 1rem !important;
+        margin-bottom: 1rem !important;
         width: 100px !important;
         max-width: 100px !important;
         flex-shrink: 0 !important;
