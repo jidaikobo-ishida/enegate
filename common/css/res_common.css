@@ -922,10 +922,10 @@ filter: alpha(opacity=60);
 #fnav .thbox { width:125px; float:left;}
 #fnav .fubox { width:235px; float:left;}
 
-#fnav dt{ margin-bottom:10px; font-size:1.5em; font-weight:bold; color:#000;line-height:1.5;}
-#fnav dd{ margin-bottom:10px; font-size:1.2em; color:#000;line-height:1.0;}
+#fnav dt{ margin-bottom:10px; font-size:1.5em; font-weight:bold; color:#fff;line-height:1.5;}
+#fnav dd{ margin-bottom:10px; font-size:1.2em; color:#fff;line-height:1.0;}
 #fnav dt A,
-#fnav dd A { color:#000;}
+#fnav dd A { color:#fff;}
 #fnav dt A:hover,
 #fnav dd A:hover  { 
 opacity:0.6;
@@ -936,8 +936,7 @@ filter: alpha(opacity=60);
 #fnav dd.left {width:100px; float:left;clear:left;}
 #fnav dd.clend { margin-bottom:15px;}
 
-#careers01 #fnav,
-#recruit #fnav { display:none;}
+
 
 #footer { width:100%; position:relative;}
 #footer .fwrap { width:950px; margin:0 auto;}
