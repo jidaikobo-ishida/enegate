@@ -878,12 +878,12 @@ filter: alpha(opacity=60);
 	float: right;
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 1rem;
 	justify-content: flex-end;
 }
 #footer .links img { margin:6px 0 10px 0;}
 #footer .links img[src*="logo_kansaidenryoku_lines"] { height: 30px; width: auto; vertical-align: middle;}
-#footer .links img[src*="logo_osaki"] { height: 15px; width: auto; vertical-align: middle;}
+#footer .links img[src*="logo_osaki"] { height: 15px; width: auto; vertical-align: middle; margin-right: 0.5rem;}
 .earthquake {
 	font-family: "¼­¼³ ¼°æ˜æœ", "MS PMincho", "ãƒ’ãƒ©ã‚®ãƒææœ Pro W3", "Hiragino Mincho Pro", serif;
 	font-size: 13px;
