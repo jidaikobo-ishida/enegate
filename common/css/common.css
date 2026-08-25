@@ -2360,7 +2360,6 @@ ul.click-hover_menu_ch .menuinfo {
 	gap: 1rem !important;
 }
 #footer .links img { margin: 0 !important;}
-#footer .links img[src*="logo_osaki"] { margin-right: 0 !important;}
 #footer .pagetop { position:absolute; top:-35px; right:0; height:35px;}
 #fnav { min-width: auto; max-width: 100%; padding: 30px 15px; box-sizing: border-box; }
 #fnav .inner { display: flex; flex-wrap: wrap; gap: 1rem; }
