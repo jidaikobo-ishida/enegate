@@ -955,7 +955,7 @@ filter: alpha(opacity=60);
 }
 #footer .links img { margin:6px 0 10px 0;}
 #footer .links img[src*="logo_kansaidenryoku_lines"] { height: 30px; width: auto; vertical-align: middle;}
-#footer .links img[src*="logo_osaki"] { height: 15px; width: auto; vertical-align: middle; margin-right: 0.5rem;}
+#footer .links img[src*="logo_osaki"] { height: 15px; width: auto; vertical-align: middle;}
 .earthquake {
 	font-family: "‚l‚r ‚o–¾’©", "MS PMincho", "ƒqƒ‰ƒMƒm–¾’© Pro W3", "Hiragino Mincho Pro", serif;
 	font-size: 13px;
