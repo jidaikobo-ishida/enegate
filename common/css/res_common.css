@@ -2098,7 +2098,8 @@ border-right: solid 2px #FFF;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;}
 #careers01 .voicefaq dd { margin:10px 0 25px; font-size:1.4em;}
-#careers01 .jisseki li { display:inline-block; width:33%; font-size:1.4em; line-height:1.8;}
+#careers01 .jisseki { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem 1rem; margin-bottom: 25px; }
+#careers01 .jisseki li { display: block; width: auto; font-size: 1.4em; line-height: 1.8; }
 #careers01 .jisseki span { color:#2B7DC0; margin-right:5px;}
 #careers01 .graytb th { width:120px;}
 #careers02 .graytb th { width:120px;}
@@ -2117,8 +2118,8 @@ border-right: solid 2px #FFF;
 #careers01 .voicebox img { margin:15px auto; float:none;}
 #careers01 .voicebox h3 { padding:10px; text-align:left;}
 #careers01 .voicebox P {  padding:10px; text-align:left;}
-#careers01 .jisseki li { width:60%;}
-#careers01 .jisseki li:nth-child(2n){ width:38%;}
+#careers01 .jisseki { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; gap: 0.5rem 0.5rem !important; }
+#careers01 .jisseki li { width: auto !important; }
 #careers01 .careersmainnav { padding:0 0 20px 0;}
 #careers01 .careersmainnav li A {
 	margin:10px 0;
