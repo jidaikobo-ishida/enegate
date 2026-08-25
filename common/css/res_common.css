@@ -980,9 +980,10 @@ filter: alpha(opacity=60);
 	align-items: center !important;
 	justify-content: center !important;
 	flex-direction: column !important;
-	gap: 0.5rem !important;
+	gap: 1rem !important;
 }
 #footer .links img { margin: 0 !important;}
+#footer .links img[src*="logo_osaki"] { margin-right: 0 !important;}
 #footer .pagetop { position:absolute; top:-35px; right:0; height:35px;}
 }
 
