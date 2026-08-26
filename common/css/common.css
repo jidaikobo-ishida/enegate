@@ -2356,7 +2356,7 @@ ul.click-hover_menu_ch .menuinfo {
 	display: flex !important;
 	align-items: center !important;
 	justify-content: center !important;
-	flex-direction: column !important;
+	flex-direction: row !important;
 	gap: 1rem !important;
 }
 #footer .links img { margin: 0 !important;}
