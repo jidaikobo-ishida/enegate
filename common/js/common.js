@@ -32,27 +32,36 @@ $win.on('load resize', function() {
   });
   
  $(function(){
-	// 左メニューのサブメニュー持ち親項目(dpmenu)のスマホタップ開閉（ページ遷移キャンセル）
+	// 1. 左メニュー親タイトル（採用情報、会社情報などの大枠アコーディオン）
+	$('.leftsubnav .navtitle a.toggle, .leftsubnav .navtitle .nvliti').on('click', function(e) {
+		var $navtitle = $(this).closest('.navtitle');
+		var $leftmenu = $navtitle.find('ul.leftmenu');
+		if ($leftmenu.length) {
+			e.preventDefault();
+			$leftmenu.stop(true, true).slideToggle();
+			$navtitle.find('.accordion_icon').toggleClass('active');
+		}
+	});
+
+	// 2. 左メニュー内のサブメニュー項目(新卒採用、経験者採用などの子アコーディオン)
 	$('.leftmenu a.dpmenu, .leftmenu li:has(ul) > a').on('click', function(e) {
 		if (window.innerWidth <= 736) {
 			var $sub = $(this).next('ul');
 			if ($sub.length) {
 				e.preventDefault();
-				$sub.slideToggle();
+				$sub.stop(true, true).slideToggle();
 				$(this).toggleClass('active');
 			}
 		}
 	});
 
-	// アコーディオンアイコンを持つ項目の開閉制御
-	$(".accordion li a.toggle, #globalnav .accordion li a").on("click", function(e) {
-		$(this).next().slideToggle();	
-		if ($(this).children(".accordion_icon").hasClass('active')) {			
-			$(this).children(".accordion_icon").removeClass('active');				
+	// 3. グローバルナビのアコーディオン開閉制御
+	$("#globalnav .accordion li a").on("click", function(e) {
+		var $sub = $(this).next('ul');
+		if ($sub.length) {
+			$sub.slideToggle();	
+			$(this).children(".accordion_icon").toggleClass('active');
 		}
-		else {
-			$(this).children(".accordion_icon").addClass('active');			
-		}			
 	});
 });
   
