@@ -13,7 +13,20 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-NZ276ZFV');</script>
 	<!-- End Google Tag Manager -->
 	<meta charset="Shift_JIS">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		(function () {
+			var vp = document.getElementById('viewport');
+			function switchViewport() {
+				var val = window.innerWidth > 736 ? 'width=970' : 'width=device-width, initial-scale=1.0';
+				if (vp.getAttribute('content') !== val) {
+					vp.setAttribute('content', val);
+				}
+			}
+			switchViewport();
+			window.addEventListener('resize', switchViewport, false);
+		})();
+	</script>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>株式会社エネゲート</title>
 	<meta name="description" content="電気のエネルギーのベストマネジメントと最適ソリューションで、21世紀のエネルギー社会のゲートウェイを拓くエネゲートのホームページです。">
