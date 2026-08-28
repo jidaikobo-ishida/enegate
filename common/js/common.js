@@ -32,15 +32,25 @@ $win.on('load resize', function() {
   });
   
  $(function(){
-	$(".accordion li a").on("click", function() {
+	// 左メニューのサブメニュー持ち親項目(dpmenu)のスマホタップ開閉（ページ遷移キャンセル）
+	$('.leftmenu a.dpmenu, .leftmenu li:has(ul) > a').on('click', function(e) {
+		if (window.innerWidth <= 736) {
+			var $sub = $(this).next('ul');
+			if ($sub.length) {
+				e.preventDefault();
+				$sub.slideToggle();
+				$(this).toggleClass('active');
+			}
+		}
+	});
+
+	// アコーディオンアイコンを持つ項目の開閉制御
+	$(".accordion li a.toggle, #globalnav .accordion li a").on("click", function(e) {
 		$(this).next().slideToggle();	
-		// activeが存在する場合
 		if ($(this).children(".accordion_icon").hasClass('active')) {			
-			// activeを削除
 			$(this).children(".accordion_icon").removeClass('active');				
 		}
 		else {
-			// activeを追加
 			$(this).children(".accordion_icon").addClass('active');			
 		}			
 	});

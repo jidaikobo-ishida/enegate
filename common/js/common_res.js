@@ -42,15 +42,25 @@ $win.on('load resize', function() {
   });
   
  $(function(){
-	$(".accordion li a").on("click", function() {
+	// ¶ƒƒjƒ…[‚ÌƒTƒuƒƒjƒ…[Ž‚¿e€–Ú(dpmenu)‚ÌƒXƒ}ƒzƒ^ƒbƒvŠJ•Âiƒy[ƒW‘JˆÚƒLƒƒƒ“ƒZƒ‹j
+	$('.leftmenu a.dpmenu, .leftmenu li:has(ul) > a').on('click', function(e) {
+		if (window.innerWidth <= 736) {
+			var $sub = $(this).next('ul');
+			if ($sub.length) {
+				e.preventDefault();
+				$sub.slideToggle();
+				$(this).toggleClass('active');
+			}
+		}
+	});
+
+	// ƒAƒR[ƒfƒBƒIƒ“ƒAƒCƒRƒ“‚ðŽ‚Â€–Ú‚ÌŠJ•Â§Œä
+	$(".accordion li a.toggle, #globalnav .accordion li a").on("click", function(e) {
 		$(this).next().slideToggle();	
-		// activeãŒå­˜åœ¨ã™ã‚‹å ´åˆ
 		if ($(this).children(".accordion_icon").hasClass('active')) {			
-			// activeã‚’å‰Šé™¤
 			$(this).children(".accordion_icon").removeClass('active');				
 		}
 		else {
-			// activeã‚’è¿½åŠ 
 			$(this).children(".accordion_icon").addClass('active');			
 		}			
 	});
