@@ -33,11 +33,12 @@ $win.on('load resize', function() {
   
  $(function(){
 	// 1. 左メニュー親タイトル（採用情報、会社情報などの大枠アコーディオン）
-	$('.leftsubnav .navtitle a.toggle, .leftsubnav .navtitle .nvliti').on('click', function(e) {
+	$('.leftsubnav .navtitle .nvliti').on('click', function(e) {
+		e.preventDefault();
+		e.stopPropagation();
 		var $navtitle = $(this).closest('.navtitle');
 		var $leftmenu = $navtitle.find('ul.leftmenu');
 		if ($leftmenu.length) {
-			e.preventDefault();
 			$leftmenu.stop(true, true).slideToggle();
 			$navtitle.find('.accordion_icon').toggleClass('active');
 		}
@@ -49,6 +50,7 @@ $win.on('load resize', function() {
 			var $sub = $(this).next('ul');
 			if ($sub.length) {
 				e.preventDefault();
+				e.stopPropagation();
 				$sub.stop(true, true).slideToggle();
 				$(this).toggleClass('active');
 			}
