@@ -657,7 +657,6 @@ ul.click-hover_menu_ch .nvliti { display:block; cursor:pointer;}
 ul.click-hover_menu_ch ul { display: none; }
 ul.click-hover_menu_ch input:checked ~ ul,
 
-ul.click-hover_menu_ch ul li:hover > ul { display: block; }
 ul.click-hover_menu_ch .menuinfo { 
 	position:absolute; 
 	top:4px;
