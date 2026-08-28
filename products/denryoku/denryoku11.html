@@ -9,7 +9,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
 <!-- End Google Tag Manager -->
 <meta charset="Shift_JIS">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		(function () {
+			var meta = document.getElementById('viewport');
+			function switchViewport() {
+				var isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+				var currentWidth;
+				if (isTouch && screen && screen.width) {
+					var isLandscape = window.innerWidth > window.innerHeight;
+					currentWidth = isLandscape ? Math.max(screen.width, screen.height) : Math.min(screen.width, screen.height);
+				} else {
+					currentWidth = window.innerWidth;
+				}
+				var target = (currentWidth > 736) ? 'width=970' : 'width=device-width, initial-scale=1.0';
+				if (meta.getAttribute('content') !== target) {
+					meta.setAttribute('content', target);
+				}
+			}
+			switchViewport();
+			window.addEventListener('resize', switchViewport, false);
+			window.addEventListener('orientationchange', function () {
+				setTimeout(switchViewport, 100);
+			}, false);
+		})();
+	</script>
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <title>6ｋＶモールド計器用変圧変流器｜電力関連製品 ｜株式会社エネゲート</title>
 <meta name="description" content="電力需給用の計器用変圧変流器">
