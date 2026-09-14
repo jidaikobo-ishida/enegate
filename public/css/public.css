@@ -9,7 +9,7 @@
 	width: 100%;
 	position: relative;
 	box-sizing: border-box;
-	padding: 60px 0 80px;
+	padding: 0;
 }
 
 /* --- セクションごとのフルワイド背景色 --- */
@@ -334,7 +334,7 @@
    ========================================================================== */
 @media screen and (max-width: 736px) {
 	.public_section {
-		padding: 30px 0 40px;
+		padding: 0;
 	}
 
 	.page_public {
