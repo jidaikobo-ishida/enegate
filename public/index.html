@@ -56,12 +56,11 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 	<!-- フルワイドメインビジュアル画像（後日設置） -->
 </div>
 
-<div class="inner clearfix page_public" id="allitem">
-
-	<!-- ==========================================
-	     セクション1: CM「計器屋さん」篇 STORY
-	     ========================================== -->
-	<section class="section_block public_cm_story">
+<!-- ==========================================
+     セクション1: CM「計器屋さん」篇 STORY
+     ========================================== -->
+<section id="sec_story" class="public_section">
+	<div class="page_public">
 		<div class="story_head">
 			<div>
 				<h2 class="sec_title_ja">CM「計器屋さん」篇</h2>
@@ -102,12 +101,14 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<!-- ==========================================
-	     セクション2: PROFILE
-	     ========================================== -->
-	<section class="section_block">
+<!-- ==========================================
+     セクション2: PROFILE
+     ========================================== -->
+<section id="sec_profile" class="public_section">
+	<div class="page_public">
 		<h2 class="sec_title_en">PROFILE</h2>
 		<div class="public_profile">
 			<div class="public_profile_photo">
@@ -123,12 +124,14 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 				</p>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<!-- ==========================================
-	     セクション3: What is ENEGATE ?
-	     ========================================== -->
-	<section class="section_block public_about">
+<!-- ==========================================
+     セクション3: What is ENEGATE ?
+     ========================================== -->
+<section id="sec_about" class="public_section">
+	<div class="page_public">
 		<h2 class="sec_title_en">What is ENEGATE ?</h2>
 
 		<h3 class="catch_copy">
@@ -239,12 +242,14 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 				<a href="/products/index.html">製品・サービス一覧はこちら &gt;</a>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<!-- ==========================================
-	     セクション4: 取替実績
-	     ========================================== -->
-	<section class="section_block public_achievement">
+<!-- ==========================================
+     セクション4: 取替実績
+     ========================================== -->
+<section id="sec_achieve" class="public_section">
+	<div class="page_public">
 		<h2 class="achieve_copy">
 			電気メーターの取替実績は年間 100 万個以上！<br>
 			つくるだけじゃない、取り替えるのも得意です。
@@ -263,9 +268,8 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 			<div><a href="/products/kouji/kouji02.html">詳しくはこちら &gt;</a></div>
 			<div><a href="/contact/index.php">電気メーター取替に関するお問い合わせはこちら &gt;</a></div>
 		</div>
-	</section>
-
-</div>
+	</div>
+</section>
 
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
