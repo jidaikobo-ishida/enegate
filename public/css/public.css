@@ -52,7 +52,7 @@
 	font-family: "Noto Sans JP", "ÉÅÉCÉäÉI", Meiryo, "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
 	font-size: 1rem;
 	font-weight: bold;
-	color: #333;
+	color: #002b66;
 	line-height: 1.8;
 }
 
@@ -60,7 +60,7 @@
 .page_public .sec_title_en {
 	font-size: 2.6rem;
 	font-weight: 700;
-	color: #0076c8;
+	color: #002b66;
 	letter-spacing: 0.05em;
 	margin-bottom: 10px;
 	line-height: 1.2;
@@ -86,7 +86,6 @@
 
 .public_section .story_lead {
 	line-height: 2.0;
-	color: #222;
 	margin-bottom: 45px;
 }
 
@@ -103,7 +102,7 @@
 	color: #002b66;
 	margin-bottom: 12px;
 	padding-left: 12px;
-	border-left: 4px solid #0076c8;
+	border-left: 4px solid #002b66;
 }
 
 .public_movie_placeholder {
@@ -166,7 +165,7 @@
 
 .public_profile_info .ruby {
 	font-size: 0.9rem;
-	color: #0076c8;
+	color: #002b66;
 	display: block;
 	margin-bottom: 2px;
 }
@@ -182,13 +181,12 @@
 .public_profile_info .role {
 	font-size: 1.05rem;
 	font-weight: bold;
-	color: #0076c8;
+	color: #002b66;
 	margin-bottom: 15px;
 }
 
 .public_profile_info .desc {
 	line-height: 1.9;
-	color: #444;
 }
 
 /* --- ÉZÉNÉVÉáÉì3: What is ENEGATE ? --- */
@@ -198,13 +196,12 @@
 	color: #002b66;
 	line-height: 1.5;
 	margin-bottom: 30px;
-	border-left: 6px solid #0076c8;
+	border-left: 6px solid #002b66;
 	padding-left: 18px;
 }
 
 .public_about .lead_text {
 	line-height: 2.0;
-	color: #333;
 	margin-bottom: 40px;
 }
 
@@ -247,7 +244,7 @@
 .public_product_num {
 	font-size: 2.4rem;
 	font-weight: 800;
-	color: #0076c8;
+	color: #002b66;
 	flex: 0 0 55px;
 	line-height: 1;
 }
@@ -277,7 +274,6 @@
 
 .public_product_content p {
 	line-height: 1.7;
-	color: #555;
 }
 
 .public_more_link {
@@ -288,7 +284,7 @@
 .public_more_link a {
 	display: inline-flex;
 	align-items: center;
-	color: #0076c8;
+	color: #002b66;
 	font-weight: 700;
 	text-decoration: underline;
 	gap: 6px;
@@ -305,7 +301,6 @@
 
 .public_achievement .achieve_text {
 	line-height: 2.0;
-	color: #333;
 	margin-bottom: 35px;
 }
 
@@ -318,7 +313,7 @@
 .public_achieve_links a {
 	display: inline-flex;
 	align-items: center;
-	color: #0076c8;
+	color: #002b66;
 	font-weight: 700;
 	text-decoration: underline;
 	font-size: 1.1rem;
