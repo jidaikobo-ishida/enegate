@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ276ZFV');</script>
+<!-- End Google Tag Manager -->
+<meta charset="Shift_JIS">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		(function () {
+			var meta = document.getElementById('viewport');
+			function switchViewport() {
+				var isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+				var currentWidth;
+				if (isTouch && screen && screen.width) {
+					var isLandscape = window.innerWidth > window.innerHeight;
+					currentWidth = isLandscape ? Math.max(screen.width, screen.height) : Math.min(screen.width, screen.height);
+				} else {
+					currentWidth = window.innerWidth;
+				}
+				var target = (currentWidth > 736) ? 'width=970' : 'width=device-width, initial-scale=1.0';
+				if (meta.getAttribute('content') !== target) {
+					meta.setAttribute('content', target);
+				}
+			}
+			switchViewport();
+			window.addEventListener('resize', switchViewport, false);
+			window.addEventListener('orientationchange', function () {
+				setTimeout(switchViewport, 100);
+			}, false);
+		})();
+	</script>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>お知らせ｜株式会社エネゲート</title>
+<meta name="description" content="株式会社エネゲートのお知らせ・公開情報ページです。" />
+<meta name="keywords" content="エネゲート" />
+<link rel="stylesheet" href="/common/css/reset.css" media="all">
+<link rel="stylesheet" href="/common/css/common.css" media="all">
+<link rel="stylesheet" href="/cmn/css/print.css" media="print">
+</head>
+<body id="public">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ276ZFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
+?>
+
+<div id="breadcrumbs" class="inner">
+	<ol class="breadcrumbslist"><li><a href="/">HOME</a></li><li>お知らせ</li></ol>
+</div>
+
+<div class="inner clearfix" id="allitem">
+	<h1 class="dblbktitle">お知らせ</h1>
+	
+	<div class="section">
+		<!-- コンテンツエリア -->
+	</div>
+</div>
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/common/block/footer.html');
+?>
+</body>
+</html>
