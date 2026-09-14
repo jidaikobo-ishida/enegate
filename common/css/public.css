@@ -1,0 +1,395 @@
+@charset "Shift_JIS";
+
+/* ==========================================================================
+   Public LP (#allitem.page_public) Styles
+   ========================================================================== */
+
+.page_public {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 40px 20px 80px;
+	box-sizing: border-box;
+	font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+	color: #333;
+	line-height: 1.8;
+}
+
+/* --- 共通見出し・装飾 --- */
+.page_public .section_block {
+	margin-bottom: 70px;
+}
+
+.page_public .sec_title_en {
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: #0076c8;
+	letter-spacing: 0.05em;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+
+.page_public .sec_title_ja {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #002b66;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+
+/* --- セクション1: CM STORY & MOVIE --- */
+.public_cm_story {
+	background: #f0f7fc;
+	border-radius: 12px;
+	padding: 40px 30px;
+	margin-bottom: 50px;
+}
+
+.public_cm_story .story_head {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.public_cm_story .story_lead {
+	font-size: 1.05rem;
+	line-height: 1.9;
+	color: #222;
+}
+
+.public_cm_movies {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-top: 30px;
+}
+
+.public_movie_item h3 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #002b66;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	border-left: 4px solid #0076c8;
+}
+
+.public_movie_placeholder {
+	width: 100%;
+	max-width: 640px;
+	aspect-ratio: 16 / 9;
+	background: #c5cbd3;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.public_movie_placeholder .play_btn {
+	width: 64px;
+	height: 64px;
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.public_movie_placeholder .play_btn::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 0 12px 20px;
+	border-color: transparent transparent transparent #7a828e;
+	margin-left: 4px;
+}
+
+/* --- セクション2: PROFILE --- */
+.public_profile {
+	background: #fff;
+	border: 1px solid #e1e8ed;
+	border-radius: 12px;
+	padding: 40px;
+	margin-bottom: 60px;
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.public_profile_photo {
+	flex: 0 0 240px;
+	max-width: 240px;
+	aspect-ratio: 3 / 4;
+	background: #eef2f5;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #888;
+	font-size: 0.9rem;
+	border: 1px dashed #bcc7d2;
+}
+
+.public_profile_info {
+	flex: 1;
+}
+
+.public_profile_info .ruby {
+	font-size: 0.9rem;
+	color: #0076c8;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.public_profile_info .name {
+	font-size: 2.2rem;
+	font-weight: 700;
+	color: #002b66;
+	margin-bottom: 15px;
+	letter-spacing: 0.1em;
+}
+
+.public_profile_info .role {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #0076c8;
+	margin-bottom: 15px;
+}
+
+.public_profile_info .desc {
+	font-size: 0.95rem;
+	line-height: 1.85;
+	color: #444;
+}
+
+/* --- セクション3: What is ENEGATE ? --- */
+.public_about {
+	background: #f7faff;
+	border-radius: 12px;
+	padding: 50px 40px;
+	margin-bottom: 60px;
+}
+
+.public_about .catch_copy {
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #002b66;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	border-left: 6px solid #0076c8;
+	padding-left: 15px;
+}
+
+.public_about .lead_text {
+	font-size: 1.05rem;
+	line-height: 2.0;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+/* 主な取扱い製品リスト */
+.public_products_sec {
+	margin-top: 40px;
+}
+
+.public_products_title {
+	display: inline-block;
+	background: #002b66;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+
+.public_product_list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.public_product_card {
+	background: #fff;
+	border: 1px solid #dce5ec;
+	border-radius: 10px;
+	padding: 24px;
+	display: flex;
+	gap: 25px;
+	align-items: center;
+	transition: box-shadow 0.2s;
+}
+
+.public_product_card:hover {
+	box-shadow: 0 6px 16px rgba(0,43,102,0.08);
+}
+
+.public_product_num {
+	font-size: 2.2rem;
+	font-weight: 800;
+	color: #0076c8;
+	flex: 0 0 50px;
+	line-height: 1;
+}
+
+.public_product_img_box {
+	flex: 0 0 120px;
+	height: 90px;
+	background: #f0f4f8;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #8da0b3;
+	font-size: 0.85rem;
+	border: 1px dashed #cbd6e2;
+}
+
+.public_product_content {
+	flex: 1;
+}
+
+.public_product_content h4 {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #002b66;
+	margin-bottom: 8px;
+}
+
+.public_product_content p {
+	font-size: 0.95rem;
+	line-height: 1.7;
+	color: #555;
+}
+
+.public_more_link {
+	margin-top: 30px;
+	text-align: right;
+}
+
+.public_more_link a {
+	display: inline-flex;
+	align-items: center;
+	color: #0076c8;
+	font-weight: 700;
+	text-decoration: underline;
+	gap: 6px;
+}
+
+/* --- セクション4: 取替実績 --- */
+.public_achievement {
+	background: #eaf3fb;
+	border-radius: 12px;
+	padding: 50px 40px;
+	margin-bottom: 30px;
+}
+
+.public_achievement .achieve_copy {
+	font-size: 1.65rem;
+	font-weight: 700;
+	color: #002b66;
+	line-height: 1.5;
+	margin-bottom: 25px;
+}
+
+.public_achievement .achieve_text {
+	font-size: 1.05rem;
+	line-height: 2.0;
+	color: #333;
+	margin-bottom: 35px;
+}
+
+.public_achieve_links {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.public_achieve_links a {
+	display: inline-flex;
+	align-items: center;
+	color: #0076c8;
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 1.05rem;
+	gap: 8px;
+}
+
+/* ==========================================================================
+   Responsive (max-width: 736px)
+   ========================================================================== */
+@media screen and (max-width: 736px) {
+	.page_public {
+		padding: 25px 15px 50px;
+	}
+
+	.page_public .sec_title_en {
+		font-size: 1.8rem;
+	}
+
+	.page_public .sec_title_ja {
+		font-size: 1.4rem;
+	}
+
+	.public_cm_story {
+		padding: 25px 18px;
+	}
+
+	.public_profile {
+		flex-direction: column;
+		padding: 25px 18px;
+		gap: 25px;
+		text-align: center;
+	}
+
+	.public_profile_photo {
+		margin: 0 auto;
+		flex: 0 0 200px;
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.public_profile_info {
+		text-align: left;
+	}
+
+	.public_profile_info .name {
+		font-size: 1.8rem;
+	}
+
+	.public_about {
+		padding: 30px 18px;
+	}
+
+	.public_about .catch_copy {
+		font-size: 1.35rem;
+	}
+
+	.public_product_card {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		padding: 18px;
+	}
+
+	.public_product_img_box {
+		width: 100%;
+		height: 120px;
+		flex: none;
+	}
+
+	.public_achievement {
+		padding: 30px 18px;
+	}
+
+	.public_achievement .achieve_copy {
+		font-size: 1.35rem;
+	}
+}
