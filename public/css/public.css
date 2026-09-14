@@ -16,6 +16,10 @@
 	background-color: #eaf4fc;
 }
 
+#sec_story .page_public {
+	background-color: #ffffff;
+}
+
 #sec_profile {
 	background-color: #ffffff;
 }
@@ -26,6 +30,10 @@
 
 #sec_about {
 	background-color: #eaf4fc;
+}
+
+#sec_about .page_public {
+	background-color: #ffffff;
 }
 
 #sec_achieve {
