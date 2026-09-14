@@ -13,15 +13,15 @@
 
 /* --- セクションごとのフルワイド背景色 --- */
 #sec_story {
-	background-color: #ffffff;
-}
-
-#sec_profile {
 	background-color: #eaf4fc;
 }
 
-#sec_about {
+#sec_profile {
 	background-color: #ffffff;
+}
+
+#sec_about {
+	background-color: #eaf4fc;
 }
 
 #sec_achieve {
@@ -128,14 +128,9 @@
 
 /* --- セクション2: PROFILE --- */
 .public_profile {
-	background: #fff;
-	border: 1px solid #d7e4ee;
-	border-radius: 12px;
-	padding: 45px;
 	display: flex;
 	gap: 45px;
 	align-items: center;
-	box-shadow: 0 4px 16px rgba(0, 43, 102, 0.04);
 }
 
 .public_profile_photo {
