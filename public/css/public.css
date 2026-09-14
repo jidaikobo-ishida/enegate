@@ -20,6 +20,11 @@
 	background-color: #ffffff;
 }
 
+#sec_profile .page_public {
+	background-color: #eaf4fc;
+	border-radius: 16px;
+}
+
 #sec_about {
 	background-color: #eaf4fc;
 }
