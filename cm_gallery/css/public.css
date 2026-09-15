@@ -199,7 +199,7 @@
 }
 
 #sec_about .catch_copy .marker_blue {
-	background: linear-gradient(transparent 48%, #d2edff 48%);
+	background: linear-gradient(transparent 65%, #d2edff 65%);
 	display: inline;
 	padding: 0 4px;
 }
@@ -317,7 +317,7 @@
 }
 
 #sec_achieve .achieve_copy .marker_white {
-	background: linear-gradient(transparent 48%, #ffffff 48%);
+	background: linear-gradient(transparent 65%, #ffffff 65%);
 	display: inline;
 	padding: 0 4px;
 }
