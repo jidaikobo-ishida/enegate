@@ -106,10 +106,10 @@
 	display: inline-block;
 	background-color: #d2edff;
 	color: #034698;
-	font-size: 1.35rem;
+	font-size: 1.6rem;
 	font-weight: 700;
 	z-index: 1;
-	margin: 0 0 -10px;
+	margin: 0 0 -5px;
 	padding: 20px 30px 0 30px;
 	line-height: 1em;
 	letter-spacing: 0.05em;
@@ -542,7 +542,7 @@
 	}
 
 	.public_movie_item .movie_ttl {
-		font-size: 1.15rem;
+		font-size: 1.3rem;
 		margin: 0 0 -8px;
 		padding: 15px 20px 0 20px;
 		line-height: 1em;
