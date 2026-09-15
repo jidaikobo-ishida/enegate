@@ -91,40 +91,56 @@
 .public_cm_movies {
 	display: flex;
 	flex-direction: column;
-	gap: 45px;
+	gap: 55px;
 	margin-top: 30px;
 }
 
-.public_movie_item h3 {
-	font-size: 1.3rem;
+.public_movie_item {
+	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
+}
+
+.public_movie_item .movie_ttl {
+	display: inline-block;
+	background-color: #d2edff;
+	color: #034698;
+	font-size: 1.35rem;
 	font-weight: 700;
-	color: #002b66;
-	margin-bottom: 12px;
-	padding-left: 12px;
-	border-left: 4px solid #002b66;
+	padding: 8px 30px 6px 20px;
+	margin: 0;
+	line-height: 1.4;
+	letter-spacing: 0.05em;
+	vertical-align: bottom;
+}
+
+.public_movie_item .movie_frame {
+	background-color: #d2edff;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .public_movie_placeholder {
 	width: 100%;
-	max-width: 640px;
 	aspect-ratio: 16 / 9;
-	background: #c5cbd3;
+	background: #b2b2b2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 	margin: 0 auto;
-	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .public_movie_placeholder .play_btn {
-	width: 64px;
-	height: 64px;
-	background: rgba(255, 255, 255, 0.85);
+	width: 76px;
+	height: 76px;
+	background: rgba(255, 255, 255, 0.2);
+	border: 2px solid #ffffff;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: transform 0.2s, background 0.2s;
 }
 
 .public_movie_placeholder .play_btn::after {
@@ -133,9 +149,9 @@
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 12px 0 12px 20px;
-	border-color: transparent transparent transparent #7a828e;
-	margin-left: 4px;
+	border-width: 14px 0 14px 22px;
+	border-color: transparent transparent transparent #ffffff;
+	margin-left: 5px;
 }
 
 /* --- ƒZƒNƒVƒ‡ƒ“2: PROFILE --- */
@@ -387,6 +403,25 @@
 
 	.public_profile_info .name {
 		font-size: 1.9rem;
+	}
+
+
+	.public_movie_item .movie_frame {
+		padding: 12px;
+	}
+
+	.public_movie_item .movie_ttl {
+		font-size: 1.15rem;
+		padding: 6px 20px 4px 14px;
+	}
+
+	.public_movie_placeholder .play_btn {
+		width: 56px;
+		height: 56px;
+	}
+
+	.public_movie_placeholder .play_btn::after {
+		border-width: 10px 0 10px 16px;
 	}
 
 	#sec_about .catch_copy {
