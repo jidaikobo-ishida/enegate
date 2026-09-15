@@ -190,13 +190,17 @@
 
 /* --- セクション3: What is ENEGATE ? --- */
 .public_about .catch_copy {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-weight: 700;
-	color: #002b66;
-	line-height: 1.5;
-	margin-bottom: 30px;
-	border-left: 6px solid #002b66;
-	padding-left: 18px;
+	color: #034698;
+	line-height: 1.8;
+	margin-bottom: 35px;
+}
+
+.public_about .catch_copy .marker_blue {
+	background: linear-gradient(transparent 48%, #d2edff 48%);
+	display: inline;
+	padding: 0 4px;
 }
 
 .public_about .lead_text {
@@ -211,13 +215,14 @@
 
 .public_products_title {
 	display: inline-block;
-	background: #002b66;
-	color: #fff;
-	padding: 10px 32px;
-	border-radius: 30px;
-	font-size: 1.35rem;
+	background-color: #034698;
+	color: #ffffff;
+	padding: 12px 50px 12px 28px;
+	border-radius: 0 9999px 9999px 0;
+	font-size: 1.45rem;
 	font-weight: 700;
-	margin-bottom: 35px;
+	margin-bottom: 40px;
+	letter-spacing: 0.05em;
 }
 
 .public_product_list {
@@ -302,11 +307,17 @@
 
 /* --- セクション4: 取替実績 --- */
 .public_achievement .achieve_copy {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-weight: 700;
-	color: #002b66;
-	line-height: 1.5;
-	margin-bottom: 30px;
+	color: #034698;
+	line-height: 1.8;
+	margin-bottom: 35px;
+}
+
+.public_achievement .achieve_copy .marker_white {
+	background: linear-gradient(transparent 48%, #ffffff 48%);
+	display: inline;
+	padding: 0 4px;
 }
 
 .public_achievement .achieve_text {
@@ -377,7 +388,8 @@
 	}
 
 	.public_about .catch_copy {
-		font-size: 1.4rem;
+		font-size: 1.45rem;
+		line-height: 1.6;
 	}
 
 	.public_product_card {
@@ -401,7 +413,13 @@
 	}
 
 	.public_achievement .achieve_copy {
-		font-size: 1.4rem;
+		font-size: 1.45rem;
+		line-height: 1.6;
+	}
+
+	.public_products_title {
+		font-size: 1.25rem;
+		padding: 10px 35px 10px 20px;
 	}
 }
 
