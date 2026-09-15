@@ -107,7 +107,7 @@
 	color: #034698;
 	font-size: 1.35rem;
 	font-weight: 700;
-	padding: 40px 40px 0 40px;
+	padding: 30px 30px 0 30px;
 	margin: 0;
 	line-height: 1em;
 	letter-spacing: 0.05em;
@@ -116,7 +116,7 @@
 
 .public_movie_item .movie_frame {
 	background-color: #d2edff;
-	padding: 40px;
+	padding: 30px;
 	box-sizing: border-box;
 }
 
