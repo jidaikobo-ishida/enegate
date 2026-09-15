@@ -91,7 +91,7 @@
 .public_cm_movies {
 	display: flex;
 	flex-direction: column;
-	gap: 55px;
+	gap: 100px;
 	margin-top: 30px;
 }
 
