@@ -1,4 +1,4 @@
-<If "%{HTTP_HOST} != 'localhost' && %{HTTP_HOST} != '127.0.0.1' && %{HTTP_HOST} != 'localhost:8080'">
+<If "%{HTTP_HOST} !~ /^(localhost|127\.0\.0\.1)(:[0-9]+)?$/">
   AuthUserFile "/home/jdkb/jidaikobo.dev/htpasswd/enegate.jidaikobo.dev/.htpasswd"
   AuthName "Member Site"
   AuthType BASIC
