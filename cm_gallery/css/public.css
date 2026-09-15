@@ -359,6 +359,83 @@
 	gap: 8px;
 }
 
+
+/* ==========================================================================
+   動画フレーム・見出しの正方形ブロック装飾 (デザイン案準拠)
+   PC: 30px / SP: 25px
+   ========================================================================== */
+.public_movie_item .movie_ttl,
+.public_movie_item .movie_frame {
+	position: relative;
+}
+
+.public_movie_item .movie_ttl::before,
+.public_movie_item .movie_ttl::after,
+.public_movie_item .movie_frame::before,
+.public_movie_item .movie_frame::after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: #d2edff;
+	pointer-events: none;
+	display: none;
+}
+
+/* --- 1つ目: TVCM 30秒 --- */
+/* 見出し直下・フレーム左上外側 */
+.public_movie_item:nth-of-type(1) .movie_ttl::before {
+	display: block;
+	top: 100%;
+	left: -30px;
+}
+/* フレーム左下外側 */
+.public_movie_item:nth-of-type(1) .movie_frame::before {
+	display: block;
+	bottom: 0;
+	left: -30px;
+}
+/* フレーム右上角の上側 */
+.public_movie_item:nth-of-type(1) .movie_frame::after {
+	display: block;
+	top: -30px;
+	right: 0;
+}
+
+/* --- 2つ目: TVCM 15秒 --- */
+/* 見出しの左外側 */
+.public_movie_item:nth-of-type(2) .movie_ttl::before {
+	display: block;
+	top: 0;
+	left: -30px;
+}
+/* 見出し右端の上側 */
+.public_movie_item:nth-of-type(2) .movie_ttl::after {
+	display: block;
+	top: -30px;
+	right: 0;
+}
+/* フレーム右下角の下側 */
+.public_movie_item:nth-of-type(2) .movie_frame::after {
+	display: block;
+	bottom: -30px;
+	right: 0;
+}
+
+/* --- 3つ目: MAKING --- */
+/* 見出し直下・フレーム左上外側 */
+.public_movie_item:nth-of-type(3) .movie_ttl::before {
+	display: block;
+	top: 100%;
+	left: -30px;
+}
+/* フレーム右下角の下側 */
+.public_movie_item:nth-of-type(3) .movie_frame::after {
+	display: block;
+	bottom: -30px;
+	right: 0;
+}
+
 /* ==========================================================================
    Responsive (max-width: 736px)
    ========================================================================== */
@@ -458,6 +535,42 @@
 	.public_products_title {
 		font-size: 1.25rem;
 		padding: 10px 35px 10px 20px;
+	}
+
+	/* スマホ時の正方形ブロックサイズ: 25px */
+	.public_movie_item .movie_ttl::before,
+	.public_movie_item .movie_ttl::after,
+	.public_movie_item .movie_frame::before,
+	.public_movie_item .movie_frame::after {
+		width: 25px;
+		height: 25px;
+	}
+
+	.public_movie_item:nth-of-type(1) .movie_ttl::before {
+		left: -25px;
+	}
+	.public_movie_item:nth-of-type(1) .movie_frame::before {
+		left: -25px;
+	}
+	.public_movie_item:nth-of-type(1) .movie_frame::after {
+		top: -25px;
+	}
+
+	.public_movie_item:nth-of-type(2) .movie_ttl::before {
+		left: -25px;
+	}
+	.public_movie_item:nth-of-type(2) .movie_ttl::after {
+		top: -25px;
+	}
+	.public_movie_item:nth-of-type(2) .movie_frame::after {
+		bottom: -25px;
+	}
+
+	.public_movie_item:nth-of-type(3) .movie_ttl::before {
+		left: -25px;
+	}
+	.public_movie_item:nth-of-type(3) .movie_frame::after {
+		bottom: -25px;
 	}
 }
 
