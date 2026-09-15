@@ -407,12 +407,12 @@
 
 
 	.public_movie_item .movie_frame {
-		padding: 12px;
+		padding: 20px;
 	}
 
 	.public_movie_item .movie_ttl {
 		font-size: 1.15rem;
-		padding: 14px 14px 0 14px;
+		padding: 20px 20px 0 20px;
 		line-height: 1em;
 	}
 
