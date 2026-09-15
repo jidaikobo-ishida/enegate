@@ -162,19 +162,19 @@
 	flex: 1;
 }
 
-.public_profile_info .ruby {
-	font-size: 0.9rem;
-	color: #002b66;
-	display: block;
-	margin-bottom: 2px;
-}
-
 .public_profile_info .name {
 	font-size: 2.3rem;
 	font-weight: 700;
 	color: #002b66;
 	margin-bottom: 15px;
 	letter-spacing: 0.1em;
+}
+
+.public_profile_info .name rt {
+	font-size: 0.9rem;
+	font-weight: normal;
+	color: #002b66;
+	letter-spacing: 0.05em;
 }
 
 .public_profile_info .role {
