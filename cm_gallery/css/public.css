@@ -781,20 +781,6 @@ body#cm_gallery textarea {
 	}
 }
 
-/* ==========================================================================
-   Scroll Animation (Fade In Up - 参考サイト準拠)
-   ========================================================================== */
-.u-anm-Fiu {
-	opacity: 0;
-	transform: translateY(80px);
-	transition: opacity 1.2s cubic-bezier(0.25, 1, 0.5, 1), transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
-	will-change: opacity, transform;
-}
-
-.u-anm-Fiu.is-active {
-	opacity: 1;
-	transform: translateY(0);
-}
 
 /* ==========================================================================
    Utility Classes (PC / SP Display Switch)
