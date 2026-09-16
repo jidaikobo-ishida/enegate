@@ -34,7 +34,7 @@ body#cm_gallery section {
 	min-width: 950px;
 	position: relative;
 	box-sizing: border-box;
-	padding: 0;
+	padding: 0 15px;
 }
 
 /* --- セクションごとのフルワイド背景色 --- */
@@ -569,7 +569,6 @@ body#cm_gallery section {
 
 	.public_section {
 		min-width: auto;
-		padding: 0;
 	}
 
 	.page_public {
