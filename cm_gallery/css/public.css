@@ -651,3 +651,20 @@
 	opacity: 1;
 	transform: translateY(0);
 }
+
+/* ==========================================================================
+   Utility Classes (PC / SP Display Switch)
+   ========================================================================== */
+/* PC非表示（スマホのみ表示） */
+@media screen and (min-width: 737px) {
+	.nopc {
+		display: none !important;
+	}
+}
+
+/* スマホ非表示（PCのみ表示） */
+@media screen and (max-width: 736px) {
+	.nosp {
+		display: none !important;
+	}
+}
