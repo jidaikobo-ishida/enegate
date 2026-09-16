@@ -95,7 +95,6 @@ body#cm_gallery section {
 .page_public .sec_title_ja {
 	font-size: 2.4rem;
 	font-weight: 700;
-	color: #002b66;
 	margin-bottom: 20px;
 	line-height: 1.4;
 }
@@ -408,7 +407,6 @@ body#cm_gallery section {
 }
 
 .public_product_content p {
-	color: #034698;
 	font-size: 0.95rem;
 	font-weight: bold;
 	line-height: 2.0;
