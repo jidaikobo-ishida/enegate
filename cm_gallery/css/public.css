@@ -111,7 +111,7 @@ body#cm_gallery section {
 }
 
 .story_enebo {
-	width: 150px;
+	width: 182px;
 	margin-bottom: -13px;
 	flex-shrink: 0;
 }
@@ -322,7 +322,9 @@ body#cm_gallery section {
 }
 
 .about_enebo {
-	width: 100px;
+	width: 115px;
+	margin-left: 20px;
+	margin-bottom: 15px;
 	position: relative;
 	z-index: 1;
 	flex-shrink: 0;
@@ -758,9 +760,9 @@ body#cm_gallery section {
 	}
 
 	.about_enebo {
-		width: 75px;
-		margin-left: -15px;
-		margin-bottom: -3px;
+		width: 100px;
+		margin-left: 0;
+		margin-bottom: 0;
 	}
 
 	/* 取扱い製品カード: SP時は番号上部、画像(左)+テキスト(右)の2カラム横並び */
