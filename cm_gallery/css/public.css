@@ -263,8 +263,8 @@ body#cm_gallery section {
 }
 
 .about_photo_col {
-	flex: 0 0 320px;
-	max-width: 320px;
+	flex: 0 0 240px;
+	max-width: 240px;
 	margin-top: 10px;
 }
 
