@@ -732,14 +732,14 @@ body#cm_gallery section {
 		position: absolute;
 		top: 0;
 		right: -30px;
-		width: 38%;
-		max-width: 150px;
+		width: 120px;
+		max-width: 120px;
 		margin-top: 0;
 		z-index: 1;
 	}
 
 	#sec_about .about_head_img {
-		max-width: 220px;
+		max-width: calc(100% - 90px);
 	}
 
 	#sec_about .catch_copy {
