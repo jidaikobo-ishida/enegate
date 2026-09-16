@@ -208,8 +208,8 @@ body#cm_gallery section {
 }
 
 .public_profile_photo {
-	flex: 0 0 240px;
-	max-width: 240px;
+	flex: 0 0 300px;
+	max-width: 300px;
 }
 
 .public_profile_photo img {
