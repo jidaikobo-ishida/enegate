@@ -112,13 +112,6 @@ body#cm_gallery textarea {
 	gap: 20px;
 }
 
-.story_title_img {
-	width: 100%;
-	max-width: 200px;
-	height: auto;
-	aspect-ratio: 298.79 / 71.07;
-	display: block;
-}
 
 .story_enebo_img {
 	width: 100%;
@@ -208,13 +201,6 @@ body#cm_gallery textarea {
 	line-height: 1;
 }
 
-.profile_title_img {
-	width: 100%;
-	max-width: 235px;
-	height: auto;
-	aspect-ratio: 347.42 / 71.07;
-	display: block;
-}
 
 .public_profile {
 	display: flex;
@@ -606,10 +592,6 @@ body#cm_gallery textarea {
 		gap: 12px;
 	}
 
-	.story_title_img {
-		max-width: 140px;
-		aspect-ratio: 298.79 / 71.07;
-	}
 
 	.story_enebo_img {
 		max-width: 85px;
@@ -698,10 +680,6 @@ body#cm_gallery textarea {
 		margin-bottom: 18px;
 	}
 
-	.profile_title_img {
-		max-width: 165px;
-		aspect-ratio: 347.42 / 71.07;
-	}
 
 	.public_profile {
 		flex-direction: column;
