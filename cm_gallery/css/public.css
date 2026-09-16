@@ -103,12 +103,27 @@ body#cm_gallery textarea {
 
 /* --- セクション1: CM STORY & MOVIE --- */
 .public_section .story_head {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
 	margin-bottom: 25px;
-	flex-wrap: wrap;
+}
+
+.story_title_wrap {
+	display: flex;
+	align-items: flex-end;
 	gap: 20px;
+}
+
+.story_title_img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	display: block;
+}
+
+.story_enebo_img {
+	width: 100%;
+	max-width: 125px;
+	height: auto;
+	display: block;
 }
 
 .public_section .story_lead {
@@ -186,6 +201,18 @@ body#cm_gallery textarea {
 }
 
 /* --- セクション2: PROFILE --- */
+#sec_profile .sec_title_en {
+	margin-bottom: 25px;
+	line-height: 1;
+}
+
+.profile_title_img {
+	width: 100%;
+	max-width: 235px;
+	height: auto;
+	display: block;
+}
+
 .public_profile {
 	display: flex;
 	gap: 45px;
@@ -273,6 +300,13 @@ body#cm_gallery textarea {
 	margin-top: 50px;
 }
 
+.public_products_title_wrap {
+	display: inline-flex;
+	align-items: flex-end;
+	position: relative;
+	margin-bottom: 40px;
+}
+
 .public_products_title {
 	display: inline-block;
 	background-color: #034698;
@@ -281,8 +315,23 @@ body#cm_gallery textarea {
 	border-radius: 0 9999px 9999px 0;
 	font-size: 1.45rem;
 	font-weight: 700;
-	margin-bottom: 40px;
+	margin-bottom: 0;
 	letter-spacing: 0.05em;
+}
+
+.products_enebo {
+	margin-left: -20px;
+	margin-bottom: -5px;
+	position: relative;
+	z-index: 1;
+	flex-shrink: 0;
+}
+
+.products_enebo_img {
+	width: 100%;
+	max-width: 115px;
+	height: auto;
+	display: block;
 }
 
 .public_product_list {
@@ -628,9 +677,42 @@ body#cm_gallery textarea {
 		width: 13px;
 	}
 
+	.story_title_wrap {
+		gap: 12px;
+	}
+
+	.story_title_img {
+		max-width: 140px;
+	}
+
+	.story_enebo_img {
+		max-width: 85px;
+	}
+
+	#sec_profile .sec_title_en {
+		margin-bottom: 18px;
+	}
+
+	.profile_title_img {
+		max-width: 165px;
+	}
+
+	.public_products_title_wrap {
+		margin-bottom: 25px;
+	}
+
 	.public_products_title {
 		font-size: 1.25rem;
 		padding: 10px 35px 10px 20px;
+	}
+
+	.products_enebo {
+		margin-left: -15px;
+		margin-bottom: -3px;
+	}
+
+	.products_enebo_img {
+		max-width: 75px;
 	}
 
 	.public_movie_item .movie_ttl {
