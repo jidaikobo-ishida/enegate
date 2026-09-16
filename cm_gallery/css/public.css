@@ -253,7 +253,7 @@ body#cm_gallery section {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	gap: 40px;
+	gap: 0;
 	position: relative;
 }
 
