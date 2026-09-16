@@ -183,14 +183,12 @@
 .public_profile_photo {
 	flex: 0 0 240px;
 	max-width: 240px;
-	aspect-ratio: 3 / 4;
-	background: #eef2f5;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #888;
-	font-size: 0.9rem;
-	border: 1px dashed #bcc7d2;
+}
+
+.public_profile_photo img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 .public_profile_info {
