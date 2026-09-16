@@ -331,7 +331,7 @@ body#cm_gallery textarea {
 
 .products_enebo {
 	width: 115px;
-	margin-left: -20px;
+	margin-left: 20px;
 	margin-bottom: -5px;
 	position: relative;
 	z-index: 1;
