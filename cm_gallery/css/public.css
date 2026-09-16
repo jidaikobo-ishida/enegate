@@ -294,10 +294,8 @@ body#cm_gallery textarea {
 
 #sec_about .catch_copy .marker_blue {
 	background: linear-gradient(transparent 65%, #d2edff 65%);
-	display: inline;
+	display: inline-block;
 	padding: 0 4px;
-	box-decoration-break: clone;
-	-webkit-box-decoration-break: clone;
 }
 
 #sec_about .lead_text {
@@ -430,10 +428,8 @@ body#cm_gallery textarea {
 
 #sec_achieve .achieve_copy .marker_white {
 	background: linear-gradient(transparent 65%, #ffffff 65%);
-	display: inline;
+	display: inline-block;
 	padding: 0 4px;
-	box-decoration-break: clone;
-	-webkit-box-decoration-break: clone;
 }
 
 #sec_achieve .achieve_text {
