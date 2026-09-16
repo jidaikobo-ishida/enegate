@@ -111,7 +111,8 @@ body#cm_gallery section {
 }
 
 .story_enebo {
-	width: 100px;
+	width: 150px;
+	margin-bottom: -13px;
 	flex-shrink: 0;
 }
 
@@ -321,9 +322,7 @@ body#cm_gallery section {
 }
 
 .about_enebo {
-	width: 115px;
-	margin-left: 20px;
-	margin-bottom: 15px;
+	width: 100px;
 	position: relative;
 	z-index: 1;
 	flex-shrink: 0;
