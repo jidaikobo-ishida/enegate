@@ -592,6 +592,11 @@ body#cm_gallery textarea {
 		gap: 12px;
 	}
 
+	.story_title_img {
+		max-height: 55px;
+		width: auto;
+	}
+
 
 	.story_enebo_img {
 		max-width: 85px;
@@ -678,6 +683,11 @@ body#cm_gallery textarea {
 	/* --- ƒZƒNƒVƒ‡ƒ“2: PROFILE --- */
 	#sec_profile .sec_title_en {
 		margin-bottom: 18px;
+	}
+
+	.profile_title_img {
+		max-height: 55px;
+		width: auto;
 	}
 
 
