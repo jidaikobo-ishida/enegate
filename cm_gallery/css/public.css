@@ -386,7 +386,6 @@
 	padding-bottom: 6px;
 	padding-right: 26px;
 	line-height: 1.4;
-	transition: opacity 0.2s ease;
 }
 
 .public_more_link a::after,
@@ -399,18 +398,7 @@
 	height: 2px;
 	background-color: #034698;
 	transform-origin: right bottom;
-	transform: rotate(-45deg);
-	transition: transform 0.2s ease;
-}
-
-.public_more_link a:hover,
-.public_achieve_links a:hover {
-	opacity: 0.75;
-}
-
-.public_more_link a:hover::after,
-.public_achieve_links a:hover::after {
-	transform: translateX(4px) rotate(-45deg);
+	transform: rotate(45deg);
 }
 
 
