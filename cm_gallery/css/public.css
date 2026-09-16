@@ -111,8 +111,7 @@ body#cm_gallery section {
 }
 
 .story_enebo {
-	width: 150px;
-	margin-bottom: -13px;
+	width: 100px;
 	flex-shrink: 0;
 }
 
@@ -321,8 +320,7 @@ body#cm_gallery section {
 	letter-spacing: 0.05em;
 }
 
-.about_enebo,
-.products_enebo {
+.about_enebo {
 	width: 115px;
 	margin-left: 20px;
 	margin-bottom: 15px;
@@ -331,8 +329,7 @@ body#cm_gallery section {
 	flex-shrink: 0;
 }
 
-.about_enebo_img,
-.products_enebo_img {
+.about_enebo_img {
 	width: 100%;
 	height: auto;
 	aspect-ratio: 142.54 / 101.45;
@@ -761,8 +758,7 @@ body#cm_gallery section {
 		padding: 10px 35px 10px 20px;
 	}
 
-	.about_enebo,
-	.products_enebo {
+	.about_enebo {
 		width: 75px;
 		margin-left: -15px;
 		margin-bottom: -3px;
