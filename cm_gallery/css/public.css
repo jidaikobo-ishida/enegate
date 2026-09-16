@@ -739,7 +739,7 @@ body#cm_gallery section {
 	}
 
 	#sec_about .about_head_img {
-		max-width: calc(100% - 90px);
+		max-width: calc(100% - 100px);
 	}
 
 	#sec_about .catch_copy {
