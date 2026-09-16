@@ -4,6 +4,22 @@
    Public LP Section & Layout Styles
    ========================================================================== */
 
+/* ==========================================================================
+   Main Visual
+   ========================================================================== */
+#mainvisual {
+	width: 100%;
+	line-height: 0;
+	background-color: #eaf4fc;
+}
+
+#mainvisual picture,
+#mainvisual img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 /* --- フルワイドセクション共通 --- */
 .public_section {
 	width: 100%;
@@ -208,6 +224,18 @@
 }
 
 /* --- セクション3: What is ENEGATE ? --- */
+#sec_about .sec_title_en {
+	margin-bottom: 25px;
+	line-height: 1;
+}
+
+#sec_about .about_head_img {
+	width: 100%;
+	max-width: 380px;
+	height: auto;
+	display: block;
+}
+
 #sec_about .catch_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
@@ -504,6 +532,14 @@
 
 	.public_movie_placeholder .play_btn::after {
 		border-width: 10px 0 10px 16px;
+	}
+
+	#sec_about .sec_title_en {
+		margin-bottom: 18px;
+	}
+
+	#sec_about .about_head_img {
+		max-width: 270px;
 	}
 
 	#sec_about .catch_copy {

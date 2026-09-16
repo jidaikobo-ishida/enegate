@@ -54,7 +54,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 ?>
 
 <div id="mainvisual">
-	<!-- フルワイドメインビジュアル画像（後日設置） -->
+	<picture>
+		<source media="(max-width: 736px)" srcset="/cm_gallery/img/mainvisual_sp.png">
+		<img src="/cm_gallery/img/mainvisual_pc.png" alt="WE ARE 計器屋さん - 電気メーターはエネゲート ENEGATE" width="2601" height="1421">
+	</picture>
 </div>
 
 <!-- ==========================================
@@ -138,7 +141,9 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
      ========================================== -->
 <section id="sec_about" class="public_section">
 	<div class="page_public">
-		<h2 class="sec_title_en js-scroll u-anm-Fiu">What is ENEGATE ?</h2>
+		<h2 class="sec_title_en js-scroll u-anm-Fiu">
+			<img src="/cm_gallery/img/about_head.svg" alt="What is ENEGATE ?" width="556" height="208" class="about_head_img">
+		</h2>
 
 		<h3 class="catch_copy js-scroll u-anm-Fiu">
 			<span class="marker_blue">電気メーターはエネゲート！</span><br>
