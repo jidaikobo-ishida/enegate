@@ -145,7 +145,6 @@ body#cm_gallery section {
 .public_movie_item .movie_ttl {
 	display: inline-block;
 	background-color: #d2edff;
-	color: #004697;
 	font-size: 1.8rem;
 	font-weight: 700;
 	z-index: 1;
@@ -224,7 +223,6 @@ body#cm_gallery section {
 .public_profile_info .name {
 	font-size: 2.3rem;
 	font-weight: 700;
-	color: #002b66;
 	margin-bottom: 15px;
 	letter-spacing: 0.1em;
 }
@@ -232,14 +230,12 @@ body#cm_gallery section {
 .public_profile_info .name rt {
 	font-size: 0.9rem;
 	font-weight: normal;
-	color: #002b66;
 	letter-spacing: 0.05em;
 }
 
 .public_profile_info .role {
 	font-size: 1.05rem;
 	font-weight: bold;
-	color: #002b66;
 	margin-bottom: 15px;
 }
 
@@ -284,7 +280,6 @@ body#cm_gallery section {
 #sec_about .catch_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
-	color: #004697;
 	line-height: 1.8;
 	margin-bottom: 35px;
 	letter-spacing: 0.03em;
@@ -428,7 +423,6 @@ body#cm_gallery section {
 #sec_achieve .achieve_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
-	color: #004697;
 	line-height: 1.8;
 	margin-bottom: 35px;
 	letter-spacing: 0.03em;
