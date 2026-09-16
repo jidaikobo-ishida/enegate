@@ -149,7 +149,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/common/block/header.html');
 		<div class="about_content_wrap">
 			<div class="about_main_col">
 				<h2 class="sec_title_en">
-					<img src="/cm_gallery/img/about_head.svg" alt="What is ENEGATE ?" width="556" height="208" class="about_head_img">
+					<picture>
+						<source media="(max-width: 736px)" srcset="/cm_gallery/img/about_head_sp.svg">
+						<img src="/cm_gallery/img/about_head.svg" alt="What is ENEGATE ?" width="556" height="208" class="about_head_img">
+					</picture>
 				</h2>
 
 				<h3 class="catch_copy">
