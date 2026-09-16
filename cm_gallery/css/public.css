@@ -316,7 +316,7 @@ body#cm_gallery section {
 
 .public_products_title {
 	display: inline-block;
-	background-color: #034698;
+	background-color: #004697;
 	color: #ffffff;
 	padding: 12px 50px 12px 28px;
 	border-radius: 0 9999px 9999px 0;
@@ -397,7 +397,7 @@ body#cm_gallery section {
 
 .public_product_content h4 {
 	display: inline-block;
-	background-color: #034698;
+	background-color: #004697;
 	color: #ffffff;
 	font-size: 1.15rem;
 	font-weight: 700;
@@ -476,7 +476,7 @@ body#cm_gallery section {
 	bottom: -2px;
 	width: 15px;
 	height: 2px;
-	background-color: #034698;
+	background-color: #004697;
 	transform-origin: right bottom;
 	transform: rotate(45deg);
 }
