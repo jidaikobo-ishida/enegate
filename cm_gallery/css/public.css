@@ -117,12 +117,16 @@ body#cm_gallery textarea {
 	gap: 22px;
 }
 
-.story_enebo_img {
+.story_enebo {
 	width: 182px;
-	max-width: 100%;
+	margin-bottom: -13px;
+	flex-shrink: 0;
+}
+
+.story_enebo_img {
+	width: 100%;
 	height: auto;
 	aspect-ratio: 182.16 / 105.44;
-	margin-bottom: -13px;
 	display: block;
 }
 
@@ -329,6 +333,7 @@ body#cm_gallery textarea {
 	letter-spacing: 0.05em;
 }
 
+.about_enebo,
 .products_enebo {
 	width: 115px;
 	margin-left: 20px;
@@ -338,9 +343,9 @@ body#cm_gallery textarea {
 	flex-shrink: 0;
 }
 
+.about_enebo_img,
 .products_enebo_img {
 	width: 100%;
-	max-width: 115px;
 	height: auto;
 	aspect-ratio: 142.54 / 101.45;
 	display: block;
@@ -752,15 +757,11 @@ body#cm_gallery textarea {
 		padding: 10px 35px 10px 20px;
 	}
 
+	.about_enebo,
 	.products_enebo {
 		width: 75px;
 		margin-left: -15px;
 		margin-bottom: -3px;
-	}
-
-	.products_enebo_img {
-		max-width: 75px;
-		aspect-ratio: 142.54 / 101.45;
 	}
 
 	/* 取扱い製品カード: SP時は番号上部、画像(左)+テキスト(右)の2カラム横並び */
