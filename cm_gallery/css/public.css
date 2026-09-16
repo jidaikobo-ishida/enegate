@@ -145,7 +145,7 @@ body#cm_gallery section {
 .public_movie_item .movie_ttl {
 	display: inline-block;
 	background-color: #d2edff;
-	color: #034698;
+	color: #004697;
 	font-size: 1.8rem;
 	font-weight: 700;
 	z-index: 1;
@@ -284,7 +284,7 @@ body#cm_gallery section {
 #sec_about .catch_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
-	color: #034698;
+	color: #004697;
 	line-height: 1.8;
 	margin-bottom: 35px;
 	letter-spacing: 0.03em;
@@ -428,7 +428,7 @@ body#cm_gallery section {
 #sec_achieve .achieve_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
-	color: #034698;
+	color: #004697;
 	line-height: 1.8;
 	margin-bottom: 35px;
 	letter-spacing: 0.03em;
@@ -458,11 +458,11 @@ body#cm_gallery section {
 .public_achieve_links a {
 	display: inline-block;
 	position: relative;
-	color: #034698;
+	color: #004697;
 	font-size: 1.05rem;
 	font-weight: 700;
 	text-decoration: none;
-	border-bottom: 2px solid #034698;
+	border-bottom: 2px solid #004697;
 	padding-bottom: 6px;
 	padding-right: 26px;
 	line-height: 1.4;
