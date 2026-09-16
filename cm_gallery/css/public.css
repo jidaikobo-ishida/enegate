@@ -10,7 +10,7 @@
 #mainvisual {
 	width: 100%;
 	line-height: 0;
-	background-color: #eaf4fc;
+	background-color: #d2edff;
 }
 
 #mainvisual picture,
@@ -30,7 +30,7 @@
 
 /* --- セクションごとのフルワイド背景色 --- */
 #sec_story {
-	background-color: #eaf4fc;
+	background-color: #d2edff;
 }
 
 #sec_story .page_public {
@@ -42,11 +42,11 @@
 }
 
 #sec_profile .page_public {
-	background-color: #eaf4fc;
+	background-color: #d2edff;
 }
 
 #sec_about {
-	background-color: #eaf4fc;
+	background-color: #d2edff;
 }
 
 #sec_about .page_public {
@@ -55,7 +55,7 @@
 }
 
 #sec_achieve {
-	background-color: #eaf4fc;
+	background-color: #d2edff;
 }
 
 /* --- 本文表示領域 (div.page_public) --- */
