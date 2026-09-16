@@ -302,13 +302,15 @@ body#cm_gallery textarea {
 }
 
 .public_product_num {
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	font-size: 4.5rem;
-	font-weight: 200;
-	color: #64a7fc;
-	flex: 0 0 85px;
-	line-height: 1;
-	letter-spacing: -0.03em;
+	flex: 0 0 60px;
+	display: flex;
+	align-items: center;
+}
+
+.public_product_num img {
+	display: block;
+	height: 37px;
+	width: auto;
 }
 
 .public_product_img_box {
@@ -586,8 +588,11 @@ body#cm_gallery textarea {
 	}
 
 	.public_product_num {
-		font-size: 3.2rem;
 		flex: none;
+	}
+
+	.public_product_num img {
+		height: 30px;
 	}
 
 	.public_product_img_box {
