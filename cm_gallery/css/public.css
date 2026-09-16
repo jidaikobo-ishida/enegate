@@ -264,6 +264,31 @@ body#cm_gallery textarea {
 }
 
 /* --- セクション3: What is ENEGATE ? --- */
+.about_content_wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 40px;
+	position: relative;
+}
+
+.about_main_col {
+	flex: 1;
+	max-width: 680px;
+}
+
+.about_photo_col {
+	flex: 0 0 320px;
+	max-width: 320px;
+	margin-top: 10px;
+}
+
+.about_photo_img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 #sec_about .sec_title_en {
 	margin-bottom: 25px;
 	line-height: 1;
@@ -565,10 +590,6 @@ body#cm_gallery textarea {
 		padding: 40px 20px 50px;
 	}
 
-	#sec_about .page_public {
-		border-radius: 0 0 50px 0;
-	}
-
 	.page_public .sec_title_en {
 		font-size: 2.0rem;
 	}
@@ -577,35 +598,28 @@ body#cm_gallery textarea {
 		font-size: 1.4rem;
 	}
 
-	.public_profile {
-		flex-direction: column;
-		padding: 30px 18px;
-		gap: 25px;
-		text-align: center;
-	}
-
-	.public_profile_photo {
-		margin: 0 auto;
-		flex: 0 0 200px;
-		width: 100%;
-		max-width: 200px;
-	}
-
-	.public_profile_info {
-		text-align: left;
-	}
-
-	.public_profile_info .name {
-		font-size: 1.9rem;
-	}
-
-
+	/* --- セクション1: CM STORY & MOVIE --- */
 	#sec_story {
 		overflow-x: clip;
 	}
 
+	.story_title_wrap {
+		gap: 12px;
+	}
+
+	.story_title_img {
+		max-width: 140px;
+		aspect-ratio: 298.79 / 71.07;
+	}
+
+	.story_enebo_img {
+		max-width: 85px;
+		aspect-ratio: 182.16 / 105.44;
+	}
+
 	.public_cm_movies {
-		padding: 0 18px;
+		padding: 0 10px;
+		gap: 60px;
 	}
 
 	.public_movie_item .movie_frame {
@@ -619,106 +633,6 @@ body#cm_gallery textarea {
 
 	.public_movie_placeholder .play_btn::after {
 		border-width: 10px 0 10px 16px;
-	}
-
-	#sec_about .sec_title_en {
-		margin-bottom: 18px;
-	}
-
-	#sec_about .about_head_img {
-		max-width: 270px;
-	}
-
-	#sec_about .catch_copy {
-		font-size: 1.55rem;
-		line-height: 1.6;
-	}
-
-	.public_product_card {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 18px;
-		padding: 28px 0;
-	}
-
-	.public_product_num {
-		flex: none;
-	}
-
-	.public_product_num img {
-		height: 30px;
-	}
-
-	.public_product_img_box {
-		width: 100%;
-		max-width: 180px;
-		min-height: 100px;
-		margin: 0 auto;
-		flex: none;
-	}
-
-	.public_product_img_box img {
-		max-height: 130px;
-	}
-
-	#sec_achieve .achieve_copy {
-		font-size: 1.55rem;
-		line-height: 1.6;
-	}
-
-	.public_achieve_links {
-		gap: 18px;
-	}
-
-	.public_more_link a,
-	.public_achieve_links a {
-		font-size: 0.95rem;
-		padding-bottom: 4px;
-		padding-right: 22px;
-	}
-
-	.public_more_link a::after,
-	.public_achieve_links a::after {
-		width: 13px;
-	}
-
-	.story_title_wrap {
-		gap: 12px;
-	}
-
-	.story_title_img {
-		max-width: 140px;
-	}
-
-	.story_enebo_img {
-		max-width: 85px;
-	}
-
-	#sec_profile .sec_title_en {
-		margin-bottom: 18px;
-	}
-
-	.profile_title_img {
-		max-width: 165px;
-	}
-
-	.public_products_title_wrap {
-		margin-bottom: 25px;
-	}
-
-	.public_products_title {
-		font-size: 1.25rem;
-		padding: 10px 35px 10px 20px;
-	}
-
-	.products_enebo {
-		width: 75px;
-		margin-left: -15px;
-		margin-bottom: -3px;
-	}
-
-	.products_enebo_img {
-		max-width: 75px;
 	}
 
 	.public_movie_item .movie_ttl {
@@ -779,8 +693,208 @@ body#cm_gallery textarea {
 		bottom: -30px;
 		right: -30px;
 	}
-}
 
+	/* --- セクション2: PROFILE --- */
+	#sec_profile .sec_title_en {
+		margin-bottom: 18px;
+	}
+
+	.profile_title_img {
+		max-width: 165px;
+		aspect-ratio: 347.42 / 71.07;
+	}
+
+	.public_profile {
+		flex-direction: column;
+		padding: 25px 0 10px;
+		gap: 20px;
+		text-align: left;
+	}
+
+	.public_profile_photo {
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+		flex: none;
+	}
+
+	.public_profile_photo img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.public_profile_info {
+		text-align: left;
+	}
+
+	.public_profile_info .name {
+		font-size: 2.0rem;
+		margin-bottom: 12px;
+		letter-spacing: 0.05em;
+	}
+
+	.public_profile_info .role {
+		font-size: 0.95rem;
+		font-weight: 700;
+		color: #002b66;
+		margin-bottom: 12px;
+	}
+
+	.public_profile_info .desc {
+		font-size: 0.88rem;
+		line-height: 1.75;
+	}
+
+	/* --- セクション3: What is ENEGATE ? --- */
+	#sec_about .sec_title_en {
+		margin-bottom: 18px;
+	}
+
+	.about_content_wrap {
+		display: block;
+		position: relative;
+	}
+
+	.about_main_col {
+		max-width: 100%;
+	}
+
+	.about_photo_col {
+		position: absolute;
+		top: 0;
+		right: -5px;
+		width: 38%;
+		max-width: 150px;
+		margin-top: 0;
+		z-index: 1;
+	}
+
+	#sec_about .about_head_img {
+		max-width: 220px;
+	}
+
+	#sec_about .catch_copy {
+		font-size: 1.45rem;
+		line-height: 1.55;
+		max-width: 62%;
+		margin-bottom: 25px;
+	}
+
+	#sec_about .lead_text {
+		font-size: 0.88rem;
+		line-height: 1.8;
+		margin-top: 25px;
+		clear: both;
+	}
+
+	/* 主な取扱い製品 */
+	.public_products_title_wrap {
+		margin-bottom: 25px;
+	}
+
+	.public_products_title {
+		font-size: 1.25rem;
+		padding: 10px 35px 10px 20px;
+	}
+
+	.products_enebo {
+		width: 75px;
+		margin-left: -15px;
+		margin-bottom: -3px;
+	}
+
+	.products_enebo_img {
+		max-width: 75px;
+		aspect-ratio: 142.54 / 101.45;
+	}
+
+	/* 取扱い製品カード: SP時は番号上部、画像(左)+テキスト(右)の2カラム横並び */
+	.public_product_card {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		gap: 10px 16px;
+		padding: 26px 0;
+		border-bottom: 1px solid #e0ecf7;
+	}
+
+	.public_product_card:last-child {
+		border-bottom: none;
+	}
+
+	.public_product_num {
+		flex: 0 0 100%;
+		width: 100%;
+		margin-bottom: 2px;
+	}
+
+	.public_product_num img {
+		height: 32px;
+		width: auto;
+		display: block;
+	}
+
+	.public_product_img_box {
+		flex: 0 0 36%;
+		max-width: 36%;
+		min-height: auto;
+		margin: 0;
+	}
+
+	.public_product_img_box img {
+		width: 100%;
+		max-height: 135px;
+		object-fit: contain;
+		display: block;
+	}
+
+	.public_product_content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	.public_product_content h4 {
+		font-size: 0.95rem;
+		margin-bottom: 8px;
+		line-height: 1.35;
+	}
+
+	.public_product_content p {
+		font-size: 0.84rem;
+		line-height: 1.65;
+		margin: 0;
+	}
+
+	.public_more_link a,
+	.public_achieve_links a {
+		font-size: 0.95rem;
+		padding-bottom: 4px;
+		padding-right: 22px;
+	}
+
+	.public_more_link a::after,
+	.public_achieve_links a::after {
+		width: 13px;
+	}
+
+	/* --- セクション4: 取替実績 --- */
+	#sec_achieve .achieve_copy {
+		font-size: 1.45rem;
+		line-height: 1.55;
+		margin-bottom: 20px;
+	}
+
+	#sec_achieve .achieve_text p {
+		font-size: 0.88rem;
+		line-height: 1.75;
+	}
+
+	.public_achieve_links {
+		gap: 16px;
+		margin-top: 25px;
+	}
+}
 
 /* ==========================================================================
    Utility Classes (PC / SP Display Switch)
