@@ -314,7 +314,6 @@ body#cm_gallery textarea {
 	display: inline-flex;
 	align-items: flex-end;
 	position: relative;
-	margin-bottom: 40px;
 }
 
 .public_products_title {
@@ -770,9 +769,6 @@ body#cm_gallery textarea {
 	}
 
 	/* éÂÇ»éÊàµÇ¢êªïi */
-	.public_products_title_wrap {
-		margin-bottom: 25px;
-	}
 
 	.public_products_title {
 		font-size: 1.25rem;
