@@ -521,6 +521,14 @@
 	}
 
 
+	#sec_story {
+		overflow-x: clip;
+	}
+
+	.public_cm_movies {
+		padding: 0 18px;
+	}
+
 	.public_movie_item .movie_frame {
 		padding: 30px;
 	}
