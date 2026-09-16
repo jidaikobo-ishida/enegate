@@ -596,7 +596,8 @@ body#cm_gallery section {
 	}
 
 	.story_enebo {
-		width: 150px;
+		width: 135px;
+		margin-right: -20px;
 	}
 
 
