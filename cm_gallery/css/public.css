@@ -581,6 +581,10 @@ body#cm_gallery section {
 		margin-bottom: 18px;
 	}
 
+	.page_public .sec_title_ja {
+		font-size: min(7vw, 2rem);
+	}
+
 	/* --- ƒZƒNƒVƒ‡ƒ“1: CM STORY & MOVIE --- */
 	#sec_story {
 		overflow-x: clip;
