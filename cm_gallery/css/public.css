@@ -344,15 +344,6 @@
 	text-align: right;
 }
 
-.public_more_link a {
-	display: inline-flex;
-	align-items: center;
-	color: #002b66;
-	font-weight: 700;
-	text-decoration: underline;
-	gap: 6px;
-}
-
 /* --- セクション4: 取替実績 --- */
 #sec_achieve .achieve_copy {
 	font-size: 2.3rem;
@@ -379,17 +370,46 @@
 .public_achieve_links {
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 24px;
 }
 
+/* リンクボタンスタイル (デザイン案準拠: アンダーライン＋右端斜線矢印) */
+.public_more_link a,
 .public_achieve_links a {
-	display: inline-flex;
-	align-items: center;
-	color: #002b66;
+	display: inline-block;
+	position: relative;
+	color: #034698;
+	font-size: 1.05rem;
 	font-weight: 700;
-	text-decoration: underline;
-	font-size: 1.1rem;
-	gap: 8px;
+	text-decoration: none;
+	border-bottom: 2px solid #034698;
+	padding-bottom: 6px;
+	padding-right: 26px;
+	line-height: 1.4;
+	transition: opacity 0.2s ease;
+}
+
+.public_more_link a::after,
+.public_achieve_links a::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: -2px;
+	width: 20px;
+	height: 15px;
+	background: url("../img/link_arrow.svg") no-repeat right bottom;
+	background-size: 20px 15px;
+	transition: transform 0.2s ease;
+}
+
+.public_more_link a:hover,
+.public_achieve_links a:hover {
+	opacity: 0.75;
+}
+
+.public_more_link a:hover::after,
+.public_achieve_links a:hover::after {
+	transform: translateX(4px);
 }
 
 
@@ -584,6 +604,17 @@
 	#sec_achieve .achieve_copy {
 		font-size: 1.55rem;
 		line-height: 1.6;
+	}
+
+	.public_achieve_links {
+		gap: 18px;
+	}
+
+	.public_more_link a,
+	.public_achieve_links a {
+		font-size: 0.95rem;
+		padding-bottom: 4px;
+		padding-right: 22px;
 	}
 
 	.public_products_title {
