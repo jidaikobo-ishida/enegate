@@ -365,6 +365,7 @@ body#cm_gallery textarea {
 	flex: 0 0 60px;
 	display: flex;
 	align-items: center;
+	align-self: flex-start;
 }
 
 .public_product_num img {
