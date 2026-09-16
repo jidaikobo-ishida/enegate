@@ -116,6 +116,7 @@ body#cm_gallery textarea {
 	width: 100%;
 	max-width: 200px;
 	height: auto;
+	aspect-ratio: 298.79 / 71.07;
 	display: block;
 }
 
@@ -123,6 +124,7 @@ body#cm_gallery textarea {
 	width: 100%;
 	max-width: 125px;
 	height: auto;
+	aspect-ratio: 182.16 / 105.44;
 	display: block;
 }
 
@@ -210,6 +212,7 @@ body#cm_gallery textarea {
 	width: 100%;
 	max-width: 235px;
 	height: auto;
+	aspect-ratio: 347.42 / 71.07;
 	display: block;
 }
 
@@ -320,6 +323,7 @@ body#cm_gallery textarea {
 }
 
 .products_enebo {
+	width: 115px;
 	margin-left: -20px;
 	margin-bottom: -5px;
 	position: relative;
@@ -331,6 +335,7 @@ body#cm_gallery textarea {
 	width: 100%;
 	max-width: 115px;
 	height: auto;
+	aspect-ratio: 142.54 / 101.45;
 	display: block;
 }
 
@@ -707,6 +712,7 @@ body#cm_gallery textarea {
 	}
 
 	.products_enebo {
+		width: 75px;
 		margin-left: -15px;
 		margin-bottom: -3px;
 	}

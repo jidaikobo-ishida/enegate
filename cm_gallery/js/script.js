@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				}
 			});
 		}, {
-			rootMargin: '0px 0px -80px 0px',
+			rootMargin: '0px 0px -30px 0px',
 			threshold: 0
 		});
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	} else {
 		function onScrollCheck() {
-			var triggerBottom = window.innerHeight - 80;
+			var triggerBottom = window.innerHeight - 30;
 			for (var i = 0; i < scrollTargets.length; i++) {
 				var target = scrollTargets[i];
 				if (!target.classList.contains('is-active')) {
