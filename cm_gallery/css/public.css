@@ -731,7 +731,7 @@ body#cm_gallery section {
 	.about_photo_col {
 		position: absolute;
 		top: 0;
-		right: -5px;
+		right: -30px;
 		width: 38%;
 		max-width: 150px;
 		margin-top: 0;
