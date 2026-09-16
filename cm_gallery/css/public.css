@@ -255,12 +255,14 @@ body#cm_gallery section {
 .about_main_col {
 	flex: 1;
 	max-width: 680px;
+	order: 1;
 }
 
 .about_photo_col {
 	flex: 0 0 240px;
 	max-width: 240px;
 	margin-top: 10px;
+	order: 2;
 }
 
 .about_photo_img {
@@ -575,10 +577,6 @@ body#cm_gallery section {
 		padding: 40px 20px 50px;
 	}
 
-	.sec_title_en {
-		margin-bottom: 18px;
-	}
-
 	.page_public .sec_title_ja {
 		font-size: min(7vw, 2rem);
 	}
@@ -720,7 +718,7 @@ body#cm_gallery section {
 
 	/* --- セクション3: What is ENEGATE ? --- */
 	.about_content_wrap {
-		display: block;
+		display: flow-root;
 		position: relative;
 	}
 
@@ -729,22 +727,20 @@ body#cm_gallery section {
 	}
 
 	.about_photo_col {
-		position: absolute;
-		top: 0;
-		right: -30px;
+		float: right;
 		width: 120px;
 		max-width: 120px;
-		margin-top: 0;
-		z-index: 1;
+		margin: 0 -25px 15px -20px;
+		position: static;
 	}
 
 	#sec_about .about_head_img {
-		max-width: calc(100% - 100px);
+		max-width: calc(100% - 110px);
 	}
 
 	#sec_about .catch_copy {
 		font-size: min(5.5vw, 1.8rem);
-		max-width: 62%;
+		max-width: calc(100% - 80px);
 		margin-bottom: 25px;
 	}
 
@@ -757,7 +753,7 @@ body#cm_gallery section {
 	/* 主な取扱い製品 */
 	.public_products_title {
 		position: relative;
-		padding: 10px 35px 10px 20px;
+		padding: 10px 35px 10px 0;
 	}
 
 	.public_products_title::before {
