@@ -117,16 +117,12 @@ body#cm_gallery textarea {
 	gap: 22px;
 }
 
-.story_enebo {
-	margin-bottom: -13px;
-	flex-shrink: 0;
-}
-
 .story_enebo_img {
 	width: 182px;
 	max-width: 100%;
 	height: auto;
 	aspect-ratio: 182.16 / 105.44;
+	margin-bottom: -13px;
 	display: block;
 }
 
@@ -594,14 +590,7 @@ body#cm_gallery textarea {
 		width: auto;
 	}
 
-	.story_enebo {
-		margin-bottom: -6px;
-	}
 
-	.story_enebo_img {
-		max-width: 85px;
-		aspect-ratio: 182.16 / 105.44;
-	}
 
 	.public_cm_movies {
 		padding: 0 10px;
