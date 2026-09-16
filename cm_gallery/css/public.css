@@ -420,6 +420,10 @@ body#cm_gallery section {
 }
 
 /* --- ƒZƒNƒVƒ‡ƒ“4: æ‘ÖÀÑ --- */
+#sec_achieve .page_public,
+#sec_archive .page_public {
+	padding-bottom: 260px;
+}
 #sec_achieve .achieve_copy {
 	font-size: 2.3rem;
 	font-weight: 700;
