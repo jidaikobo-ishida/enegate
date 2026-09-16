@@ -746,7 +746,6 @@ body#cm_gallery section {
 
 	#sec_about .catch_copy {
 		font-size: min(5.5vw, 1.8rem);
-		line-height: 1.55;
 		max-width: 62%;
 		margin-bottom: 25px;
 	}
@@ -844,7 +843,6 @@ body#cm_gallery section {
 
 	#sec_achieve .achieve_copy {
 		font-size: min(6vw, 2rem);
-		line-height: 1.55;
 		margin-bottom: 20px;
 	}
 
