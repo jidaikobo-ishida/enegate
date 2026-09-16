@@ -84,13 +84,13 @@ body#cm_gallery textarea {
 }
 
 /* --- 共通見出し --- */
-.page_public .sec_title_en {
-	font-size: 2.6rem;
-	font-weight: 700;
-	color: #002b66;
-	letter-spacing: 0.05em;
-	margin-bottom: 10px;
-	line-height: 1.2;
+.sec_title_en {
+	margin-bottom: 25px;
+	line-height: 1;
+}
+
+.story_title_wrap .sec_title_en {
+	margin-bottom: 0;
 }
 
 .page_public .sec_title_ja {
@@ -196,10 +196,6 @@ body#cm_gallery textarea {
 }
 
 /* --- セクション2: PROFILE --- */
-#sec_profile .sec_title_en {
-	margin-bottom: 25px;
-	line-height: 1;
-}
 
 
 .public_profile {
@@ -275,10 +271,6 @@ body#cm_gallery textarea {
 	display: block;
 }
 
-#sec_about .sec_title_en {
-	margin-bottom: 25px;
-	line-height: 1;
-}
 
 #sec_about .about_head_img {
 	width: 100%;
@@ -575,8 +567,8 @@ body#cm_gallery textarea {
 		padding: 40px 20px 50px;
 	}
 
-	.page_public .sec_title_en {
-		font-size: 2.0rem;
+	.sec_title_en {
+		margin-bottom: 18px;
 	}
 
 	.page_public .sec_title_ja {
@@ -681,9 +673,6 @@ body#cm_gallery textarea {
 	}
 
 	/* --- セクション2: PROFILE --- */
-	#sec_profile .sec_title_en {
-		margin-bottom: 18px;
-	}
 
 	.profile_title_img {
 		max-height: 55px;
@@ -734,9 +723,6 @@ body#cm_gallery textarea {
 	}
 
 	/* --- セクション3: What is ENEGATE ? --- */
-	#sec_about .sec_title_en {
-		margin-bottom: 18px;
-	}
 
 	.about_content_wrap {
 		display: block;
