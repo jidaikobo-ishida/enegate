@@ -109,13 +109,17 @@ body#cm_gallery textarea {
 .story_title_wrap {
 	display: flex;
 	align-items: flex-end;
-	gap: 20px;
+	gap: 22px;
 }
 
+.story_enebo {
+	margin-bottom: -13px;
+	flex-shrink: 0;
+}
 
 .story_enebo_img {
-	width: 100%;
-	max-width: 125px;
+	width: 182px;
+	max-width: 100%;
 	height: auto;
 	aspect-ratio: 182.16 / 105.44;
 	display: block;
@@ -589,6 +593,10 @@ body#cm_gallery textarea {
 		width: auto;
 	}
 
+
+	.story_enebo {
+		margin-bottom: -6px;
+	}
 
 	.story_enebo_img {
 		max-width: 85px;
