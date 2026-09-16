@@ -66,8 +66,13 @@ body#cm_gallery textarea {
 	border-radius: 0 0 100px 0;
 }
 
-#sec_achieve {
+#sec_achieve,
+#sec_archive {
 	background-color: #d2edff;
+	background-image: url("../img/archive_bg.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 640.5px auto;
 }
 
 /* --- 本文表示領域 (div.page_public) --- */
@@ -836,6 +841,16 @@ body#cm_gallery textarea {
 	}
 
 	/* --- セクション4: 取替実績 --- */
+	#sec_achieve,
+	#sec_archive {
+		background-size: 330px auto;
+	}
+
+	#sec_achieve .page_public,
+	#sec_archive .page_public {
+		padding-bottom: 260px;
+	}
+
 	#sec_achieve .achieve_copy {
 		line-height: 1.55;
 		margin-bottom: 20px;
