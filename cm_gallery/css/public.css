@@ -16,6 +16,7 @@ body#cm_gallery section {
    ========================================================================== */
 #mainvisual {
 	width: 100%;
+	min-width: 1180px;
 	line-height: 0;
 	background-color: #d2edff;
 }
@@ -30,6 +31,7 @@ body#cm_gallery section {
 /* --- フルワイドセクション共通 --- */
 .public_section {
 	width: 100%;
+	min-width: 1180px;
 	position: relative;
 	box-sizing: border-box;
 	padding: 0;
@@ -68,8 +70,7 @@ body#cm_gallery section {
 
 /* --- 本文表示領域 (div.page_public) --- */
 .page_public {
-	width: 100%;
-	max-width: 1180px;
+	width: 1180px;
 	margin: 0 auto;
 	padding: 70px 140px 90px;
 	box-sizing: border-box;
@@ -568,11 +569,17 @@ body#cm_gallery section {
    Responsive (max-width: 736px)
    ========================================================================== */
 @media screen and (max-width: 736px) {
+	#mainvisual {
+		min-width: auto;
+	}
+
 	.public_section {
+		min-width: auto;
 		padding: 0;
 	}
 
 	.page_public {
+		width: 100%;
 		padding: 40px 20px 50px;
 	}
 
