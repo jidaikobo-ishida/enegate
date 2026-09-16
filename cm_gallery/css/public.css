@@ -575,10 +575,6 @@ body#cm_gallery textarea {
 		margin-bottom: 18px;
 	}
 
-	.page_public .sec_title_ja {
-		font-size: 1.4rem;
-	}
-
 	/* --- セクション1: CM STORY & MOVIE --- */
 	#sec_story {
 		overflow-x: clip;
@@ -592,7 +588,6 @@ body#cm_gallery textarea {
 		max-height: 55px;
 		width: auto;
 	}
-
 
 	.story_enebo {
 		margin-bottom: -6px;
@@ -622,7 +617,6 @@ body#cm_gallery textarea {
 	}
 
 	.public_movie_item .movie_ttl {
-		font-size: 1.3rem;
 		margin: 0 0 -8px;
 		padding: 15px 20px 0 20px;
 		line-height: 1em;
@@ -681,12 +675,10 @@ body#cm_gallery textarea {
 	}
 
 	/* --- セクション2: PROFILE --- */
-
 	.profile_title_img {
 		max-height: 55px;
 		width: auto;
 	}
-
 
 	.public_profile {
 		flex-direction: column;
@@ -713,25 +705,19 @@ body#cm_gallery textarea {
 	}
 
 	.public_profile_info .name {
-		font-size: 2.0rem;
 		margin-bottom: 12px;
 		letter-spacing: 0.05em;
 	}
 
 	.public_profile_info .role {
-		font-size: 0.95rem;
-		font-weight: 700;
-		color: #002b66;
 		margin-bottom: 12px;
 	}
 
 	.public_profile_info .desc {
-		font-size: 0.88rem;
 		line-height: 1.75;
 	}
 
 	/* --- セクション3: What is ENEGATE ? --- */
-
 	.about_content_wrap {
 		display: block;
 		position: relative;
@@ -756,23 +742,19 @@ body#cm_gallery textarea {
 	}
 
 	#sec_about .catch_copy {
-		font-size: 1.45rem;
 		line-height: 1.55;
 		max-width: 62%;
 		margin-bottom: 25px;
 	}
 
 	#sec_about .lead_text {
-		font-size: 0.88rem;
 		line-height: 1.8;
 		margin-top: 25px;
 		clear: both;
 	}
 
 	/* 主な取扱い製品 */
-
 	.public_products_title {
-		font-size: 1.25rem;
 		padding: 10px 35px 10px 20px;
 	}
 
@@ -833,20 +815,17 @@ body#cm_gallery textarea {
 	}
 
 	.public_product_content h4 {
-		font-size: 0.95rem;
 		margin-bottom: 8px;
 		line-height: 1.35;
 	}
 
 	.public_product_content p {
-		font-size: 0.84rem;
 		line-height: 1.65;
 		margin: 0;
 	}
 
 	.public_more_link a,
 	.public_achieve_links a {
-		font-size: 0.95rem;
 		padding-bottom: 4px;
 		padding-right: 22px;
 	}
@@ -858,13 +837,11 @@ body#cm_gallery textarea {
 
 	/* --- セクション4: 取替実績 --- */
 	#sec_achieve .achieve_copy {
-		font-size: 1.45rem;
 		line-height: 1.55;
 		margin-bottom: 20px;
 	}
 
 	#sec_achieve .achieve_text p {
-		font-size: 0.88rem;
 		line-height: 1.75;
 	}
 
