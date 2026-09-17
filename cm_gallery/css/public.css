@@ -558,7 +558,7 @@ body#cm_gallery section {
 /* 見出し左上角の対角線外側 */
 .public_movie_item:nth-of-type(2) .movie_ttl::before {
 	display: block;
-	top: -40px;
+	top: 0;
 	left: -40px;
 }
 /* 見出し右上角の対角線外側 */
@@ -724,7 +724,7 @@ body#cm_gallery section {
 
 	/* 2つ目 */
 	.public_movie_item:nth-of-type(2) .movie_ttl::before {
-		top: -20px;
+		top: 0;
 		left: -20px;
 	}
 	.public_movie_item:nth-of-type(2) .movie_ttl::after {
