@@ -612,7 +612,7 @@ body#cm_gallery section {
 	width: 200px;
 	height: 200px;
 	right: -50px;
-	bottom: 250px;
+	top: -50px;
 }
 
 /* ==========================================================================
