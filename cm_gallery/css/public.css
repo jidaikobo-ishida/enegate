@@ -78,6 +78,20 @@ body#cm_gallery section {
 	background: #d2edff;
 }
 
+#sec_about .page_public::before {
+	width: 60px;
+	height: 60px;
+	top: 0;
+	left: 600px;
+}
+
+#sec_about .page_public::after {
+	width: 90px;
+	height: 90px;
+	top: 60px;
+	left: 540px;
+}
+
 #sec_achieve,
 #sec_archive {
 	background-color: #d2edff;
