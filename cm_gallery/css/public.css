@@ -623,6 +623,25 @@ body#cm_gallery section {
 		height: 40px;
 	}
 
+	.story_head::after {
+		top: -40px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.story_head .sec_title_ja::after {
+		content: "";
+		position: absolute;
+		z-index: 0;
+		pointer-events: none;
+		box-sizing: border-box;
+		background: #d2edff;
+		right: 60px;
+		top: 60px;
+		width: 25px;
+		height: 25px;
+	}
+
 	.story_title_wrap {
 		gap: 12px;
 	}
