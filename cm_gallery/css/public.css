@@ -99,14 +99,13 @@ body#cm_gallery section {
 	line-height: 1.4;
 }
 
-/* --- セクション1: CM STORY & MOVIE --- */
-.public_section .story_head {
-	margin-bottom: 50px;
+/* --- 装飾疑似要素 共通設定 --- */
+.decoration {
 	position: relative;
 }
 
-/* --- 装飾疑似要素 共通設定 --- */
-.story_head::before {
+.decoration::before,
+.decoration::after {
 	content: "";
 	position: absolute;
 	z-index: 0;
@@ -114,7 +113,11 @@ body#cm_gallery section {
 	box-sizing: border-box;
 }
 
-/* --- 各装飾要素の個別指定 --- */
+/* --- セクション1: CM STORY & MOVIE --- */
+.public_section .story_head {
+	margin-bottom: 50px;
+}
+
 .story_head::before {
 	top: 30px;
 	left: -85px;
