@@ -179,27 +179,6 @@ body#cm_gallery section {
 	margin-top: 30px;
 }
 
-.public_cm_movies::before {
-	border: 2px solid #d2edff;
-	width: 250px;
-	height: 250px;
-	right: -300px;
-	top: 0;
-}
-
-.public_movie_item::after {
-	content: "";
-	position: absolute;
-	z-index: 0;
-	pointer-events: none;
-	box-sizing: border-box;
-	border: 2px solid #d2edff;
-	width: 200px;
-	height: 200px;
-	right: -50px;
-	bottom: 250px;
-}
-
 .public_movie_item {
 	width: 100%;
 	max-width: 680px;
@@ -572,11 +551,17 @@ body#cm_gallery section {
 	top: -40px;
 	right: -40px;
 }
-/* ƒtƒŒ[ƒ€¶‰ºŠp‚Ì‘ÎŠpüŠO‘¤ */
+/* ‘å˜g˜gü‘•ü (‹Œ.public_cm_movies::before) */
 .public_movie_item:nth-of-type(1)::before {
 	display: block;
-	bottom: -40px;
-	left: -40px;
+	background-color: transparent;
+	border: 2px solid #d2edff;
+	width: 250px;
+	height: 250px;
+	right: -300px;
+	left: auto;
+	top: 0;
+	bottom: auto;
 }
 
 /* --- 2‚Â–Ú: TVCM 15•b --- */
@@ -617,6 +602,15 @@ body#cm_gallery section {
 	display: block;
 	bottom: -40px;
 	right: -40px;
+}
+/* ‘å˜g˜gü‘•ü (‹Œ.public_movie_item::after) */
+.public_movie_item:nth-of-type(3)::after {
+	display: block;
+	border: 2px solid #d2edff;
+	width: 200px;
+	height: 200px;
+	right: -50px;
+	bottom: 250px;
 }
 
 /* ==========================================================================
