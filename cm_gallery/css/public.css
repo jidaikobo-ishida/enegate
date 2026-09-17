@@ -275,10 +275,10 @@ body#cm_gallery section {
 
 .public_profile::after {
 	border: 2px solid #d2edff;
-	width: 250px;
-	height: 250px;
-	right: -300px;
-	bottom: -200px;
+	width: 300px;
+	height: 300px;
+	right: -200px;
+	bottom: -250px;
 }
 
 .public_profile_photo {
