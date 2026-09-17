@@ -340,9 +340,9 @@ body#cm_gallery section {
 }
 
 .about_photo_col {
-	flex: 0 0 240px;
-	max-width: 240px;
-	margin-top: 10px;
+	flex: 0 0 200px;
+	max-width: 200px;
+	margin-top: 75px;
 	order: 2;
 	position: relative;
 	z-index: 3;
