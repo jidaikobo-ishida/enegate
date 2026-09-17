@@ -391,6 +391,13 @@ body#cm_gallery section {
 	letter-spacing: 0.03em;
 }
 
+#sec_about .catch_copy::before {
+	width: 75px;
+	height: 75px;
+	top: 200px;
+	right: -40px;
+}
+
 #sec_about .catch_copy::after {
 	width: 200px;
 	height: 200px;
