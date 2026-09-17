@@ -179,19 +179,21 @@ body#cm_gallery section {
 	margin-top: 30px;
 }
 
-.public_cm_movies::before,
-.public_cm_movies::after {
-	border: 2px solid #d2edff;
-}
-
 .public_cm_movies::before {
+	border: 2px solid #d2edff;
 	width: 250px;
 	height: 250px;
 	right: -300px;
 	top: 0;
 }
 
-.public_cm_movies::after {
+.public_movie_item::after {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	pointer-events: none;
+	box-sizing: border-box;
+	border: 2px solid #d2edff;
 	width: 200px;
 	height: 200px;
 	right: -50px;
