@@ -279,6 +279,7 @@ body#cm_gallery section {
 	height: 300px;
 	right: -200px;
 	top: -200px;
+	z-index: 0;
 }
 
 .public_profile_photo {
