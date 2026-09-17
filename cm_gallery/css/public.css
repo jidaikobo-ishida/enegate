@@ -693,6 +693,7 @@ body#cm_gallery section {
 
 	.public_section {
 		min-width: auto;
+		padding: 0 15px;
 	}
 
 	.page_public {
@@ -909,6 +910,7 @@ body#cm_gallery section {
 
 	#sec_about .about_head_img {
 		max-width: calc(100% - 110px);
+		transform: translateX(0);
 	}
 
 	#sec_about .catch_copy {
