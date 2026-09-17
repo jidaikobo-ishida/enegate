@@ -420,6 +420,25 @@ body#cm_gallery section {
 	margin-bottom: 40px;
 }
 
+#sec_about .lead_text::before,
+#sec_about .lead_text::after {
+	background: #d2edff;
+}
+
+#sec_about .lead_text::before {
+	width: 50px;
+	height: 50px;
+	top: 150px;
+	left: -50px;
+}
+
+#sec_about .lead_text::after {
+	width: 25px;
+	height: 25px;
+	top: 175px;
+	left: -75px;
+}
+
 /* éÂÇ»éÊàµÇ¢êªïiÉäÉXÉg */
 .public_products_sec {
 	margin-top: 50px;
