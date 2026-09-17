@@ -191,6 +191,13 @@ body#cm_gallery section {
 	top: 0;
 }
 
+.public_cm_movies::after {
+	width: 200px;
+	height: 200px;
+	right: 0;
+	bottom: 100px;
+}
+
 .public_movie_item {
 	width: 100%;
 	max-width: 680px;
