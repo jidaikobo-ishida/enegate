@@ -184,6 +184,20 @@ body#cm_gallery section {
 	margin-top: 30px;
 }
 
+.public_cm_movies::after {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	pointer-events: none;
+	box-sizing: border-box;
+	display: block;
+	background: #d2edff;
+	left: -150px;
+	bottom: 200px;
+	width: 50px;
+	height: 50px;
+}
+
 .public_movie_item {
 	width: 100%;
 	max-width: 680px;
