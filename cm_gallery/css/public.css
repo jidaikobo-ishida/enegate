@@ -360,6 +360,7 @@ body#cm_gallery section {
 	max-width: 380px;
 	height: auto;
 	display: block;
+	transform: translateX(-40px);
 }
 
 #sec_about .catch_copy {
