@@ -62,6 +62,9 @@ body#cm_gallery section {
 
 #sec_about {
 	background-color: #d2edff;
+	overflow: visible;
+	position: relative;
+	z-index: 2;
 }
 
 #sec_about .page_public {
@@ -279,7 +282,7 @@ body#cm_gallery section {
 	height: 300px;
 	right: -200px;
 	top: -200px;
-	z-index: 0;
+	z-index: 1;
 }
 
 .public_profile_photo {
