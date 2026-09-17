@@ -108,8 +108,8 @@ body#cm_gallery section {
 .story_head::before {
 	content: "";
 	position: absolute;
-	top: 25px;
-	left: -55px;
+	top: 30px;
+	left: -85px;
 	width: 110px;
 	height: 110px;
 	border: 2px solid #d2edff;
