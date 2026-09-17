@@ -115,7 +115,7 @@ body#cm_gallery section {
 
 /* --- セクション1: CM STORY & MOVIE --- */
 .public_section .story_head {
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 50px;
 }
 
@@ -606,10 +606,6 @@ body#cm_gallery section {
 	/* --- セクション1: CM STORY & MOVIE --- */
 	#sec_story {
 		overflow-x: clip;
-	}
-
-	.public_section .story_head {
-		margin-top: 30px;
 	}
 
 	.story_head::before {
