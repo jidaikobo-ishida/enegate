@@ -420,6 +420,11 @@ body#cm_gallery section {
 	margin-bottom: 40px;
 }
 
+#sec_about .lead_text p {
+	position: relative;
+	z-index: 1;
+}
+
 #sec_about .lead_text::before,
 #sec_about .lead_text::after {
 	background: #d2edff;
