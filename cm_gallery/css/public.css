@@ -102,6 +102,26 @@ body#cm_gallery section {
 /* --- ƒZƒNƒVƒ‡ƒ“1: CM STORY & MOVIE --- */
 .public_section .story_head {
 	margin-bottom: 50px;
+	position: relative;
+}
+
+.story_head::before {
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: -55px;
+	width: 110px;
+	height: 110px;
+	border: 2px solid #d2edff;
+	box-sizing: border-box;
+	pointer-events: none;
+	z-index: 0;
+}
+
+.story_head .sec_title_ja,
+.story_title_wrap {
+	position: relative;
+	z-index: 1;
 }
 
 .story_title_wrap {
