@@ -72,6 +72,12 @@ body#cm_gallery section {
 	border-radius: 0 0 100px 0;
 }
 
+#sec_about .page_public::before,
+#sec_about .page_public::after {
+	display: block;
+	background: #d2edff;
+}
+
 #sec_achieve,
 #sec_archive {
 	background-color: #d2edff;
