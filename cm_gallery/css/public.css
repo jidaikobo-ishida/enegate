@@ -203,6 +203,7 @@ body#cm_gallery section {
 	max-width: 680px;
 	margin: 0 auto;
 	position: relative;
+	z-index: 1;
 	padding: 20px;
 	box-sizing: border-box;
 }
