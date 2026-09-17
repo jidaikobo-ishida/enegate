@@ -105,17 +105,22 @@ body#cm_gallery section {
 	position: relative;
 }
 
+/* --- ‘•ü‹^——v‘f ‹¤’Êİ’è --- */
 .story_head::before {
 	content: "";
 	position: absolute;
+	z-index: 0;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+/* --- Še‘•ü—v‘f‚ÌŒÂ•Êw’è --- */
+.story_head::before {
 	top: 30px;
 	left: -85px;
 	width: 110px;
 	height: 110px;
 	border: 2px solid #d2edff;
-	box-sizing: border-box;
-	pointer-events: none;
-	z-index: 0;
 }
 
 .story_head .sec_title_ja,
