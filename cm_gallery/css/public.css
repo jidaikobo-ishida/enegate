@@ -207,6 +207,8 @@ body#cm_gallery section {
 	background-color: #d2edff;
 	padding: 30px;
 	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
 }
 
 .public_movie_placeholder {
