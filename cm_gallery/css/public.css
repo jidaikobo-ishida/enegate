@@ -183,6 +183,13 @@ body#cm_gallery section {
 	border: 2px solid #d2edff;
 }
 
+.public_cm_movies::before {
+	width: 270px;
+	height: 270px;
+	right: -200px;
+	top: 50px;
+}
+
 .public_movie_item {
 	width: 100%;
 	max-width: 680px;
