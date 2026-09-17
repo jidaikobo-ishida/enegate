@@ -395,7 +395,8 @@ body#cm_gallery section {
 	width: 75px;
 	height: 75px;
 	top: 200px;
-	right: -40px;
+	right: -300px;
+	background: #d2edff;
 }
 
 #sec_about .catch_copy::after {
