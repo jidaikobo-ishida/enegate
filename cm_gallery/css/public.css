@@ -428,15 +428,15 @@ body#cm_gallery section {
 #sec_about .lead_text::before {
 	width: 50px;
 	height: 50px;
-	top: 150px;
-	left: -50px;
+	top: 125px;
+	left: -25px;
 }
 
 #sec_about .lead_text::after {
 	width: 25px;
 	height: 25px;
 	top: 175px;
-	left: -75px;
+	left: -50px;
 }
 
 /* éÂÇ»éÊàµÇ¢êªïiÉäÉXÉg */
