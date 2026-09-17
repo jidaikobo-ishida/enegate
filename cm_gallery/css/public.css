@@ -606,6 +606,13 @@ body#cm_gallery section {
 		overflow-x: clip;
 	}
 
+	.story_head::before {
+		top: -30px;
+		left: -40px;
+		width: 40px;
+		height: 40px;
+	}
+
 	.story_title_wrap {
 		gap: 12px;
 	}
