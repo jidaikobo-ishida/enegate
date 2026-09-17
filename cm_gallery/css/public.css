@@ -630,8 +630,9 @@ body#cm_gallery section {
 
 	.story_head .sec_title_ja::before {
 		top: -40px;
-		width: 60px;
-		height: 60px;
+		right: 0;
+		width: 30px;
+		height: 30px;
 	}
 
 	.story_head .sec_title_ja::after {
@@ -641,10 +642,10 @@ body#cm_gallery section {
 		pointer-events: none;
 		box-sizing: border-box;
 		background: #d2edff;
-		right: 60px;
-		top: 60px;
-		width: 25px;
-		height: 25px;
+		top: -10px;
+		right: 30px;
+		width: 15px;
+		height: 15px;
 	}
 
 	.story_title_wrap {
