@@ -607,17 +607,17 @@ body#cm_gallery section {
 /* --- …FlŠp‘•ü (::before) --- */
 .public_movie_item:nth-of-type(1)::before {
 	top: 150px;
-	left: 150px;
+	left: -100px;
 }
 
 .public_movie_item:nth-of-type(2)::before {
 	top: -20px;
-	right: 200px;
+	right: -200px;
 }
 
 .public_movie_item:nth-of-type(3)::before {
-	top: 280px;
-	left: 100px;
+	top: 300px;
+	left: -100px;
 }
 
 /* --- ‘å˜g˜gü‘•ü (::after) --- */
