@@ -273,12 +273,12 @@ body#cm_gallery section {
 	align-items: center;
 }
 
-.public_profile::after {
+.about_content_wrap::after {
 	border: 2px solid #d2edff;
 	width: 300px;
 	height: 300px;
 	right: -200px;
-	bottom: -250px;
+	top: -200px;
 }
 
 .public_profile_photo {
@@ -756,7 +756,7 @@ body#cm_gallery section {
 	/* PC用大枠装飾をスマホ時は非表示 */
 	.public_movie_item::before,
 	.public_movie_item::after,
-	.public_profile::after {
+	.about_content_wrap::after {
 		display: none !important;
 	}
 
