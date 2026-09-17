@@ -602,10 +602,14 @@ body#cm_gallery section {
 	right: -40px;
 }
 /* ‘å˜g˜gü‘•ü ‹¤’Êİ’è */
-.public_movie_item::before,
 .public_movie_item::after {
 	display: block;
 	border: 2px solid #d2edff;
+}
+
+.public_movie_item::before {
+	display: block;
+	background: #d2edff;
 }
 
 /* ‘å˜g˜gü‘•ü (2‚Â–Ú‚ÌƒAƒCƒeƒ€) */
