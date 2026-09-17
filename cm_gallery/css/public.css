@@ -629,6 +629,14 @@ body#cm_gallery section {
 		height: 25px;
 	}
 
+	.story_head::after {
+		left: 0;
+		width: 25px;
+		height: 25px;
+		top: auto;
+		bottom: 0;
+	}
+
 	.story_head .sec_title_ja::before {
 		top: -40px;
 		right: 0;
