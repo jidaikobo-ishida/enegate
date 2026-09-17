@@ -119,6 +119,7 @@ body#cm_gallery section {
 	margin-bottom: 50px;
 }
 
+.story_head::after,
 .story_head::before {
 	top: 30px;
 	left: -85px;
