@@ -699,13 +699,17 @@ body#cm_gallery section {
 	}
 
 	/* スマホ時の正方形ブロックサイズ: 15px */
-	.public_movie_item .movie_ttl::before,
-	.public_movie_item .movie_ttl::after,
 	.public_movie_item .movie_frame::before,
 	.public_movie_item .movie_frame::after,
 	.public_movie_item:nth-of-type(1)::before {
 		width: 15px;
 		height: 15px;
+	}
+
+	.public_movie_item .movie_ttl::before,
+	.public_movie_item .movie_ttl::after {
+		width: 20px;
+		height: 20px;
 	}
 
 	/* 1つ目 */
@@ -724,12 +728,12 @@ body#cm_gallery section {
 
 	/* 2つ目 */
 	.public_movie_item:nth-of-type(2) .movie_ttl::before {
-		top: -15px;
-		left: -15px;
+		top: -20px;
+		left: -20px;
 	}
 	.public_movie_item:nth-of-type(2) .movie_ttl::after {
-		top: -15px;
-		right: -15px;
+		top: -20px;
+		right: -20px;
 	}
 	.public_movie_item:nth-of-type(2) .movie_frame::after {
 		bottom: -15px;
@@ -738,8 +742,8 @@ body#cm_gallery section {
 
 	/* 3つ目 */
 	.public_movie_item:nth-of-type(3) .movie_ttl::before {
-		top: -15px;
-		left: -15px;
+		top: -20px;
+		left: -20px;
 	}
 	.public_movie_item:nth-of-type(3) .movie_frame::before {
 		top: 0;
