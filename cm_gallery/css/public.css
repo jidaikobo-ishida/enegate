@@ -127,6 +127,14 @@ body#cm_gallery section {
 	border: 2px solid #d2edff;
 }
 
+.story_head::after {
+	background: #d2edff;
+	top: -40px;
+	right: 0;
+	width: 90px;
+	height: 90px;
+}
+
 .story_head .sec_title_ja,
 .story_title_wrap {
 	position: relative;
