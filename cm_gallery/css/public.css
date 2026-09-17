@@ -88,8 +88,8 @@ body#cm_gallery section {
 #sec_about .page_public::after {
 	width: 75px;
 	height: 75px;
-	top: 60px;
-	left: 500px;
+	top: 50px;
+	left: 600px;
 }
 
 #sec_achieve,
