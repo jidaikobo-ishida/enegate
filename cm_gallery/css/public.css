@@ -194,8 +194,8 @@ body#cm_gallery section {
 .public_cm_movies::after {
 	width: 200px;
 	height: 200px;
-	right: 0;
-	bottom: 100px;
+	right: -50px;
+	bottom: 300px;
 }
 
 .public_movie_item {
