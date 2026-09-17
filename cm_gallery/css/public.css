@@ -698,16 +698,12 @@ body#cm_gallery section {
 		line-height: 1em;
 	}
 
-	/* スマホ時の正方形ブロックサイズ: 15px */
+	/* スマホ時の正方形ブロックサイズ: 20px */
+	.public_movie_item .movie_ttl::before,
+	.public_movie_item .movie_ttl::after,
 	.public_movie_item .movie_frame::before,
 	.public_movie_item .movie_frame::after,
 	.public_movie_item:nth-of-type(1)::before {
-		width: 15px;
-		height: 15px;
-	}
-
-	.public_movie_item .movie_ttl::before,
-	.public_movie_item .movie_ttl::after {
 		width: 20px;
 		height: 20px;
 	}
@@ -715,15 +711,15 @@ body#cm_gallery section {
 	/* 1つ目 */
 	.public_movie_item:nth-of-type(1) .movie_frame::before {
 		top: 0;
-		left: -15px;
+		left: -20px;
 	}
 	.public_movie_item:nth-of-type(1) .movie_frame::after {
-		top: -15px;
-		right: -15px;
+		top: -20px;
+		right: -20px;
 	}
 	.public_movie_item:nth-of-type(1)::before {
-		bottom: -15px;
-		left: -15px;
+		bottom: -20px;
+		left: -20px;
 	}
 
 	/* 2つ目 */
@@ -736,8 +732,8 @@ body#cm_gallery section {
 		right: -20px;
 	}
 	.public_movie_item:nth-of-type(2) .movie_frame::after {
-		bottom: -15px;
-		right: -15px;
+		bottom: -20px;
+		right: -20px;
 	}
 
 	/* 3つ目 */
@@ -747,11 +743,11 @@ body#cm_gallery section {
 	}
 	.public_movie_item:nth-of-type(3) .movie_frame::before {
 		top: 0;
-		left: -15px;
+		left: -20px;
 	}
 	.public_movie_item:nth-of-type(3) .movie_frame::after {
-		bottom: -15px;
-		right: -15px;
+		bottom: -20px;
+		right: -20px;
 	}
 
 	/* --- セクション2: PROFILE --- */
