@@ -624,7 +624,7 @@ body#cm_gallery section {
 
 	.story_head::before {
 		top: -50px;
-		left: -25px;
+		left: -30px;
 		width: 30px;
 		height: 30px;
 	}
