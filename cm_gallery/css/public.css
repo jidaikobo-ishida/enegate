@@ -344,6 +344,8 @@ body#cm_gallery section {
 	max-width: 240px;
 	margin-top: 10px;
 	order: 2;
+	position: relative;
+	z-index: 3;
 }
 
 .about_photo_img {
