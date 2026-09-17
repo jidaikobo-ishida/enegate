@@ -606,7 +606,7 @@ body#cm_gallery section {
 	right: -40px;
 }
 /* ‘å˜g˜gü‘•ü (2‚Â–Ú‚ÌƒAƒCƒeƒ€) */
-.public_movie_item:nth-of-type(2)::after {
+.public_movie_item:nth-of-type(2)::before {
 	display: block;
 	border: 2px solid #d2edff;
 	width: 200px;
