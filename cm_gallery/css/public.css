@@ -327,6 +327,7 @@ body#cm_gallery section {
 	align-items: flex-start;
 	gap: 20px;
 	position: relative;
+	margin-top: 50px;
 }
 
 .about_main_col {
