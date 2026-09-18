@@ -526,7 +526,7 @@ body#cm_gallery section {
 .public_product_card:nth-of-type(5)::after {
 	width: 25px;
 	height: 25px;
-	bottom: 85px;
+	bottom: 60px;
 	right: -90px;
 	background: #d2edff;
 }
