@@ -1072,9 +1072,9 @@ body#cm_gallery section {
 
 	.story_title_wrap::before {
 		background: #d2edff;
-		width: 35px;
-		height: 35px;
-		bottom: -10px;
+		width: 25px;
+		height: 25px;
+		bottom: -20px;
 		left: -30px;
 	}
 
