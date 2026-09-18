@@ -196,6 +196,8 @@ body#cm_gallery section {
 }
 
 .public_section .story_lead {
+	position: relative;
+	z-index: 1;
 	line-height: 2.0;
 	margin-bottom: 45px;
 }
@@ -1089,7 +1091,7 @@ body#cm_gallery section {
 	}
 
 	.public_section .story_lead:nth-of-type(1)::before,
-	.public_section .story_lead:nth-of-type(1)::after,
+	.public_section div.story_leadbox::after,
 	.public_section .story_lead:nth-of-type(2)::before {
 		border: 2px solid #d2edff;
 	}
@@ -1101,7 +1103,7 @@ body#cm_gallery section {
 		right: 0;
 	}
 
-	.public_section .story_lead:nth-of-type(1)::after {
+	.public_section div.story_leadbox::after {
 		width: 30px;
 		height: 30px;
 		bottom: 2px;
