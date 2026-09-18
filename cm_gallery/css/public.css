@@ -158,13 +158,12 @@ body#cm_gallery section {
 	border: 2px solid #d2edff;
 }
 
-.story_head .sec_title_ja::before {
-	content: "";
-	position: absolute;
-	z-index: 0;
-	pointer-events: none;
-	box-sizing: border-box;
+.story_head .sec_title_ja::before,
+.story_head .sec_title_ja::after {
 	background: #d2edff;
+}
+
+.story_head .sec_title_ja::before {
 	top: -20px;
 	right: -40px;
 	width: 90px;
@@ -1065,12 +1064,6 @@ body#cm_gallery section {
 	}
 
 	.story_head .sec_title_ja::after {
-		content: "";
-		position: absolute;
-		z-index: 0;
-		pointer-events: none;
-		box-sizing: border-box;
-		background: #d2edff;
 		top: -10px;
 		right: 30px;
 		width: 15px;
