@@ -1070,6 +1070,14 @@ body#cm_gallery section {
 		height: 15px;
 	}
 
+	.story_title_wrap::before {
+		background: #d2edff;
+		width: 35px;
+		height: 35px;
+		bottom: -10px;
+		left: -30px;
+	}
+
 	/* PC用大枠装飾をスマホ時は非表示 */
 	.public_movie_item::before,
 	.public_movie_item::after,
