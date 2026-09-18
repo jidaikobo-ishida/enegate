@@ -198,6 +198,9 @@ body#cm_gallery section {
 .public_section .story_lead {
 	line-height: 2.0;
 	margin-bottom: 45px;
+	position: relative;
+	z-index: 0;
+	isolation: isolate;
 }
 
 @media screen and (min-width: 737px) {
@@ -836,6 +839,10 @@ body#cm_gallery section {
 		overflow-x: clip;
 	}
 
+	.public_section .story_lead:nth-of-type(2) {
+		margin-bottom: 100px;
+	}
+
 	.story_title_wrap {
 		gap: 12px;
 	}
@@ -1088,6 +1095,7 @@ body#cm_gallery section {
 	.public_section .story_lead:nth-of-type(1)::after,
 	.public_section .story_lead:nth-of-type(2)::before {
 		border: 2px solid #d2edff;
+		z-index: -1;
 	}
 
 	.public_section .story_lead:nth-of-type(1)::before {
