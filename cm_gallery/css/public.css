@@ -1099,14 +1099,14 @@ body#cm_gallery section {
 	.public_section .story_leadbox::before {
 		width: 75px;
 		height: 75px;
-		bottom: 30px;
+		bottom: 100px;
 		right: 0;
 	}
 
 	.public_section .story_leadbox::after {
 		width: 30px;
 		height: 30px;
-		bottom: 2px;
+		bottom: 78px;
 		right: -28px;
 	}
 
