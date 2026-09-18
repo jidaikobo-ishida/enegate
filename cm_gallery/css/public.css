@@ -366,13 +366,14 @@ body#cm_gallery section {
 	margin-top: 75px;
 	order: 2;
 	position: relative;
-	z-index: 3;
 }
 
 .about_photo_img {
 	width: 100%;
 	height: auto;
 	display: block;
+	position: relative;
+	z-index: 3;
 }
 
 
