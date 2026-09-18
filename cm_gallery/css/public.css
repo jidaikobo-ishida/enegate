@@ -836,6 +836,10 @@ body#cm_gallery section {
 		overflow-x: clip;
 	}
 
+	.public_section .story_lead:nth-of-type(2) {
+		margin-bottom: 100px;
+	}
+
 	.story_title_wrap {
 		gap: 12px;
 	}
@@ -1100,8 +1104,8 @@ body#cm_gallery section {
 	.public_section .story_lead:nth-of-type(1)::after {
 		width: 30px;
 		height: 30px;
-		bottom: 0;
-		right: -30px;
+		bottom: 2px;
+		right: -28px;
 	}
 
 	.public_section .story_lead:nth-of-type(2)::before {
