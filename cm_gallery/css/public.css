@@ -513,20 +513,20 @@ body#cm_gallery section {
 	width: 90px;
 	height: 90px;
 	top: -10px;
-	left: -200px;
+	left: -170px;
 }
 
 .public_product_card:nth-of-type(5)::before {
 	width: 50px;
 	height: 50px;
 	bottom: 10px;
-	right: -100px;
+	right: -150px;
 }
 
 .public_product_card:nth-of-type(6)::before {
 	width: 90px;
 	height: 90px;
-	bottom: -150px;
+	bottom: -120px;
 	right: 100px;
 }
 
