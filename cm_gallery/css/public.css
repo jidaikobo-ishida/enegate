@@ -200,6 +200,12 @@ body#cm_gallery section {
 	margin-bottom: 45px;
 }
 
+@media screen and (min-width: 737px) {
+	.public_section .story_lead:first-of-type {
+		margin-bottom: 0;
+	}
+}
+
 .public_cm_movies {
 	display: flex;
 	flex-direction: column;
