@@ -830,41 +830,6 @@ body#cm_gallery section {
 		overflow-x: clip;
 	}
 
-	.story_head::before {
-		top: -50px;
-		left: -30px;
-		width: 30px;
-		height: 30px;
-	}
-
-	.story_head::after {
-		left: -20px;
-		width: 30px;
-		height: 30px;
-		top: auto;
-		bottom: -40px;
-	}
-
-	.story_head .sec_title_ja::before {
-		top: -40px;
-		right: 0;
-		width: 30px;
-		height: 30px;
-	}
-
-	.story_head .sec_title_ja::after {
-		content: "";
-		position: absolute;
-		z-index: 0;
-		pointer-events: none;
-		box-sizing: border-box;
-		background: #d2edff;
-		top: -10px;
-		right: 30px;
-		width: 15px;
-		height: 15px;
-	}
-
 	.story_title_wrap {
 		gap: 12px;
 	}
@@ -884,85 +849,6 @@ body#cm_gallery section {
 	.public_cm_movies {
 		padding: 0 10px;
 		gap: 60px;
-	}
-
-	/* PC用大枠装飾をスマホ時は非表示 */
-	.public_movie_item::before,
-	.public_movie_item::after,
-	.about_content_wrap::after {
-		display: none !important;
-	}
-
-	.public_movie_item .movie_frame {
-		padding: 15px;
-	}
-
-	.public_movie_placeholder .play_btn {
-		width: 56px;
-		height: 56px;
-	}
-
-	.public_movie_placeholder .play_btn::after {
-		border-width: 10px 0 10px 16px;
-	}
-
-	.public_movie_item .movie_ttl {
-		font-size: 1.5rem;
-		margin: 0 0 -5px;
-		padding: 10px 15px 0 15px;
-		line-height: 1em;
-	}
-
-	/* スマホ時の正方形ブロックサイズ: 20px */
-	.public_movie_item .movie_ttl::before,
-	.public_movie_item .movie_ttl::after,
-	.public_movie_item .movie_frame::before,
-	.public_movie_item .movie_frame::after,
-	.public_movie_item:nth-of-type(1)::before {
-		width: 20px;
-		height: 20px;
-	}
-
-	/* 1つ目 */
-	.public_movie_item:nth-of-type(1) .movie_frame::before {
-		top: 0;
-		left: -20px;
-	}
-	.public_movie_item:nth-of-type(1) .movie_frame::after {
-		top: -20px;
-		right: -20px;
-	}
-	.public_movie_item:nth-of-type(1)::before {
-		bottom: -20px;
-		left: -20px;
-	}
-
-	/* 2つ目 */
-	.public_movie_item:nth-of-type(2) .movie_ttl::before {
-		top: 0;
-		left: -20px;
-	}
-	.public_movie_item:nth-of-type(2) .movie_ttl::after {
-		top: -20px;
-		right: -20px;
-	}
-	.public_movie_item:nth-of-type(2) .movie_frame::after {
-		bottom: -20px;
-		right: -20px;
-	}
-
-	/* 3つ目 */
-	.public_movie_item:nth-of-type(3) .movie_ttl::before {
-		top: -20px;
-		left: -20px;
-	}
-	.public_movie_item:nth-of-type(3) .movie_frame::before {
-		top: 0;
-		left: -20px;
-	}
-	.public_movie_item:nth-of-type(3) .movie_frame::after {
-		bottom: -20px;
-		right: -20px;
 	}
 
 	/* --- セクション2: PROFILE --- */
@@ -1148,6 +1034,127 @@ body#cm_gallery section {
 		gap: 16px;
 		margin-top: 25px;
 	}
+}
+
+/* ==========================================================================
+   Responsive Styles (Decoration & Movie Details: max-width: 560px)
+   ========================================================================== */
+@media screen and (max-width: 560px) {
+	/* --- セクション1 装飾疑似要素 --- */
+	.story_head::before {
+		top: -50px;
+		left: -30px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.story_head::after {
+		left: -20px;
+		width: 30px;
+		height: 30px;
+		top: auto;
+		bottom: -40px;
+	}
+
+	.story_head .sec_title_ja::before {
+		top: -40px;
+		right: 0;
+		width: 30px;
+		height: 30px;
+	}
+
+	.story_head .sec_title_ja::after {
+		content: "";
+		position: absolute;
+		z-index: 0;
+		pointer-events: none;
+		box-sizing: border-box;
+		background: #d2edff;
+		top: -10px;
+		right: 30px;
+		width: 15px;
+		height: 15px;
+	}
+
+	/* PC用大枠装飾をスマホ時は非表示 */
+	.public_movie_item::before,
+	.public_movie_item::after,
+	.about_content_wrap::after {
+		display: none !important;
+	}
+
+	.public_movie_item .movie_frame {
+		padding: 15px;
+	}
+
+	.public_movie_placeholder .play_btn {
+		width: 56px;
+		height: 56px;
+	}
+
+	.public_movie_placeholder .play_btn::after {
+		border-width: 10px 0 10px 16px;
+	}
+
+	.public_movie_item .movie_ttl {
+		font-size: 1.5rem;
+		margin: 0 0 -5px;
+		padding: 10px 15px 0 15px;
+		line-height: 1em;
+	}
+
+	/* スマホ時の正方形ブロックサイズ: 20px */
+	.public_movie_item .movie_ttl::before,
+	.public_movie_item .movie_ttl::after,
+	.public_movie_item .movie_frame::before,
+	.public_movie_item .movie_frame::after,
+	.public_movie_item:nth-of-type(1)::before {
+		width: 20px;
+		height: 20px;
+	}
+
+	/* 1つ目 */
+	.public_movie_item:nth-of-type(1) .movie_frame::before {
+		top: 0;
+		left: -20px;
+	}
+	.public_movie_item:nth-of-type(1) .movie_frame::after {
+		top: -20px;
+		right: -20px;
+	}
+	.public_movie_item:nth-of-type(1)::before {
+		bottom: -20px;
+		left: -20px;
+	}
+
+	/* 2つ目 */
+	.public_movie_item:nth-of-type(2) .movie_ttl::before {
+		top: 0;
+		left: -20px;
+	}
+	.public_movie_item:nth-of-type(2) .movie_ttl::after {
+		top: -20px;
+		right: -20px;
+	}
+	.public_movie_item:nth-of-type(2) .movie_frame::after {
+		bottom: -20px;
+		right: -20px;
+	}
+
+	/* 3つ目 */
+	.public_movie_item:nth-of-type(3) .movie_ttl::before {
+		top: -20px;
+		left: -20px;
+	}
+	.public_movie_item:nth-of-type(3) .movie_frame::before {
+		top: 0;
+		left: -20px;
+	}
+	.public_movie_item:nth-of-type(3) .movie_frame::after {
+		bottom: -20px;
+		right: -20px;
+	}
+
 }
 
 /* ==========================================================================
