@@ -495,6 +495,13 @@ body#cm_gallery section {
 	align-items: center;
 }
 
+.public_product_card:nth-of-type(1)::before,
+.public_product_card:nth-of-type(4)::before,
+.public_product_card:nth-of-type(5)::before,
+.public_product_card:nth-of-type(6)::before {
+	background: #d2edff;
+}
+
 .public_product_num {
 	flex: 0 0 60px;
 	display: flex;
