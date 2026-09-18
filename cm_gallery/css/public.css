@@ -1084,6 +1084,33 @@ body#cm_gallery section {
 		left: -30px;
 	}
 
+	.public_section .story_lead:nth-of-type(1)::before,
+	.public_section .story_lead:nth-of-type(1)::after,
+	.public_section .story_lead:nth-of-type(2)::before {
+		border: 2px solid #d2edff;
+	}
+
+	.public_section .story_lead:nth-of-type(1)::before {
+		width: 75px;
+		height: 75px;
+		bottom: 30px;
+		right: 0;
+	}
+
+	.public_section .story_lead:nth-of-type(1)::after {
+		width: 30px;
+		height: 30px;
+		bottom: 0;
+		right: -30px;
+	}
+
+	.public_section .story_lead:nth-of-type(2)::before {
+		width: 85px;
+		height: 85px;
+		bottom: -40px;
+		left: -60px;
+	}
+
 	/* PC用大枠装飾をスマホ時は非表示 */
 	.public_movie_item::before,
 	.public_movie_item::after,
