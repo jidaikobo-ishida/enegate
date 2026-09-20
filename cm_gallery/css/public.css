@@ -1131,10 +1131,6 @@ body#cm_gallery section {
 		display: none !important;
 	}
 
-	.public_movie_item {
-		padding: 0;
-	}
-
 	.public_movie_item .movie_frame {
 		padding: 15px;
 	}
