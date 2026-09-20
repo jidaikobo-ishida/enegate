@@ -945,11 +945,11 @@ body#cm_gallery section {
 	}
 
 	.about_content_wrap::after {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 		right: -100px;
 		top: -50px;
-		z-index: 1;
+		z-index: 0;
 	}
 
 	.about_main_col {
