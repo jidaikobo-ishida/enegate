@@ -909,13 +909,14 @@ body#cm_gallery section {
 	#sec_about .page_public::before {
 		width: 30px;
 		height: 30px;
+		left: 200px;
 	}
 
 	#sec_about .page_public::after {
 		width: 60px;
 		height: 60px;
 		top: 30px;
-		left: 430px;
+		left: 230px;
 	}
 
 	.about_content_wrap {
