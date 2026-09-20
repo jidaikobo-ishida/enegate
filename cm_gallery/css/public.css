@@ -1017,9 +1017,9 @@ body#cm_gallery section {
 	#sec_about .lead_text:nth-of-type(2)::after {
 		width: 15px;
 		height: 15px;
-		top: 15px;
+		top: 20px;
 		bottom: auto;
-		right: 10px;
+		right: 5px;
 	}
 
 	/* éÂÇ»éÊàµÇ¢êªïi */
