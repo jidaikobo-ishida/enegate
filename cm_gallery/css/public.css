@@ -303,15 +303,6 @@ body#cm_gallery section {
 	align-items: center;
 }
 
-.about_content_wrap::after {
-	border: 2px solid #d2edff;
-	width: 300px;
-	height: 300px;
-	right: -210px;
-	top: -175px;
-	z-index: 1;
-}
-
 .public_profile_photo {
 	flex: 0 0 300px;
 	max-width: 300px;
@@ -380,6 +371,15 @@ body#cm_gallery section {
 	display: block;
 	position: relative;
 	z-index: 3;
+}
+
+.about_photo_col::after {
+	border: 2px solid #d2edff;
+	width: 300px;
+	height: 300px;
+	right: -210px;
+	top: -175px;
+	z-index: 1;
 }
 
 
@@ -944,14 +944,6 @@ body#cm_gallery section {
 		position: relative;
 	}
 
-	.about_content_wrap::after {
-		width: 150px;
-		height: 150px;
-		right: -100px;
-		top: -50px;
-		z-index: 0;
-	}
-
 	.about_main_col {
 		max-width: 100%;
 	}
@@ -961,8 +953,15 @@ body#cm_gallery section {
 		width: 130px;
 		max-width: 130px;
 		margin: 0 -25px 15px -20px;
-		position: static;
+		position: relative;
 		transform: translateY(-50px);
+	}
+
+	.about_photo_col::after {
+		width: 150px;
+		height: 150px;
+		right: -75px;
+		top: -50px;
 	}
 
 	#sec_about .about_head_img {
