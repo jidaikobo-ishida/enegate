@@ -986,9 +986,9 @@ body#cm_gallery section {
 	}
 
 	#sec_about .lead_text:nth-of-type(1)::before {
-		width: 30px;
-		height: 30px;
-		top: -65px;
+		width: 25px;
+		height: 25px;
+		top: -60px;
 		bottom: auto;
 		left: -5px;
 	}
@@ -1007,9 +1007,9 @@ body#cm_gallery section {
 	}
 
 	#sec_about .lead_text:nth-of-type(2)::before {
-		width: 30px;
-		height: 30px;
-		top: 30px;
+		width: 25px;
+		height: 25px;
+		top: 35px;
 		bottom: auto;
 		right: -20px;
 	}
