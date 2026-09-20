@@ -957,6 +957,19 @@ body#cm_gallery section {
 		margin-bottom: 25px;
 	}
 
+	#sec_about .catch_copy::after {
+		width: 100px;
+		height: 100px;
+		top: -20px;
+		left: -70px;
+		z-index: 0;
+	}
+
+	#sec_about .catch_copy .marker_blue {
+		position: relative;
+		z-index: 1;
+	}
+
 	#sec_about .lead_text {
 		line-height: 1.8;
 		margin-top: 25px;
