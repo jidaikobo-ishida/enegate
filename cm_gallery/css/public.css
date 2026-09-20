@@ -1013,17 +1013,17 @@ body#cm_gallery section {
 	#sec_about .lead_text:nth-of-type(2)::before {
 		width: 40px;
 		height: 40px;
-		top: -80px;
+		top: 80px;
 		bottom: auto;
-		right: 0;
+		right: -20px;
 	}
 
 	#sec_about .lead_text:nth-of-type(2)::after {
 		width: 20px;
 		height: 20px;
-		top: -40px;
+		top: 40px;
 		bottom: auto;
-		right: -20px;
+		right: 0;
 	}
 
 	/* éÂÇ»éÊàµÇ¢êªïi */
