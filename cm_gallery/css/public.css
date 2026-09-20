@@ -1068,8 +1068,8 @@ body#cm_gallery section {
 	}
 
 	.public_product_img_box {
-		flex: 0 0 36%;
-		max-width: 36%;
+		flex: 0 0 30%;
+		max-width: 30%;
 		min-height: auto;
 		margin: 0;
 	}
