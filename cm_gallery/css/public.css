@@ -917,14 +917,14 @@ body#cm_gallery section {
 
 	.about_photo_col {
 		float: right;
-		width: 120px;
-		max-width: 120px;
+		width: 150px;
+		max-width: 150px;
 		margin: 0 -25px 15px -20px;
 		position: static;
 	}
 
 	#sec_about .about_head_img {
-		max-width: calc(100% - 110px);
+		max-width: calc(100% - 120px);
 		transform: translateX(0);
 	}
 
