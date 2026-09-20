@@ -962,16 +962,16 @@ body#cm_gallery section {
 	}
 
 	#sec_about .lead_text:nth-of-type(1)::before {
-		width: 20px;
-		height: 20px;
+		width: 40px;
+		height: 40px;
 		top: -40px;
 		bottom: auto;
 		left: 0;
 	}
 
 	#sec_about .lead_text:nth-of-type(1)::after {
-		width: 40px;
-		height: 40px;
+		width: 20px;
+		height: 20px;
 		top: -80px;
 		bottom: auto;
 		left: -20px;
