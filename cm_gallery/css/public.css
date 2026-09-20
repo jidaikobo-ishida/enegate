@@ -956,7 +956,7 @@ body#cm_gallery section {
 	}
 
 	#sec_about .catch_copy {
-		font-size: min(5.5vw, 1.8rem);
+		font-size: min(5.1vw, 1.8rem);
 		max-width: calc(100% - 80px);
 		margin-bottom: 25px;
 	}
