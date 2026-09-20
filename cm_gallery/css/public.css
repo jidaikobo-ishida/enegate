@@ -911,6 +911,14 @@ body#cm_gallery section {
 		position: relative;
 	}
 
+	.about_content_wrap::after {
+		width: 200px;
+		height: 200px;
+		right: -100px;
+		top: -50px;
+		z-index: 1;
+	}
+
 	.about_main_col {
 		max-width: 100%;
 	}
@@ -1126,8 +1134,7 @@ body#cm_gallery section {
 
 	/* PC用大枠装飾をスマホ時は非表示（※3つ目の大枠装飾は表示） */
 	.public_movie_item::before,
-	.public_movie_item::after,
-	.about_content_wrap::after {
+	.public_movie_item::after {
 		display: none !important;
 	}
 
