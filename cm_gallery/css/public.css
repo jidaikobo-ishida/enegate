@@ -1133,6 +1133,9 @@ body#cm_gallery section {
 
 	.public_movie_item:nth-of-type(3)::after {
 		display: block !important;
+		width: 175px;
+		height: 175px;
+		top: 100px;
 	}
 
 	.public_movie_item .movie_frame {
