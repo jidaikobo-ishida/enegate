@@ -423,6 +423,10 @@ body#cm_gallery section {
 	-webkit-box-decoration-break: clone;
 }
 
+#sec_about .lead_textbox {
+	margin-top: 100px;
+}
+
 #sec_about .lead_text {
 	line-height: 2.0;
 	margin-bottom: 40px;
