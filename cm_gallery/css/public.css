@@ -424,7 +424,7 @@ body#cm_gallery section {
 }
 
 #sec_about .lead_textbox {
-	margin-top: 100px;
+	margin: 200px auto;
 }
 
 #sec_about .lead_text {
