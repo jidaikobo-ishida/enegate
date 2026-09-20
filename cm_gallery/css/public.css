@@ -959,6 +959,13 @@ body#cm_gallery section {
 		margin-bottom: 25px;
 	}
 
+	#sec_about .catch_copy::before {
+		width: 40px;
+		height: 40px;
+		top: 600px;
+		right: 20px;
+	}
+
 	#sec_about .catch_copy::after {
 		width: 100px;
 		height: 100px;
