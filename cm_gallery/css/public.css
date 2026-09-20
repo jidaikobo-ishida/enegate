@@ -963,18 +963,19 @@ body#cm_gallery section {
 		clear: both;
 	}
 
-	#sec_about .catch_copy::before {
+	#sec_about .lead_text:nth-of-type(1)::before {
 		width: 40px;
 		height: 40px;
 		top: -80px;
+		bottom: auto;
 		left: 0;
-		right: auto;
 	}
 
-	#sec_about .catch_copy::after {
+	#sec_about .lead_text:nth-of-type(1)::after {
 		width: 20px;
 		height: 20px;
 		top: -40px;
+		bottom: auto;
 		left: -20px;
 	}
 
