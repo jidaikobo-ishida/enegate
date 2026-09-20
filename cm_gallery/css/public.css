@@ -69,10 +69,6 @@ body#cm_gallery section {
 
 #sec_about .page_public {
 	background-color: #ffffff;
-	background-image: url(../img/aboutbg.png);
-	background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
 	border-radius: 0 0 100px 0;
 	padding-bottom: 150px;
 }
