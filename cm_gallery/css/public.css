@@ -1116,6 +1116,14 @@ body#cm_gallery section {
 		left: -60px;
 	}
 
+	.public_cm_movies::before {
+		background: #d2edff;
+		width: 80px;
+		height: 80px;
+		top: -100px;
+		right: 0;
+	}
+
 	/* PC用大枠装飾をスマホ時は非表示 */
 	.public_movie_item::before,
 	.public_movie_item::after,
