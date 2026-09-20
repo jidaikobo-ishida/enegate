@@ -805,7 +805,7 @@ body#cm_gallery section {
 	width: 200px;
 	height: 200px;
 	right: -100px;
-	bottom: 250px;
+	top: 10px;
 }
 
 /* ==========================================================================
