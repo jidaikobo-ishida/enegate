@@ -438,7 +438,9 @@ body#cm_gallery section {
 }
 
 #sec_about .lead_text:nth-of-type(1)::before,
-#sec_about .lead_text:nth-of-type(1)::after {
+#sec_about .lead_text:nth-of-type(1)::after,
+#sec_about .lead_text:nth-of-type(2)::before,
+#sec_about .lead_text:nth-of-type(2)::after {
 	background: #d2edff;
 }
 
@@ -454,6 +456,20 @@ body#cm_gallery section {
 	height: 25px;
 	bottom: -20px;
 	left: -65px;
+}
+
+#sec_about .lead_text:nth-of-type(2)::before {
+	width: 50px;
+	height: 50px;
+	bottom: -70px;
+	right: -40px;
+}
+
+#sec_about .lead_text:nth-of-type(2)::after {
+	width: 25px;
+	height: 25px;
+	bottom: -20px;
+	right: -65px;
 }
 
 /* 主な取扱い製品リスト */
@@ -992,6 +1008,22 @@ body#cm_gallery section {
 		top: -40px;
 		bottom: auto;
 		left: -20px;
+	}
+
+	#sec_about .lead_text:nth-of-type(2)::before {
+		width: 40px;
+		height: 40px;
+		top: -80px;
+		bottom: auto;
+		right: 0;
+	}
+
+	#sec_about .lead_text:nth-of-type(2)::after {
+		width: 20px;
+		height: 20px;
+		top: -40px;
+		bottom: auto;
+		right: -20px;
 	}
 
 	/* 主な取扱い製品 */
