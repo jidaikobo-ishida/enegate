@@ -999,7 +999,7 @@ body#cm_gallery section {
 		height: 30px;
 		top: -65px;
 		bottom: auto;
-		left: 0;
+		left: -5px;
 	}
 
 	#sec_about .lead_text:nth-of-type(1)::after {
@@ -1007,15 +1007,15 @@ body#cm_gallery section {
 		height: 15px;
 		top: -35px;
 		bottom: auto;
-		left: -15px;
+		left: -20px;
 	}
 
 	#sec_about .lead_text:nth-of-type(2)::before {
 		width: 30px;
 		height: 30px;
-		top: 35px;
+		top: 30px;
 		bottom: auto;
-		right: -15px;
+		right: -20px;
 	}
 
 	#sec_about .lead_text:nth-of-type(2)::after {
@@ -1023,7 +1023,7 @@ body#cm_gallery section {
 		height: 15px;
 		top: 15px;
 		bottom: auto;
-		right: 15px;
+		right: 10px;
 	}
 
 	/* éÂÇ»éÊàµÇ¢êªïi */
