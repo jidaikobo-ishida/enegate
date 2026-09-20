@@ -958,10 +958,11 @@ body#cm_gallery section {
 
 	.about_photo_col {
 		float: right;
-		width: 150px;
-		max-width: 150px;
+		width: 130px;
+		max-width: 130px;
 		margin: 0 -25px 15px -20px;
 		position: static;
+		transform: translateY(-50px);
 	}
 
 	#sec_about .about_head_img {
