@@ -195,10 +195,8 @@ body#cm_gallery section {
 	line-height: 2.0;
 }
 
-@media screen and (min-width: 737px) {
-	.public_section .story_lead:nth-of-type(2) {
-		margin-bottom: 50px;
-	}
+.public_section .story_lead:nth-of-type(2) {
+	margin-bottom: 50px;
 }
 
 .public_cm_movies {
@@ -802,7 +800,7 @@ body#cm_gallery section {
 /* ==========================================================================
    Responsive (max-width: 736px)
    ========================================================================== */
-@media screen and (max-width: 736px) {
+@media screen and (width <= 736px) {
 	#mainvisual {
 		min-width: auto;
 	}
@@ -1151,9 +1149,9 @@ body#cm_gallery section {
 }
 
 /* ==========================================================================
-   #sec_about .lead_text 装飾四角のスケーリング（441px～560pxの間で2倍に拡大）
+   #sec_about .lead_text 装飾四角のスケーリング（440px超～560pxの間で2倍に拡大）
    ========================================================================== */
-@media screen and (min-width: 441px) and (max-width: 560px) {
+@media screen and (440px < width <= 560px) {
 	#sec_about .lead_text:nth-of-type(1)::before,
 	#sec_about .lead_text:nth-of-type(1)::after,
 	#sec_about .lead_text:nth-of-type(2)::before,
@@ -1180,7 +1178,7 @@ body#cm_gallery section {
 /* ==========================================================================
    Responsive Styles (Decoration & Movie Details: max-width: 560px)
    ========================================================================== */
-@media screen and (max-width: 560px) {
+@media screen and (width <= 560px) {
 	/* --- セクション3 装飾疑似要素 --- */
 	.about_photo_col::after {
 		width: 150px;
@@ -1416,15 +1414,15 @@ body#cm_gallery section {
 /* ==========================================================================
    Utility Classes (PC / SP Display Switch)
    ========================================================================== */
-/* PC非表示（スマホのみ表示） */
-@media screen and (min-width: 561px) {
+/* PC非表示（スマホのみ表示: 560px超で非表示） */
+@media screen and (width > 560px) {
 	.nopc {
 		display: none !important;
 	}
 }
 
-/* スマホ非表示（PCのみ表示） */
-@media screen and (max-width: 560px) {
+/* スマホ非表示（PCのみ表示: 560px以下で非表示） */
+@media screen and (width <= 560px) {
 	.nosp {
 		display: none !important;
 	}
