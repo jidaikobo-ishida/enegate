@@ -1032,6 +1032,14 @@ body#cm_gallery section {
 
 	/* éÂÇ»éÊàµÇ¢êªïi */
 	/* éÂÇ»éÊàµÅi */
+	.public_products_sec::before {
+		background: #d2edff;
+		width: 30px;
+		height: 30px;
+		top: -50px;
+		right: 30px;
+	}
+
 	.public_products_title {
 		padding: 10px 35px 10px 0;
 	}
@@ -1042,14 +1050,6 @@ body#cm_gallery section {
 		left: -35px;
 		right: 100%;
 		background-color: #004697;
-	}
-
-	.public_products_title::after {
-		background: #d2edff;
-		width: 30px;
-		height: 30px;
-		top: -80px;
-		left: 90%;
 	}
 
 	.about_enebo {
