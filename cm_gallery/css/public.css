@@ -1078,6 +1078,13 @@ body#cm_gallery section {
 		left: -10px;
 	}
 
+	.public_product_card:nth-of-type(4)::after {
+		width: 100px;
+		height: 100px;
+		bottom: auto;
+		top: -50px;
+	}
+
 	.public_product_num {
 		flex: 0 0 100%;
 		width: 100%;
