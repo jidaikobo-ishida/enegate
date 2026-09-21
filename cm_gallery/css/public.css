@@ -1078,6 +1078,7 @@ body#cm_gallery section {
 		height: 100px;
 		bottom: auto;
 		top: -50px;
+		right: -70px;
 	}
 
 	.public_product_num {
