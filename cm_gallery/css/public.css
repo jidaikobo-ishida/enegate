@@ -1187,10 +1187,10 @@ body#cm_gallery section {
 	}
 
 	.public_more_link::before {
-		width: 30px;
-		height: 30px;
-		right: 5px;
-		bottom: -15px;
+		width: 25px;
+		height: 25px;
+		right: -5px;
+		bottom: 15px;
 	}
 
 	.public_more_link::after {
