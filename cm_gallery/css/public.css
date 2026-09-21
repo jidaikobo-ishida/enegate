@@ -1224,7 +1224,7 @@ body#cm_gallery section {
 	#sec_about .lead_text:nth-of-type(1)::after,
 	#sec_about .lead_text:nth-of-type(2)::before,
 	#sec_about .lead_text:nth-of-type(2)::after {
-		transform: scale(calc(1 + (100vw - 560px) / 352px));
+		transform: scale(2);
 	}
 
 	/* —×Ú“_‚ğ‹N“_‚Éİ’è */
