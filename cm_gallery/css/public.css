@@ -1081,8 +1081,8 @@ body#cm_gallery section {
 	.public_product_card:nth-of-type(1)::after {
 		width: 20px;
 		height: 20px;
-		top: 40px;
-		right: 10px;
+		top: 30px;
+		right: -10px;
 	}
 
 	.public_product_card:nth-of-type(3)::after {
