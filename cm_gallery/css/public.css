@@ -862,7 +862,7 @@ body#cm_gallery section {
 
 
 	.public_cm_movies {
-		gap: 60px;
+		gap: 30px;
 	}
 
 	.public_cm_movies::before {
