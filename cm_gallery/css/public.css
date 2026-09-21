@@ -14,10 +14,6 @@ body#cm_gallery section {
 /* ==========================================================================
    Public LP Section & Layout Styles
    ========================================================================== */
-
-/* ==========================================================================
-   Main Visual
-   ========================================================================== */
 #mainvisual {
 	width: 100%;
 	min-width: 950px;
@@ -45,7 +41,6 @@ body#cm_gallery section {
 /* --- セクションごとのフルワイド背景色 --- */
 #sec_story {
 	background-color: #c1e2f7;
-	overflow: hidden;
 }
 
 #sec_story .page_public {
@@ -93,8 +88,7 @@ body#cm_gallery section {
 	right: 400px;
 }
 
-#sec_achieve,
-#sec_archive {
+#sec_achieve {
 	background-color: #d2edff;
 }
 
@@ -215,12 +209,6 @@ body#cm_gallery section {
 }
 
 .public_cm_movies::after {
-	content: "";
-	position: absolute;
-	z-index: 0;
-	pointer-events: none;
-	box-sizing: border-box;
-	display: block;
 	background: #d2edff;
 	left: -75px;
 	bottom: 250px;
@@ -515,6 +503,7 @@ body#cm_gallery section {
 .public_product_card:nth-of-type(1)::before,
 .public_product_card:nth-of-type(4)::before,
 .public_product_card:nth-of-type(5)::before,
+.public_product_card:nth-of-type(5)::after,
 .public_product_card:nth-of-type(6)::before {
 	background: #d2edff;
 }
@@ -545,7 +534,6 @@ body#cm_gallery section {
 	height: 25px;
 	bottom: 60px;
 	right: -90px;
-	background: #d2edff;
 }
 
 .public_product_card:nth-of-type(6)::before {
@@ -631,8 +619,7 @@ body#cm_gallery section {
 }
 
 /* --- セクション4: 取替実績 --- */
-#sec_achieve .page_public,
-#sec_archive .page_public {
+#sec_achieve .page_public {
 	padding-bottom: 260px;
 	background-image: url("../img/archive_bg.png");
 	background-repeat: no-repeat;
@@ -826,7 +813,6 @@ body#cm_gallery section {
 	}
 
 	.page_public {
-		width: 100%;
 		min-width: auto;
 		padding: 40px 20px 50px;
 	}
@@ -911,7 +897,6 @@ body#cm_gallery section {
 		font-size: 1.5rem;
 		margin: 0 0 -5px;
 		padding: 10px 15px 0 15px;
-		line-height: 1em;
 	}
 
 	/* スマホ時の正方形ブロックサイズ: 20px */
@@ -985,11 +970,6 @@ body#cm_gallery section {
 		flex: none;
 	}
 
-	.public_profile_photo img {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
 
 	.public_profile_info {
 		text-align: left;
@@ -1029,7 +1009,6 @@ body#cm_gallery section {
 
 	.about_content_wrap {
 		display: flow-root;
-		position: relative;
 	}
 
 	.about_main_col {
@@ -1041,7 +1020,6 @@ body#cm_gallery section {
 		width: 130px;
 		max-width: 130px;
 		margin: 0 -25px 15px -20px;
-		position: relative;
 		transform: translateY(-5vw);
 	}
 
@@ -1069,7 +1047,6 @@ body#cm_gallery section {
 
 
 	/* 主な取扱い製品 */
-	/* 主な取扱（ */
 	.public_products_title {
 		padding: 10px 35px 10px 0;
 	}
@@ -1105,8 +1082,6 @@ body#cm_gallery section {
 
 	.public_product_num img {
 		height: 32px;
-		width: auto;
-		display: block;
 	}
 
 	.public_product_img_box {
@@ -1119,12 +1094,9 @@ body#cm_gallery section {
 	.public_product_img_box img {
 		width: 100%;
 		max-height: 135px;
-		object-fit: contain;
-		display: block;
 	}
 
 	.public_product_content {
-		flex: 1;
 		min-width: 0;
 	}
 
@@ -1159,10 +1131,8 @@ body#cm_gallery section {
 	}
 
 	/* --- セクション4: 取替実績 --- */
-	#sec_achieve .page_public,
-	#sec_archive .page_public {
+	#sec_achieve .page_public {
 		background-size: 330px auto;
-		padding-bottom: 260px;
 	}
 
 	#sec_achieve .achieve_copy {
@@ -1296,7 +1266,6 @@ body#cm_gallery section {
 		right: 0;
 	}
 
-	.public_product_card:nth-of-type(1)::before,
 	.public_product_card:nth-of-type(1)::after {
 		background: #d2edff;
 	}
