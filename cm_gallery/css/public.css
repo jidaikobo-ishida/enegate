@@ -1118,6 +1118,27 @@ body#cm_gallery section {
 		display: none;
 	}
 
+	.public_product_card:nth-of-type(5)::before,
+	.public_product_card:nth-of-type(5)::after {
+		background: #d2edff;
+	}
+
+	.public_product_card:nth-of-type(5)::before {
+		width: 20px;
+		height: 20px;
+		top: 20px;
+		bottom: auto;
+		right: 40px;
+	}
+
+	.public_product_card:nth-of-type(5)::after {
+		width: 40px;
+		height: 40px;
+		top: 40px;
+		bottom: auto;
+		right: 0;
+	}
+
 	.public_product_num {
 		flex: 0 0 100%;
 		width: 100%;
