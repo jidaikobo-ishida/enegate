@@ -1051,6 +1051,14 @@ body#cm_gallery section {
 		background-color: #004697;
 	}
 
+	.public_products_title::after {
+		background: #d2edff;
+		width: 30px;
+		height: 30px;
+		top: -70px;
+		right: 10px;
+	}
+
 	.about_enebo {
 		width: 100px;
 		margin-right: -20px;
