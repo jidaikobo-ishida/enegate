@@ -884,7 +884,7 @@ body#cm_gallery section {
 		width: 100px;
 		height: 100px;
 		bottom: 50px;
-		right: 50px;
+		right: -50px;
 	}
 
 	.public_movie_item .movie_frame {
