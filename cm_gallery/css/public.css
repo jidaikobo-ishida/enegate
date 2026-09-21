@@ -1094,6 +1094,14 @@ body#cm_gallery section {
 		right: -10px;
 	}
 
+	.public_product_card:nth-of-type(3)::before {
+		background: #d2edff;
+		width: 30px;
+		height: 30px;
+		left: -30px;
+		bottom: 20px;
+	}
+
 	.public_product_card:nth-of-type(3)::after {
 		border: 2px solid #d2edff;
 		width: 100px;
