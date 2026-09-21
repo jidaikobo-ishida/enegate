@@ -1121,7 +1121,7 @@ body#cm_gallery section {
 	.public_product_card:nth-of-type(5)::before {
 		width: 15px;
 		height: 15px;
-		top: 40px;
+		top: 20px;
 		bottom: auto;
 		right: -20px;
 	}
@@ -1129,7 +1129,7 @@ body#cm_gallery section {
 	.public_product_card:nth-of-type(5)::after {
 		width: 30px;
 		height: 30px;
-		top: 20px;
+		top: 40px;
 		bottom: auto;
 		right: 10px;
 	}
