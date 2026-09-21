@@ -909,6 +909,11 @@ body#cm_gallery section {
 	}
 
 	/* --- ƒZƒNƒVƒ‡ƒ“3: What is ENEGATE ? --- */
+	#sec_about .page_public {
+		border-radius: 0 0 50px 0;
+		padding-bottom: 80px;
+	}
+
 	#sec_about .page_public::before {
 		width: 20px;
 		height: 20px;
