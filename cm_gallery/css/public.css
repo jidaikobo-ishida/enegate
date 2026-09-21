@@ -1302,16 +1302,16 @@ body#cm_gallery section {
 	}
 
 	.public_section .story_lead:nth-of-type(2)::before {
-		width: 85px;
-		height: 85px;
+		width: 50px;
+		height: 50px;
 		bottom: -90px;
 		left: -60px;
 	}
 
 	.public_cm_movies::before {
 		background: #d2edff;
-		width: 80px;
-		height: 80px;
+		width: 40px;
+		height: 40px;
 		top: -130px;
 		right: 0;
 	}
