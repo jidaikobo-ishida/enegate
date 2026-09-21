@@ -1170,6 +1170,10 @@ body#cm_gallery section {
 		line-height: 1.35;
 	}
 
+	.public_product_content h4 span {
+		display: inline-block;
+	}
+
 	.public_product_content p {
 		line-height: 1.65;
 		margin: 0;
