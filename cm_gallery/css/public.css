@@ -1166,6 +1166,7 @@ body#cm_gallery section {
 	}
 
 	.public_product_content h4 {
+		padding: 5px 10px;
 		margin-bottom: 8px;
 		line-height: 1.35;
 	}
