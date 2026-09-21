@@ -281,8 +281,6 @@ body#cm_gallery section {
 }
 
 /* --- セクション2: PROFILE --- */
-
-
 .public_profile {
 	display: flex;
 	gap: 45px;
@@ -843,8 +841,6 @@ body#cm_gallery section {
 		margin-right: -20px;
 	}
 
-
-
 	.public_cm_movies {
 		gap: 30px;
 	}
@@ -968,7 +964,6 @@ body#cm_gallery section {
 		flex: none;
 	}
 
-
 	.public_profile_info {
 		text-align: left;
 	}
@@ -1043,7 +1038,6 @@ body#cm_gallery section {
 		clear: both;
 	}
 
-
 	/* 主な取扱い製品 */
 	.public_products_title {
 		padding: 10px 35px 10px 0;
@@ -1070,7 +1064,6 @@ body#cm_gallery section {
 		gap: 10px 16px;
 		padding: 26px 0;
 	}
-
 
 	.public_product_num {
 		flex: 0 0 100%;
@@ -1179,6 +1172,71 @@ body#cm_gallery section {
    Responsive Styles (Decoration & Movie Details: max-width: 560px)
    ========================================================================== */
 @media screen and (width <= 560px) {
+	/* --- セクション1 装飾疑似要素 --- */
+	.story_head::before {
+		top: -50px;
+		left: -30px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.story_head::after {
+		left: -20px;
+		width: 30px;
+		height: 30px;
+		top: auto;
+		bottom: -40px;
+	}
+
+	.story_head .sec_title_ja::before {
+		top: -40px;
+		right: 0;
+		width: 30px;
+		height: 30px;
+	}
+
+	.story_head .sec_title_ja::after {
+		top: -10px;
+		right: 30px;
+		width: 15px;
+		height: 15px;
+	}
+
+	.story_title_wrap::before {
+		background: #d2edff;
+		width: 25px;
+		height: 25px;
+		bottom: -20px;
+		left: -30px;
+	}
+
+	.public_section .story_leadbox::before,
+	.public_section .story_leadbox::after,
+	.public_section .story_lead:nth-of-type(2)::before {
+		border: 2px solid #d2edff;
+	}
+
+	.public_section .story_leadbox::before {
+		width: 50px;
+		height: 50px;
+		bottom: 100px;
+		right: 0;
+	}
+
+	.public_section .story_leadbox::after {
+		width: 30px;
+		height: 30px;
+		bottom: 72px;
+		right: -28px;
+	}
+
+	.public_section .story_lead:nth-of-type(2)::before {
+		width: 50px;
+		height: 50px;
+		bottom: -90px;
+		left: -60px;
+	}
+
 	/* --- セクション3 装飾疑似要素 --- */
 	.about_photo_col::after {
 		width: 150px;
@@ -1264,10 +1322,6 @@ body#cm_gallery section {
 		right: 0;
 	}
 
-	.public_product_card:nth-of-type(1)::after {
-		background: #d2edff;
-	}
-
 	.public_product_card:nth-of-type(1)::before {
 		width: 30px;
 		height: 30px;
@@ -1277,6 +1331,7 @@ body#cm_gallery section {
 	}
 
 	.public_product_card:nth-of-type(1)::after {
+		background: #d2edff;
 		width: 15px;
 		height: 15px;
 		top: 30px;
@@ -1342,73 +1397,6 @@ body#cm_gallery section {
 		right: 20px;
 		bottom: 0;
 	}
-
-	/* --- セクション1 装飾疑似要素 --- */
-	.story_head::before {
-		top: -50px;
-		left: -30px;
-		width: 30px;
-		height: 30px;
-	}
-
-	.story_head::after {
-		left: -20px;
-		width: 30px;
-		height: 30px;
-		top: auto;
-		bottom: -40px;
-	}
-
-	.story_head .sec_title_ja::before {
-		top: -40px;
-		right: 0;
-		width: 30px;
-		height: 30px;
-	}
-
-	.story_head .sec_title_ja::after {
-		top: -10px;
-		right: 30px;
-		width: 15px;
-		height: 15px;
-	}
-
-	.story_title_wrap::before {
-		background: #d2edff;
-		width: 25px;
-		height: 25px;
-		bottom: -20px;
-		left: -30px;
-	}
-
-	.public_section .story_leadbox::before,
-	.public_section .story_leadbox::after,
-	.public_section .story_lead:nth-of-type(2)::before {
-		border: 2px solid #d2edff;
-	}
-
-	.public_section .story_leadbox::before {
-		width: 50px;
-		height: 50px;
-		bottom: 100px;
-		right: 0;
-	}
-
-	.public_section .story_leadbox::after {
-		width: 30px;
-		height: 30px;
-		bottom: 72px;
-		right: -28px;
-	}
-
-	.public_section .story_lead:nth-of-type(2)::before {
-		width: 50px;
-		height: 50px;
-		bottom: -90px;
-		left: -60px;
-	}
-
-
 }
 
 /* ==========================================================================
