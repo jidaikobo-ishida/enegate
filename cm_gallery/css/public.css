@@ -1189,15 +1189,15 @@ body#cm_gallery section {
 	.public_more_link::before {
 		width: 30px;
 		height: 30px;
-		right: 50px;
-		bottom: -100px;
+		right: 5px;
+		bottom: -15px;
 	}
 
 	.public_more_link::after {
 		width: 15px;
 		height: 15px;
-		right: 115px;
-		bottom: 50px;
+		right: 20px;
+		bottom: 0;
 	}
 
 	.public_more_link a,
