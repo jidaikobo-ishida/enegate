@@ -990,8 +990,8 @@ body#cm_gallery section {
 		border: 2px solid #d2edff;
 		width: 40px;
 		height: 40px;
-		top: 130px;
-		right: 0;
+		top: 140px;
+		right: -20px;
 	}
 
 	#sec_about .lead_text {
