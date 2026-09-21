@@ -873,6 +873,13 @@ body#cm_gallery section {
 		right: 0;
 	}
 
+	.public_cm_movies::after {
+		left: 0;
+		bottom: -30px;
+		width: 25px;
+		height: 25px;
+	}
+
 	/* PC用大枠装飾をスマホ時は非表示（※3つ目の大枠装飾は表示） */
 	.public_movie_item::before,
 	.public_movie_item::after {
