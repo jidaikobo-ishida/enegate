@@ -958,13 +958,6 @@ body#cm_gallery section {
 		margin-bottom: 25px;
 	}
 
-	#sec_about .catch_copy::before {
-		width: 30px;
-		height: 30px;
-		top: 700px;
-		right: -80px;
-	}
-
 	#sec_about .catch_copy::after {
 		width: 100px;
 		height: 100px;
@@ -1055,8 +1048,8 @@ body#cm_gallery section {
 		background: #d2edff;
 		width: 30px;
 		height: 30px;
-		top: -70px;
-		right: 10px;
+		top: -80px;
+		left: 90%;
 	}
 
 	.about_enebo {
