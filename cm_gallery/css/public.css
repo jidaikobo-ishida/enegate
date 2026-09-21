@@ -1288,8 +1288,8 @@ body#cm_gallery section {
 	}
 
 	.public_section .story_leadbox::before {
-		width: 75px;
-		height: 75px;
+		width: 50px;
+		height: 50px;
 		bottom: 100px;
 		right: 0;
 	}
