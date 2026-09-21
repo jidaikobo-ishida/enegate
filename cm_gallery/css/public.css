@@ -1119,19 +1119,19 @@ body#cm_gallery section {
 	}
 
 	.public_product_card:nth-of-type(5)::before {
-		width: 20px;
-		height: 20px;
+		width: 15px;
+		height: 15px;
 		top: 20px;
 		bottom: auto;
-		right: 40px;
+		right: -20px;
 	}
 
 	.public_product_card:nth-of-type(5)::after {
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
 		top: 40px;
 		bottom: auto;
-		right: 0;
+		right: 10px;
 	}
 
 	.public_product_num {
