@@ -1173,13 +1173,16 @@ body#cm_gallery section {
 	}
 
 	.public_product_content h4 {
-		padding: 5px 10px;
+		background: transparent;
+		padding: 0;
 		margin-bottom: 8px;
 		line-height: 1.35;
 	}
 
 	.public_product_content h4 span {
 		display: inline-block;
+		padding: 5px 10px;
+		background: #004697;
 	}
 
 	.public_product_content p {
