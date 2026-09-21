@@ -1067,42 +1067,6 @@ body#cm_gallery section {
 		clear: both;
 	}
 
-	#sec_about .lead_text:nth-of-type(1)::before {
-		width: 25px;
-		height: 25px;
-		top: -60px;
-		bottom: auto;
-		left: -5px;
-	}
-
-	#sec_about .lead_text:nth-of-type(1)::after {
-		width: 15px;
-		height: 15px;
-		top: -35px;
-		bottom: auto;
-		left: -20px;
-	}
-
-	#sec_about .lead_text:nth-of-type(2)::before,
-	#sec_about .lead_text:nth-of-type(2)::after {
-		background: #d2edff;
-	}
-
-	#sec_about .lead_text:nth-of-type(2)::before {
-		width: 25px;
-		height: 25px;
-		top: 35px;
-		bottom: auto;
-		right: -20px;
-	}
-
-	#sec_about .lead_text:nth-of-type(2)::after {
-		width: 15px;
-		height: 15px;
-		top: 20px;
-		bottom: auto;
-		right: 5px;
-	}
 
 	/* 主な取扱い製品 */
 	/* 主な取扱（ */
@@ -1217,9 +1181,9 @@ body#cm_gallery section {
 }
 
 /* ==========================================================================
-   #sec_about .lead_text 装飾四角のスケーリング（560px～736pxの間で1.0倍～1.5倍に拡大）
+   #sec_about .lead_text 装飾四角のスケーリング（441px～560pxの間で2倍に拡大）
    ========================================================================== */
-@media screen and (min-width: 561px) and (max-width: 736px) {
+@media screen and (min-width: 441px) and (max-width: 560px) {
 	#sec_about .lead_text:nth-of-type(1)::before,
 	#sec_about .lead_text:nth-of-type(1)::after,
 	#sec_about .lead_text:nth-of-type(2)::before,
@@ -1277,6 +1241,43 @@ body#cm_gallery section {
 		height: 40px;
 		top: 40px;
 		right: -20px;
+	}
+
+	#sec_about .lead_text:nth-of-type(1)::before {
+		width: 25px;
+		height: 25px;
+		top: -60px;
+		bottom: auto;
+		left: -5px;
+	}
+
+	#sec_about .lead_text:nth-of-type(1)::after {
+		width: 15px;
+		height: 15px;
+		top: -35px;
+		bottom: auto;
+		left: -20px;
+	}
+
+	#sec_about .lead_text:nth-of-type(2)::before,
+	#sec_about .lead_text:nth-of-type(2)::after {
+		background: #d2edff;
+	}
+
+	#sec_about .lead_text:nth-of-type(2)::before {
+		width: 25px;
+		height: 25px;
+		top: 35px;
+		bottom: auto;
+		right: -20px;
+	}
+
+	#sec_about .lead_text:nth-of-type(2)::after {
+		width: 15px;
+		height: 15px;
+		top: 20px;
+		bottom: auto;
+		right: 5px;
 	}
 
 	.public_products_sec::before {
