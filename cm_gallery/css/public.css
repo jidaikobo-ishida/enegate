@@ -1102,7 +1102,8 @@ body#cm_gallery section {
 		bottom: 50px;
 	}
 
-	.public_product_card:nth-of-type(3)::after {
+	.public_product_card:nth-of-type(3)::after,
+	.public_product_card:nth-of-type(6)::after {
 		border: 2px solid #d2edff;
 		width: 100px;
 		height: 100px;
@@ -1138,14 +1139,6 @@ body#cm_gallery section {
 		height: 30px;
 		right: 50px;
 		bottom: -100px;
-	}
-
-	.public_product_card:nth-of-type(6)::after {
-		width: 15px;
-		height: 15px;
-		right: 65px;
-		bottom: -130px;
-		left: auto;
 	}
 
 	.public_product_num {
