@@ -1034,6 +1034,14 @@ body#cm_gallery section {
 	/* éÂÇ»éÊàµÅi */
 	.public_products_sec::before {
 		background: #d2edff;
+		width: 20px;
+		height: 20px;
+		top: -50px;
+		left: 10px;
+	}
+
+	.public_products_sec::after {
+		background: #d2edff;
 		width: 30px;
 		height: 30px;
 		top: -200px;
