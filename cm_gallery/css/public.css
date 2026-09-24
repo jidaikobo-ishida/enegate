@@ -265,6 +265,7 @@ body#cm_gallery section {
 	height: 100%;
 	position: relative;
 	text-decoration: none;
+	color: #ffffff;
 	transition: opacity 0.2s;
 }
 
