@@ -666,7 +666,7 @@ body#cm_gallery section {
    動画フレーム・見出しの正方形ブロック装飾 (デザイン案準拠)
    PC: 40px / SP: 30px
    ========================================================================== */
-.public_movie_item::after,
+.public_movie_item:nth-of-type(1)::after,
 .public_movie_item .movie_ttl::before,
 .public_movie_item .movie_ttl::after,
 .public_movie_item .movie_frame::before,
@@ -677,7 +677,7 @@ body#cm_gallery section {
 	display: none;
 }
 
-.public_movie_item::after {
+.public_movie_item:nth-of-type(1)::after {
 	display: block;
 	bottom: -40px;
 	left: -40px;
@@ -835,11 +835,11 @@ body#cm_gallery section {
 		width: 40px;
 		height: 40px;
 		top: -75px;
-		right: 0;
+		right: 10px;
 	}
 
 	.public_cm_movies::after {
-		left: 0;
+		left: -10px;
 		bottom: -30px;
 		width: 25px;
 		height: 25px;
@@ -861,7 +861,7 @@ body#cm_gallery section {
 	}
 
 	/* スマホ時の正方形ブロックサイズ: 20px */
-	.public_movie_item::after,
+	.public_movie_item:nth-of-type(1)::after,
 	.public_movie_item .movie_ttl::before,
 	.public_movie_item .movie_ttl::after,
 	.public_movie_item .movie_frame::before,
@@ -870,7 +870,7 @@ body#cm_gallery section {
 		height: 20px;
 	}
 
-	.public_movie_item::after {
+	.public_movie_item:nth-of-type(1)::after {
 		bottom: 0;
 		left: 0;
 	}
@@ -1159,15 +1159,15 @@ body#cm_gallery section {
 	.story_head .sec_title_ja::before {
 		top: -20px;
 		right: 0;
-		width: 25px;
-		height: 25px;
+		width: 30px;
+		height: 30px;
 	}
 
 	.story_head .sec_title_ja::after {
-		top: 5px;
-		right: 25px;
-		width: 15px;
-		height: 15px;
+		top: 10px;
+		right: 30px;
+		width: 10px;
+		height: 10px;
 	}
 
 	.story_title_wrap::before {
