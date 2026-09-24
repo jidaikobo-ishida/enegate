@@ -965,7 +965,7 @@ body#cm_gallery section {
 		display: block !important;
 		width: 100px;
 		height: 100px;
-		top: 0;
+		top: 40%;
 		right: -50px;
 		bottom: auto;
 	}
