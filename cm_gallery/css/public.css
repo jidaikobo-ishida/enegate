@@ -202,7 +202,7 @@ body#cm_gallery section {
 .public_cm_movies {
 	display: flex;
 	flex-direction: column;
-	gap: 100px;
+	gap: 50px;
 	margin-top: 30px;
 }
 
@@ -827,7 +827,7 @@ body#cm_gallery section {
 	}
 
 	.public_section .story_lead:nth-of-type(2) {
-		margin: 40px auto 120px;
+		margin: 20px auto 80px;
 	}
 
 	.story_title_wrap {
@@ -845,14 +845,14 @@ body#cm_gallery section {
 	}
 
 	.public_cm_movies {
-		gap: 30px;
+		gap: 0;
 	}
 
 	.public_cm_movies::before {
 		background: #d2edff;
 		width: 40px;
 		height: 40px;
-		top: -130px;
+		top: -75px;
 		right: 0;
 	}
 
@@ -1227,7 +1227,7 @@ body#cm_gallery section {
 	.public_section .story_lead:nth-of-type(2)::before {
 		width: 50px;
 		height: 50px;
-		bottom: -90px;
+		bottom: -75px;
 		left: -60px;
 	}
 
