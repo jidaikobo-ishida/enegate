@@ -961,6 +961,13 @@ body#cm_gallery section {
 		width: 25px;
 		height: 25px;
 	}
+	.public_movie_item:nth-of-type(3)::after {
+		display: block !important;
+		width: 150px;
+		height: 150px;
+		right: -50px;
+		bottom: 100px;
+	}
 	/* --- ƒZƒNƒVƒ‡ƒ“2: PROFILE --- */
 	.profile_title_img {
 		max-height: 40px;
