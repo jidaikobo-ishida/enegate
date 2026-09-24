@@ -272,6 +272,7 @@ body#cm_gallery section {
 .public_movie_link:hover,
 .public_movie_link:focus-visible {
 	opacity: 0.7;
+	color: #ffffff;
 }
 
 .public_movie_thumb {
