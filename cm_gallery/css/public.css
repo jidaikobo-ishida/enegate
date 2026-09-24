@@ -536,8 +536,8 @@ body#cm_gallery section {
 .public_product_card:nth-of-type(4)::after {
 	width: 150px;
 	height: 150px;
-	bottom: -80px;
-	right: -90px;
+	bottom: -90px;
+	right: -100px;
 }
 
 .public_product_card:nth-of-type(6)::after {
