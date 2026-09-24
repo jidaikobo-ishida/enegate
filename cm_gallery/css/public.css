@@ -666,6 +666,7 @@ body#cm_gallery section {
    動画フレーム・見出しの正方形ブロック装飾 (デザイン案準拠)
    PC: 40px / SP: 30px
    ========================================================================== */
+.public_movie_item::after,
 .public_movie_item .movie_ttl::before,
 .public_movie_item .movie_ttl::after,
 .public_movie_item .movie_frame::before,
@@ -674,6 +675,12 @@ body#cm_gallery section {
 	height: 40px;
 	background-color: #d2edff;
 	display: none;
+}
+
+.public_movie_item::after {
+	display: block;
+	bottom: -40px;
+	left: -40px;
 }
 
 /* --- 1つ目: TVCM 30秒 --- */
@@ -728,12 +735,6 @@ body#cm_gallery section {
 	bottom: -40px;
 	right: -40px;
 }
-/* 大枠装飾 共通設定 */
-.public_movie_item::after {
-	display: block;
-	border: 4px solid #d2edff;
-}
-
 .public_movie_item::before {
 	display: block;
 	background: #d2edff;
@@ -755,28 +756,6 @@ body#cm_gallery section {
 .public_movie_item:nth-of-type(3)::before {
 	top: 300px;
 	left: -100px;
-}
-
-/* --- 大枠枠線装飾 (::after) --- */
-.public_movie_item:nth-of-type(1)::after {
-	width: 250px;
-	height: 250px;
-	top: 0;
-	right: -300px;
-}
-
-.public_movie_item:nth-of-type(2)::after {
-	width: 200px;
-	height: 200px;
-	top: -50px;
-	left: -300px;
-}
-
-.public_movie_item:nth-of-type(3)::after {
-	width: 200px;
-	height: 200px;
-	right: -100px;
-	bottom: 250px;
 }
 
 /* ==========================================================================
@@ -811,8 +790,7 @@ body#cm_gallery section {
 	.story_head::after,
 	.story_head::before,
 	.about_photo_col::after,
-	#sec_about .catch_copy::after,
-	.public_movie_item::after {
+	#sec_about .catch_copy::after {
 		border-width: 2px;
 	}
 
@@ -863,18 +841,9 @@ body#cm_gallery section {
 		height: 25px;
 	}
 
-	/* PC用大枠装飾をスマホ時は非表示（※3つ目の大枠装飾は表示） */
-	.public_movie_item::before,
-	.public_movie_item::after {
+	/* PC用背景装飾をスマホ時は非表示 */
+	.public_movie_item::before {
 		display: none !important;
-	}
-
-	.public_movie_item:nth-of-type(3)::after {
-		display: block !important;
-		width: 100px;
-		height: 100px;
-		bottom: 50px;
-		right: -50px;
 	}
 
 	.public_movie_item .movie_frame {
@@ -888,13 +857,18 @@ body#cm_gallery section {
 	}
 
 	/* スマホ時の正方形ブロックサイズ: 20px */
+	.public_movie_item::after,
 	.public_movie_item .movie_ttl::before,
 	.public_movie_item .movie_ttl::after,
 	.public_movie_item .movie_frame::before,
-	.public_movie_item .movie_frame::after,
-	.public_movie_item:nth-of-type(1)::before {
+	.public_movie_item .movie_frame::after {
 		width: 20px;
 		height: 20px;
+	}
+
+	.public_movie_item::after {
+		bottom: 0;
+		left: 0;
 	}
 
 	/* 1つ目 */
@@ -905,10 +879,6 @@ body#cm_gallery section {
 	.public_movie_item:nth-of-type(1) .movie_frame::after {
 		top: -20px;
 		right: -20px;
-	}
-	.public_movie_item:nth-of-type(1)::before {
-		bottom: -20px;
-		left: -20px;
 	}
 
 	/* 2つ目 */
