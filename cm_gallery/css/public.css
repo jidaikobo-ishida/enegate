@@ -777,7 +777,7 @@ body#cm_gallery section {
 	width: 250px;
 	height: 250px;
 	top: 0;
-	right: -300px;
+	right: -420px;
 }
 
 .public_movie_item:nth-of-type(2)::after {
