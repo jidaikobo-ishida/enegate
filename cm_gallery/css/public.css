@@ -208,7 +208,7 @@ body#cm_gallery section {
 
 .public_cm_movies::before {
 	background: #d2edff;
-	bottom: -20px;
+	top: 20px;
 	left: -20px;
 	width: 40px;
 	height: 40px;
@@ -688,7 +688,7 @@ body#cm_gallery section {
 /* フレーム左上外側（左横） */
 .public_movie_item:nth-of-type(1) .movie_frame::before {
 	display: block;
-	top: 0;
+	bottom: -40px;
 	left: -40px;
 }
 /* フレーム右上角の対角線外側 */
@@ -904,6 +904,7 @@ body#cm_gallery section {
 	/* 1つ目 */
 	.public_movie_item:nth-of-type(1) .movie_frame::before {
 		top: 0;
+		bottom: auto;
 		left: -20px;
 	}
 	.public_movie_item:nth-of-type(1) .movie_frame::after {
@@ -937,6 +938,14 @@ body#cm_gallery section {
 	.public_movie_item:nth-of-type(3) .movie_frame::after {
 		bottom: -20px;
 		right: -20px;
+	}
+	.public_movie_item:nth-of-type(3)::before {
+		display: block !important;
+		left: -10px;
+		bottom: -30px;
+		top: auto;
+		width: 25px;
+		height: 25px;
 	}
 	/* --- セクション2: PROFILE --- */
 	.profile_title_img {
