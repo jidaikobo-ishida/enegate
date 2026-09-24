@@ -823,7 +823,7 @@ body#cm_gallery section {
 	}
 
 	.public_cm_movies {
-		gap: 0;
+		gap: 20px;
 	}
 
 	.public_cm_movies::before {
