@@ -368,10 +368,11 @@ body#cm_gallery section {
 }
 
 #sec_about .catch_copy {
-	font-size: min(3vw, 2.3rem);
+	font-size: min(3.1vw, 2.45rem);
 	font-weight: 700;
 	line-height: 2.4;
 	margin-bottom: 35px;
+	margin-right: -2em;
 	letter-spacing: 0.03em;
 }
 
@@ -1052,6 +1053,7 @@ body#cm_gallery section {
 		font-size: min(5.3vw, 2rem);
 		max-width: calc(100% - 80px);
 		margin-bottom: 25px;
+		margin-right: 0;
 	}
 
 	#sec_about .catch_copy .marker_blue {
