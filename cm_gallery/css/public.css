@@ -688,8 +688,8 @@ body#cm_gallery section {
 .public_movie_item:nth-of-type(1) .movie_ttl::before {
 	display: block;
 	background: #d2edff;
-	top: 60px;
-	left: -20px;
+	top: 40px;
+	left: -40px;
 	width: 40px;
 	height: 40px;
 }
