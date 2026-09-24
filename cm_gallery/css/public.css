@@ -685,6 +685,14 @@ body#cm_gallery section {
 }
 
 /* --- 1つ目: TVCM 30秒 --- */
+.public_movie_item:nth-of-type(1) .movie_ttl::before {
+	display: block;
+	background: #d2edff;
+	top: 60px;
+	left: -20px;
+	width: 40px;
+	height: 40px;
+}
 /* フレーム左上外側（左横） */
 .public_movie_item:nth-of-type(1) .movie_frame::before {
 	display: block;
@@ -745,11 +753,8 @@ body#cm_gallery section {
 
 /* --- 水色四角装飾 (::before) --- */
 .public_movie_item:nth-of-type(1)::before {
-	background: #d2edff;
-	top: 60px;
-	left: -20px;
-	width: 40px;
-	height: 40px;
+	top: 150px;
+	left: -100px;
 }
 
 .public_movie_item:nth-of-type(2)::before {
