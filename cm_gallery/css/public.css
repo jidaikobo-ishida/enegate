@@ -207,11 +207,7 @@ body#cm_gallery section {
 }
 
 .public_cm_movies::before {
-	background: #d2edff;
-	top: 60px;
-	left: -20px;
-	width: 40px;
-	height: 40px;
+	display: none;
 }
 
 .public_cm_movies::after {
@@ -870,6 +866,7 @@ body#cm_gallery section {
 	}
 
 	.public_cm_movies::before {
+		display: block;
 		background: #d2edff;
 		width: 40px;
 		height: 40px;
