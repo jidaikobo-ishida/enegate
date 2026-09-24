@@ -910,6 +910,12 @@ body#cm_gallery section {
 	}
 
 	/* 1‚Â–Ú */
+	.public_movie_item:nth-of-type(1) .movie_ttl::before {
+		top: 30px;
+		left: -20px;
+		width: 20px;
+		height: 20px;
+	}
 	.public_movie_item:nth-of-type(1) .movie_frame::before {
 		top: auto;
 		bottom: -20px;
