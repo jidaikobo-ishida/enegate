@@ -149,7 +149,7 @@ body#cm_gallery section {
 	left: -85px;
 	width: 110px;
 	height: 110px;
-	border: 2px solid #d2edff;
+	border: 4px solid #d2edff;
 }
 
 .story_head .sec_title_ja::before,
@@ -342,7 +342,7 @@ body#cm_gallery section {
 }
 
 .about_photo_col::after {
-	border: 2px solid #d2edff;
+	border: 4px solid #d2edff;
 	width: 300px;
 	height: 300px;
 	right: -210px;
@@ -380,7 +380,7 @@ body#cm_gallery section {
 	height: 200px;
 	top: 0;
 	left: -230px;
-	border: 2px solid #d2edff;
+	border: 4px solid #d2edff;
 }
 
 #sec_about .catch_copy .marker_blue {
@@ -525,7 +525,7 @@ body#cm_gallery section {
 
 .public_product_card:nth-of-type(4)::after,
 .public_product_card:nth-of-type(6)::after {
-	border: 2px solid #d2edff;
+	border: 4px solid #d2edff;
 }
 
 .public_product_card:nth-of-type(4)::after {
@@ -731,7 +731,7 @@ body#cm_gallery section {
 /* 大枠装飾 共通設定 */
 .public_movie_item::after {
 	display: block;
-	border: 2px solid #d2edff;
+	border: 4px solid #d2edff;
 }
 
 .public_movie_item::before {
@@ -805,6 +805,15 @@ body#cm_gallery section {
 	.page_public {
 		min-width: auto;
 		padding: 40px 20px 50px;
+	}
+
+	/* 正方形枠線装飾: スマホ時は2pxを維持 */
+	.story_head::after,
+	.story_head::before,
+	.about_photo_col::after,
+	#sec_about .catch_copy::after,
+	.public_movie_item::after {
+		border-width: 2px;
 	}
 
 	.page_public .sec_title_ja {
