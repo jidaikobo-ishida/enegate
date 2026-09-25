@@ -96,7 +96,7 @@ body#cm_gallery section {
 	max-width: 1180px;
 	min-width: 890px;
 	margin: 0 auto;
-	padding: 70px 140px 90px;
+	padding: 70px 120px 90px;
 	box-sizing: border-box;
 	font-size: 1rem;
 	font-weight: bold;
@@ -420,7 +420,7 @@ body#cm_gallery section {
 	font-weight: 700;
 	line-height: 2.4;
 	margin-bottom: 35px;
-	margin-right: -2em;
+	margin-right: -1em;
 	letter-spacing: 0.03em;
 }
 
@@ -668,7 +668,7 @@ body#cm_gallery section {
 	font-weight: 700;
 	line-height: 1.8;
 	margin-bottom: 35px;
-	margin-right: -2em;
+	margin-right: -1em;
 	letter-spacing: 0.03em;
 }
 
