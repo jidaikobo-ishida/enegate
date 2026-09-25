@@ -16,7 +16,6 @@ body#cm_gallery section {
    ========================================================================== */
 #mainvisual {
 	width: 100%;
-	min-width: 950px;
 	line-height: 0;
 	background-color: #d2edff;
 }
@@ -31,7 +30,6 @@ body#cm_gallery section {
 /* --- フルワイドセクション共通 --- */
 .public_section {
 	width: 100%;
-	min-width: 950px;
 	position: relative;
 	box-sizing: border-box;
 	padding: 0 30px;
@@ -57,7 +55,7 @@ body#cm_gallery section {
 
 #sec_about {
 	background-color: #d2edff;
-	overflow: visible;
+	overflow-x: clip;
 	position: relative;
 	z-index: 2;
 }
