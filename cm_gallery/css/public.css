@@ -1106,6 +1106,10 @@ body#cm_gallery section {
 		transform: translateY(-5vw);
 	}
 
+	.about_photo_img {
+		transform: translateX(0);
+	}
+
 	#sec_about .about_head_img {
 		max-width: calc(100% - 120px);
 		transform: translateX(0);
