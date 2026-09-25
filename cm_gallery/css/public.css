@@ -395,6 +395,7 @@ body#cm_gallery section {
 	display: block;
 	position: relative;
 	z-index: 3;
+	transform: translateX(1em);
 }
 
 .about_photo_col::after {
